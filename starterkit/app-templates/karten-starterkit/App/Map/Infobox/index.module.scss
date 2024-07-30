@@ -1,0 +1,49 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    padding: var(--duv-size-padding-s) calc(0.75 * var(--duv-size-padding-s))
+      var(--duv-size-padding-s) var(--duv-size-padding-s);
+    position: relative;
+    text-align: left;
+
+    a {
+      @include linkWithBorder;
+    }
+  }
+
+  .contentContainer {
+    max-width: 660px;
+    margin: 0 auto;
+    column-count: 1;
+
+    @include respond-min($break-tablet) {
+      column-count: 2;
+    }
+  }
+
+  .closeButton {
+    position: absolute;
+    right: var(--duv-size-padding-s);
+    top: var(--duv-size-padding-s);
+  }
+
+  .title {
+    margin: 0 0 0.3rem 0;
+    @include font-sans-responsive-m;
+    font-weight: bold;
+    column-span: all;
+  }
+
+  .content {
+    @include font-sans-responsive-s;
+
+    p {
+      margin: 0.6em auto;
+    }
+
+    p:first-child {
+      margin-top: 0;
+    }
+  }
+}

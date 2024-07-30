@@ -1,0 +1,58 @@
+@import 'core/styles/base';
+
+body {
+  background: var(--duv-color-background-secondary);
+  color: var(--duv-color-text-primary);
+  padding: var(--duv-size-padding-page-current);
+}
+
+:local {
+  .container {
+    @include font-sans-responsive-m;
+
+    a {
+      text-decoration: underline;
+      text-decoration-color: rgba(var(--duv-color-text-primary--rgb), 0.2);
+      text-underline-offset: 0.15em;
+
+      &:hover,
+      &:active {
+        color: var(--duv-color-rubinrot-a);
+        text-decoration-color: rgba(var(--duv-color-rubinrot-a--rgb), 0.2);
+      }
+
+      svg {
+        margin-right: 0.2em;
+        vertical-align: middle;
+        position: relative;
+        top: -0.1em;
+        width: 1rem;
+        height: 1rem;
+        display: inline-block;
+      }
+    }
+  }
+  .links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin: 0;
+      padding: 0;
+      display: inline;
+    }
+    li + li {
+      margin-left: 0.5em;
+    }
+  }
+  .cards {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    & > li {
+      margin: var(--duv-size-m) 0;
+    }
+  }
+}

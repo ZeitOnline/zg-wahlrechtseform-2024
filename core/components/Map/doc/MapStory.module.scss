@@ -1,0 +1,42 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    position: relative;
+    height: 80vh;
+  }
+  .mapContainer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  .ssrMapContainer {
+    width: 8em;
+  }
+  .fill {
+    fill: var(--duv-color-background-primary);
+  }
+  .outline {
+    stroke-width: 1px;
+    stroke: var(--duv-color-text-secondary);
+    vector-effect: non-scaling-stroke;
+    stroke-linejoin: round;
+  }
+  .borders {
+    stroke-width: 1px;
+    stroke: var(--duv-color-text-tertiary);
+    vector-effect: non-scaling-stroke;
+  }
+
+  .dot {
+    fill: var(--duv-color-rubinrot-a);
+    stroke: var(--duv-color-background-primary);
+    vector-effect: non-scaling-stroke;
+  }
+
+  .ssrMapSvg {
+    display: block;
+  }
+}

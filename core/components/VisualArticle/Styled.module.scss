@@ -1,0 +1,35 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    @include tabular-nums;
+    margin-top: var(--duv-size-margin-m);
+    border-top: solid 1px var(--duv-color-border-primary);
+    padding-top: var(--duv-size-padding-l);
+    margin-bottom: var(--duv-size-margin-m);
+    color: var(--duv-color-text-secondary);
+
+    a {
+      color: var(--duv-color-text-secondary);
+      border-bottom: 1px solid var(--duv-color-text-secondary);
+
+      &:hover {
+        color: var(--duv-color-text-primary);
+      }
+    }
+
+    :global {
+      .byline,
+      .metadata {
+        text-align: left;
+        @include font-sans-responsive-s;
+        margin: 0;
+      }
+    }
+  }
+  .container + .container {
+    border-top: none;
+    padding-top: var(--duv-size-padding-s);
+    margin-top: calc(var(--duv-size-margin-m) * -1);
+  }
+}

@@ -1,0 +1,44 @@
+@import 'core/styles/base';
+
+:local {
+  .titleCell {
+    appearance: none;
+    cursor: pointer;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    font-smoothing: inherit;
+    text-align: inherit;
+    font-weight: bold;
+    @include focus-ring;
+  }
+  .titleRow,
+  .row {
+    display: grid;
+  }
+  .stickyTitleRow {
+    position: sticky;
+    top: 0;
+    background-color: var(--duv-color-background-primary);
+  }
+  .titleCellActive {
+    position: relative;
+    &:after {
+      content: ' ▴';
+      margin-left: 0.2em;
+      transition: transform 0.2s;
+      transform: scale(1, 0.5);
+      display: inline-block;
+      color: var(--duv-color-text-tertiary);
+    }
+    &[data-sort-order='desc']:after {
+      transform: scale(1, -0.5) translateY(-25%);
+    }
+  }
+}

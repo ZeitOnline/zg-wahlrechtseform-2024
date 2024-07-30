@@ -1,0 +1,40 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    position: relative;
+    overflow: hidden;
+    @include respond-max($break-tablet) {
+      width: 100vw;
+      margin-left: calc(var(--duv-size-padding-page-current) * -1);
+      margin-right: calc(var(--duv-size-padding-page-current) * -1);
+    }
+  }
+  .overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(var(--duv-color-background-primary--rgb), 0.1);
+    backdrop-filter: blur(1px);
+  }
+
+  .image {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    pointer-events: none;
+    max-height: 120vh;
+
+    @include respond-min($break-tablet) {
+      max-height: 80vh;
+    }
+  }
+}

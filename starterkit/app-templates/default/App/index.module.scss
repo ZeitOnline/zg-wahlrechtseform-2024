@@ -1,0 +1,23 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    display: block;
+    @include font-sans-responsive-m;
+    margin-top: var(--duv-size-xl);
+    margin-bottom: var(--duv-size-xl);
+
+    p {
+      margin: 0;
+    }
+  }
+  .textPrimary {
+    color: var(--duv-color-text-primary);
+  }
+  .textSecondary {
+    color: var(--duv-color-text-secondary);
+  }
+  .textTertiary {
+    color: var(--duv-color-text-tertiary);
+  }
+}

@@ -1,0 +1,8 @@
+@import 'core/styles/base';
+:local {
+  .area {
+    stroke: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+}

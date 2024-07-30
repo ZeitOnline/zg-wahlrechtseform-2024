@@ -1,0 +1,24 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "syler.sass-indented",
+    "mikestead.dotenv",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "wix.vscode-import-cost",
+    "christian-kohler.npm-intellisense",
+    "acarreiro.calculate",
+    "vunguyentuan.vscode-css-variables",
+    "graphql.vscode-graphql",
+    "graphql.vscode-graphql-syntax",
+    "davidanson.vscode-markdownlint",
+    "cardinal90.multi-cursor-case-preserve",
+    "sysoev.vscode-open-in-github",
+    "mrmlnc.vscode-scss",
+    "slevesque.shader",
+    "ofhumanbondage.react-proptypes-intellisense",
+    "ms-python.python",
+    "ms-toolsai.jupyter",
+    "unifiedjs.vscode-mdx"
+  ]
+}

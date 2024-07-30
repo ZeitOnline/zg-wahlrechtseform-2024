@@ -1,0 +1,19 @@
+@import 'core/styles/base';
+
+:root {
+  --duv-color-fischerei-oeffentlich: #0088a0;
+  --duv-color-fischerei-unsichtbar: #f54a2b;
+}
+span[data-pill] {
+  box-decoration-break: clone;
+  padding: 0.2em;
+  border-radius: var(--duv-size-border-radius-s);
+}
+span[data-pill-color='fischerei-oeffentlich'] {
+  background-color: var(--duv-color-fischerei-oeffentlich);
+  color: white;
+}
+span[data-pill-color='fischerei-unsichtbar'] {
+  background-color: var(--duv-color-fischerei-unsichtbar);
+  color: white;
+}

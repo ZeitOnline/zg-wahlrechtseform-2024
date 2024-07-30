@@ -1,0 +1,56 @@
+@import 'core/styles/base';
+
+:local {
+  .expandButtonWrapper {
+    padding: 1em 0;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    button {
+      // unfortunately this is necessary as the button has a semi
+      // transparent background which looks odd in this use case
+      position: relative;
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: var(--duv-color-background-primary);
+        z-index: -1;
+      }
+    }
+  }
+  .tableIsCollapsed {
+    position: relative;
+    &:before,
+    &:after {
+      position: absolute;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 6em;
+    }
+    &:before {
+      content: '';
+      bottom: 100%;
+      background: linear-gradient(
+        to bottom,
+        rgba(var(--duv-color-background-primary--rgb), 0),
+        rgba(var(--duv-color-background-primary--rgb), 1)
+      );
+    }
+    &:after {
+      top: 100%;
+      background: linear-gradient(
+        to top,
+        rgba(var(--duv-color-background-primary--rgb), 0),
+        rgba(var(--duv-color-background-primary--rgb), 1)
+      );
+    }
+  }
+  .showsTopFlops:after {
+    content: '';
+  }
+}

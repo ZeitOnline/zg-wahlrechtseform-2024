@@ -1,0 +1,38 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+
+# production
+dist
+storybook-static
+.vite-inspect/
+
+# misc
+.DS_Store
+*.log
+compilation-stats.json
+.docz
+available-icons.md
+stories
+
+*.env
+
+/.cache-loader
+/stats-module.json
+/stats-nomodule.json
+
+# map starter
+maptiles/tiles
+.Rproj.user
+.eslintcache
+
+# video starter
+src/public/videostills/**/raw/**
+
+.DS_STORE
+.temp
+dist/
+
+# when using idea for dev.
+.idea

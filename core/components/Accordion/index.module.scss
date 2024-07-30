@@ -1,0 +1,123 @@
+@import 'core/styles/base';
+
+:local {
+  .item {
+    position: relative;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+    margin: 0 0 0.5em;
+    padding: 0;
+    // padding-bottom: 0.5rem;
+    padding-left: 0.8rem;
+    width: 100%;
+    overflow: visible;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    font-smoothing: inherit;
+    text-align: inherit;
+    display: block;
+    color: var(--duv-color-text-secondary);
+
+    &.active {
+      color: var(--duv-color-text-primary);
+    }
+
+    @include focus-ring;
+
+    @include respond-min($break-tablet) {
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0px;
+        transform: translateX(0px);
+        height: 100%;
+        width: 3px;
+        border-radius: 1.5px;
+        background-color: var(--duv-color-border-secondary);
+        transform-origin: center;
+        transition: width 0.2s ease-in-out, transform 0.2s ease-in-out;
+        will-change: width, transform;
+      }
+      &.active:before {
+        width: 5px;
+        transform: translateX(-1px);
+        border-radius: 2.5px;
+        background-color: var(--duv-color-shades-10);
+      }
+      &:hover:before,
+      &:focus:before {
+        width: 5px;
+        transform: translateX(-1px);
+        border-radius: 2.5px;
+      }
+    }
+
+    & > :global(div) {
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+    }
+
+    // &:not(:last-of-type) {
+    //   border-bottom: 1px solid var(--duv-color-border-primary);
+    // }
+
+    .icon {
+      position: absolute;
+      top: 0.7rem;
+      bottom: 0;
+      right: 0.5rem;
+
+      svg {
+        fill: var(--duv-color-text-secondary);
+      }
+
+      &.active {
+        svg {
+          transform: rotate(180deg);
+        }
+        fill: var(--duv-color-text-primary);
+      }
+    }
+
+    .titleWrapper {
+      margin: 1rem 0;
+      display: flex;
+      align-items: center;
+
+      .title {
+        font-weight: bold;
+        @include font-sans-responsive-m;
+        display: block;
+      }
+
+      .titleIcon {
+        width: 50px;
+        min-width: 50px;
+        height: 50px;
+        margin-right: 0.5rem;
+        border-radius: 50%;
+        background: var(--duv-color-shades-90);
+        border: solid var(--duv-color-shades-30) 1px;
+        overflow: hidden;
+        // undo thicker border in active state
+        padding: 1px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        &.active {
+          border-width: 2px;
+          border-color: var(--duv-color-shades-10);
+          // undo thicker border in active state
+          padding: 0px;
+        }
+      }
+    }
+  }
+}

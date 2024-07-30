@@ -1,0 +1,47 @@
+:root {
+  --duv-size-type-line-height-s: 1.25;
+  --duv-size-type-line-height: 1.4;
+
+  --duv-size-type-letter-spacing-xl: 0.125em;
+  --duv-size-type-letter-spacing-l: 0.08em;
+  --duv-size-type-letter-spacing-m: 0.05em;
+  --duv-size-type-letter-spacing-s: 0.03em;
+
+  // non-responsive type sizes
+  --duv-size-type-s: 0.875rem;
+  --duv-size-type-m: 1.125rem;
+  // letter-spacing for non-responsive type sizes
+  --duv-size-type-letter-spacing-s: 0.03em;
+  --duv-size-type-letter-spacing-m: 0.02em;
+
+  // responsive type sizes
+  --duv-size-type-responsive-xs: 0.625rem;
+  --duv-size-type-responsive-s: 0.75rem;
+  --duv-size-type-responsive-m: 1rem;
+  --duv-size-type-responsive-l: 1.25rem;
+  --duv-size-type-responsive-xl: 1.875rem;
+  // letter spacing for responsive type sizes
+  --duv-size-type-letter-spacing-responsive-xs: 0.05em;
+  --duv-size-type-letter-spacing-responsive-s: 0.05em;
+  --duv-size-type-letter-spacing-responsive-m: 0.03em;
+  --duv-size-type-letter-spacing-responsive-l: 0.02em;
+  --duv-size-type-letter-spacing-responsive-xl: 0;
+}
+
+@media screen and (min-width: 48em) {
+  :root {
+    --duv-size-type-line-height: 1.5;
+
+    // responsive type sizes
+    --duv-size-type-responsive-xs: 0.6875rem;
+    --duv-size-type-responsive-s: 0.875rem;
+    --duv-size-type-responsive-m: 1.125rem;
+    --duv-size-type-responsive-l: 1.5rem;
+    --duv-size-type-responsive-xl: 2.625rem;
+    // letter spacing for responsive type sizes
+    --duv-size-type-letter-spacing-responsive-xs: 0.05em;
+    --duv-size-type-letter-spacing-responsive-s: 0.03em;
+    --duv-size-type-letter-spacing-responsive-m: 0.02em;
+    --duv-size-type-letter-spacing-responsive-l: 0.01em;
+  }
+}

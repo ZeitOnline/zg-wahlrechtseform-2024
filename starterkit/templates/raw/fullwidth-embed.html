@@ -1,0 +1,37 @@
+<script>
+  document.body.classList.add("zg-visual-article--zon-fullwidth-noimage", "zg-visual-article");
+
+  var siteHeader = document.querySelector('.header');
+  if (siteHeader) {
+    siteHeader.classList.add('header--force-mobile');
+    if (siteHeader.classList.contains('header--sticky')) {
+      siteHeader.classList.remove('header--sticky');
+    }
+  }
+
+
+  function shuffleThingsAround() {
+    if (document.body.classList.contains('zg-visual-article--zon-fullwidth-classic')) {
+      var articleHeader = document.querySelector('.article-header');
+      var articleBody = document.querySelector('.article-body');
+      var bylineElement = articleHeader.querySelector('.byline');
+      var metadataElement = articleHeader.querySelector('.metadata');
+      var afterHeaderElement = document.createElement('div');
+      afterHeaderElement.classList.add('zg-visual-header__after-header', 'x-content-column');
+      afterHeaderElement.appendChild(bylineElement);
+      afterHeaderElement.appendChild(metadataElement);
+      articleBody.insertBefore(afterHeaderElement, articleBody.firstChild);
+    } else if (document.body.classList.contains('zg-visual-article--campus-fullwidth-split')) {
+      var summary = document.querySelector('.article__summary.article__item');
+      var embedInfo = document.querySelector('.article-header__embed-info');
+      embedInfo.parentElement.insertBefore(summary, embedInfo);
+    }
+  }
+
+  if (document.readyState !== 'loading') {
+    shuffleThingsAround();
+  } else {
+    document.addEventListener('DOMContentLoaded', shuffleThingsAround);
+  }
+</script>
+<link rel="stylesheet" href="https://interactive.zeit.de/pembed-visual-article/embed.c4f64ba51a33bf627ff7.cached.css">

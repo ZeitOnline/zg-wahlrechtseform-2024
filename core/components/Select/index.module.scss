@@ -1,0 +1,115 @@
+@import 'core/styles/base';
+
+:local {
+  .select {
+    border-radius: var(--duv-size-border-radius-m);
+    height: 36px;
+    width: 100%;
+    @include font-sans-s;
+    cursor: pointer;
+    position: relative;
+
+    display: inline-block;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background: var(--duv-color-background-primary);
+    border: solid 1px var(--duv-color-border-primary);
+    padding: var(--duv-size-padding-m) var(--duv-size-padding-l);
+
+    @media (pointer: coarse) {
+      font-size: 16px;
+    }
+
+    &.small {
+      padding: var(--duv-size-padding-s) var(--duv-size-padding-m)
+        var(--duv-size-padding-s) var(--duv-size-padding-l);
+      height: 2em;
+    }
+
+    &:focus,
+    &:hover,
+    &:active {
+      outline: none;
+      border: solid 1px var(--duv-color-shades-60);
+      color: var(--duv-color-shades-45);
+      background: var(--duv-color-background-primary);
+    }
+    &:hover {
+      color: var(--duv-color-shades-35);
+    }
+    & option {
+      font-size: 1em;
+    }
+    &::-ms-expand {
+      display: none;
+    }
+  }
+
+  .selectWrapper {
+    position: relative;
+    display: flex;
+  }
+
+  .chevronDown {
+    position: absolute;
+    height: 1.4em;
+    width: 1.7em;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0.3em;
+    padding: 0 0.15em;
+    pointer-events: none;
+    path {
+      stroke: var(--duv-color-text-secondary);
+    }
+  }
+
+  // copied over from input
+  .clearButton {
+    -webkit-appearance: none;
+    position: absolute;
+    top: 0;
+    right: 2px;
+    border: none;
+    transition: opacity 0.2s;
+    padding: 0;
+    display: block;
+    width: 2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    color: var(--duv-color-text-tertiary);
+    @include focus-ring;
+
+    &:focus {
+      color: var(--duv-color-text-secondary);
+    }
+    @include hover {
+      color: var(--duv-color-text-secondary);
+    }
+
+    svg {
+      vertical-align: middle;
+      cursor: pointer;
+      color: currentColor;
+      width: 20px;
+      height: 20px;
+
+      padding: 4px;
+      height: 28px;
+      width: 28px;
+
+      rect {
+        fill: var(--duv-color-background-tertiary);
+      }
+      path {
+        stroke: var(--duv-color-headline-primary);
+      }
+    }
+  }
+}

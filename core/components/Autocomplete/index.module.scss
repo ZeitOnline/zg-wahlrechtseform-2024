@@ -1,0 +1,80 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    position: relative;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      position: absolute;
+      top: calc(100% + 10px);
+      left: 0;
+      right: 0;
+      max-height: 20em;
+      overflow-y: scroll;
+      z-index: 2;
+      text-align: left;
+      color: var(--duv-color-text-primary);
+
+      @include font-sans-responsive-m;
+      @include blurry-bg;
+      @include box-shadow;
+      border-radius: var(--duv-size-border-radius-m);
+
+      &.hidden {
+        display: none;
+      }
+    }
+
+    li {
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+
+      & > div {
+        padding: 0.2em 0.5em;
+
+        @media (pointer: coarse) {
+          padding: 0.4em 0.5em;
+        }
+      }
+    }
+
+    li[data-active='true'] {
+      background: var(--duv-color-focus);
+      color: white;
+    }
+
+    /* clears the default 'X' for type search */
+    input[type='search']::-webkit-search-decoration,
+    input[type='search']::-webkit-search-cancel-button,
+    input[type='search']::-webkit-search-results-button,
+    input[type='search']::-webkit-search-results-decoration {
+      display: none;
+    }
+
+    .input {
+      max-width: none;
+    }
+
+    // a copy of this lives in Input.module.scss
+    &.showSearchIcon {
+      .searchIcon {
+        stroke: var(--duv-color-shades-45);
+        position: absolute;
+        left: 12px;
+        top: 8px;
+        min-width: 18px;
+        height: 18px;
+        margin-right: 10px;
+        z-index: 1;
+      }
+
+      input {
+        padding-left: 40px;
+      }
+    }
+  }
+}

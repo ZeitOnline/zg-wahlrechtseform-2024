@@ -1,0 +1,30 @@
+// Styles for embeds that work on the hp, centerpages, and articles
+
+@import 'core/styles/base';
+
+:local {
+  .feedback {
+    margin: 3em auto;
+    color: var(--duv-color-text-secondary);
+    @include font-sans-responsive-s;
+    text-align: center;
+
+    p {
+      margin: 0;
+    }
+
+    a {
+      color: var(--duv-color-shades-35);
+      border-bottom: 1px solid var(--duv-color-shades-35);
+
+      &:visited {
+        color: var(--duv-color-shades-35);
+      }
+
+      &:hover {
+        color: var(--duv-color-text-primary);
+        border-bottom: 1px solid var(--duv-color-text-primary);
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@import 'core/styles/base';
+
+:local {
+  .mapWithoutHeight {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  .container {
+    position: relative;
+    margin-top: var(--duv-size-margin-l);
+    margin-bottom: var(--duv-size-margin-l);
+  }
+  .loaderContainer {
+    position: relative;
+  }
+}
+
+:global {
+  div.maplibregl-ctrl-bottom-left .maplibregl-ctrl-logo {
+    display: none;
+  }
+}

@@ -1,0 +1,105 @@
+@import 'core/styles/base';
+
+$tooltipPadding: calc(var(--duv-size-padding-page-current) / 2);
+
+:local {
+  .tooltip {
+    z-index: 1000;
+    color: var(--duv-color-text-primary);
+    text-align: left;
+    pointer-events: none;
+    @include tabular-nums;
+    max-width: none !important;
+
+    @include respond-max($break-tablet) {
+      width: auto !important;
+      transform: translate(0, 0) !important;
+      position: fixed !important;
+      padding: calc(var(--duv-size-padding-page-current) / 2);
+      margin: 0 auto;
+      bottom: auto;
+      left: 0 !important;
+      right: 0 !important;
+      top: env(safe-area-inset-top) !important;
+    }
+
+    @include respond-min($break-tablet) {
+      margin: 0;
+      width: auto;
+      // min-width: 300px;
+      max-width: 400px;
+
+      [data-page-type='centerpage'] & {
+        width: 350px;
+      }
+    }
+    :global(.maplibregl-popup-content) {
+      border-radius: var(--duv-size-border-radius-l) !important;
+      overflow: hidden;
+      padding: $tooltipPadding;
+      @include box-shadow;
+      @include blurry-bg;
+      pointer-events: none !important;
+      width: 100% !important;
+
+      @include respond-min($break-tablet) {
+        width: 270px !important;
+      }
+    }
+    :global(.maplibregl-popup-tip) {
+      display: none;
+    }
+  }
+  .closeButton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    pointer-events: all;
+    z-index: 3;
+
+    width: 32px;
+    height: 32px;
+    margin: 5px;
+    font-size: 32px;
+    display: none;
+
+    @media (hover: none) {
+      display: block;
+    }
+  }
+  .forceCloseButtonVisible {
+    display: block;
+  }
+
+  .footer {
+    @include font-sans-responsive-s;
+    color: var(--duv-color-text-tertiary);
+  }
+  .offset.header {
+    position: relative;
+    top: 3rem;
+    z-index: 3;
+  }
+
+  .description {
+    margin-top: var(--duv-size-margin-s);
+    color: var(--duv-color-text-secondary);
+  }
+
+  .special {
+    height: 250px;
+  }
+  .noData {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    z-index: 1000;
+    // @include font-sans-responsive-l;
+    color: var(--duv-color-shades-30);
+    // min-height: 80px;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    // text-align: center;
+    width: 100%;
+  }
+}

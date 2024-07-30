@@ -1,0 +1,17 @@
+@import 'core/styles/base';
+
+:local {
+  .row {
+    display: flex;
+    margin-bottom: var(--duv-size-margin-m);
+  }
+  .label {
+    flex: 0 0 240px;
+    max-width: 240px;
+    @include font-sans-s;
+  }
+  .formElement {
+    flex: 1 1 auto;
+    margin-left: 20px;
+  }
+}

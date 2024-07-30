@@ -1,0 +1,67 @@
+@use 'sass:math';
+@import 'core/styles/base';
+
+:local {
+  .container {
+    margin-left: var(--duv-size-margin-xs);
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    // z-index: 3;
+    position: relative;
+    top: 3px;
+  }
+  .button {
+    -webkit-tap-highlight-color: transparent;
+    --infobutton-padding: 0px;
+    @media (pointer: coarse) {
+      --infobutton-padding: 7px;
+    }
+    display: block;
+    box-sizing: content-box;
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top: calc(var(--infobutton-padding) * -1);
+    right: calc(var(--infobutton-padding) * -1);
+    appearance: none;
+    border: none;
+    padding: var(--infobutton-padding);
+    background: transparent;
+
+    svg[alt='Info schließen'] {
+      rect {
+        fill: rgba(var(--duv-color-text-primary--rgb), 0.25);
+      }
+
+      path {
+        stroke: var(--duv-color-background-primary);
+
+        @include dark-mode {
+          stroke: #16161a;
+        }
+      }
+    }
+  }
+  .icon {
+    color: rgba(var(--duv-color-text-primary--rgb), 0.25);
+    width: 1rem;
+    height: 1rem;
+  }
+  .content {
+    color: var(--duv-color-text-primary);
+    @include blurry-bg;
+    @include box-shadow;
+    @include font-sans-responsive-s;
+    line-height: 1.4;
+    width: 20rem;
+    max-width: 90vw;
+    border-radius: 8px;
+    padding: 7px;
+
+    p {
+      margin: 0;
+      margin-bottom: var(--duv-size-margin-s);
+    }
+  }
+}

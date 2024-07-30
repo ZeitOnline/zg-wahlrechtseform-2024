@@ -1,0 +1,86 @@
+@import 'core/styles/base';
+
+:local {
+  .label {
+    @include font-sans-s;
+    margin-top: 0.05em;
+    color: var(--duv-color-text-primary);
+  }
+
+  .container {
+    display: flex;
+    gap: 0.4em;
+    align-items: center;
+    user-select: none;
+    position: relative;
+    cursor: auto;
+    opacity: 0.65;
+  }
+  .container.enabled {
+    cursor: pointer;
+    opacity: 1;
+  }
+
+  .container input {
+    opacity: 0;
+    cursor: pointer;
+    height: 0px !important;
+    width: 0px !important;
+    appearance: none;
+    position: absolute;
+  }
+
+  .checkmarkContainer {
+    height: 18px;
+    min-width: 18px;
+    flex: 0 0 18px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container.enabled:hover input ~ .checkmark {
+    background-color: var(--duv-color-shades-95);
+  }
+  .container.enabled:hover input:checked ~ .checkmark {
+    background-color: var(--duv-color-shades-35);
+  }
+
+  .container input:checked ~ .checkmark {
+    border: none;
+    background-color: var(--duv-color-text-primary);
+  }
+
+  .container input:focus-visible ~ .checkmark {
+    box-shadow: 0 0 0 3px Highlight;
+  }
+
+  .checkmark:after {
+    content: '';
+    display: none;
+  }
+
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .container .checkmark:after {
+    position: absolute;
+    top: 2.5px;
+    left: 6px;
+    width: 4px;
+    height: 8px;
+    border: solid var(--duv-color-background-primary);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
+  .checkmark {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border: solid 1px var(--duv-color-border-primary);
+    border-radius: 3px;
+  }
+}

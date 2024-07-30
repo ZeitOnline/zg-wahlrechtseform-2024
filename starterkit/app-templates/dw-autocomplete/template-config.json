@@ -1,0 +1,10 @@
+{
+  "label": "Datawrapper Autocomplete",
+  "inputs": [
+    {
+      "name": "chartId",
+      "label": "Datawrapper Chart ID",
+      "required": true
+    }
+  ]
+}

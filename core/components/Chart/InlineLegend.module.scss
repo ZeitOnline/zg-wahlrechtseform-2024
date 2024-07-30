@@ -1,0 +1,6 @@
+@import 'core/styles/base';
+:local {
+  .inlineLegend {
+    @include font-sans-responsive-s;
+  }
+}

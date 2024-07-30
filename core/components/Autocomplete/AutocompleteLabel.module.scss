@@ -1,0 +1,23 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    @include tabular-nums;
+    @include font-sans-responsive-m;
+    line-height: 1.2;
+
+    small {
+      @include font-sans-responsive-xs;
+      color: var(--duv-color-text-secondary);
+    }
+  }
+  .secondaryLabel {
+    display: block;
+  }
+
+  li[data-active='true'] .container {
+    small {
+      color: rgba(white, 0.8);
+    }
+  }
+}

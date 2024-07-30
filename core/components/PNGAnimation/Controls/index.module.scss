@@ -1,0 +1,160 @@
+@import 'core/styles/base';
+
+:local {
+  $track-color: var(--duv-color-text-primary);
+  $track-height: 8px !default;
+  $slider-size: 20px !default;
+
+  .container {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 2rem 0;
+  }
+
+  .controlButton {
+    font-size: 1.5rem;
+    color: var(--duv-color-text-primary);
+    background-color: var(--duv-color-background-primary);
+    cursor: pointer;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.2rem;
+    margin-top: 0.8rem;
+    margin-right: 1.5rem;
+
+    @include respond-min($break-phablet) {
+      font-size: 1.2rem;
+    }
+  }
+
+  .play,
+  .pause {
+    svg {
+      fill: var(--duv-color-text-primary);
+      stroke: none;
+    }
+  }
+
+  .slider {
+    width: 15rem;
+    padding: 0;
+  }
+
+  .sliderWrapper {
+    margin: 0 auto;
+    width: 220px;
+
+    @include respond-min($break-tablet) {
+      width: 280px;
+    }
+  }
+  .sliderInvisibleHandle {
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    margin-left: -22px;
+    margin-top: -22px + ($track-height * 0.5);
+    touch-action: none;
+    z-index: 8;
+  }
+  .sliderHandle {
+    position: absolute;
+    left: ($slider-size * 0.5 - 2) * 1.2;
+    top: ($slider-size * 0.5 - 2) * 1.2;
+    background: var(--duv-color-text-secondary);
+    width: $slider-size * 1.2;
+    height: $slider-size * 1.2;
+    border-radius: 50%;
+    @include box-shadow;
+    cursor: grab;
+    transition: transform 0.1s;
+    transform-origin: center;
+
+    @include respond-min($break-phablet) {
+      left: $slider-size * 0.5 + 1;
+      top: $slider-size * 0.5 + 1;
+      width: $slider-size;
+      height: $slider-size;
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        background: var(--duv-color-text-primary);
+        transform: scale(1.05);
+      }
+    }
+
+    &:active,
+    &:focus {
+      background: var(--duv-color-text-primary);
+      @include box-shadow;
+      cursor: grabbing;
+      transform: scale(0.8);
+    }
+  }
+  .sliderContainer {
+    user-select: none;
+    padding-top: 1em;
+    @include font-sans-responsive-xs;
+    position: relative;
+    color: var(--duv-color-text-secondary);
+
+    :global .rc-slider-mark {
+      top: -22px;
+      user-select: none;
+
+      :first-child {
+        left: 1% !important;
+        left: calc(1% + 1px) !important;
+      }
+
+      :last-child {
+        left: 99% !important;
+      }
+    }
+
+    :global {
+      .rc-slider-mark-text {
+        color: var(--duv-color-text-secondary);
+        @include font-sans-responsive-s;
+        transform: none !important;
+        width: 2em;
+        margin-left: -1em;
+
+        .tick {
+          transform: none !important;
+          text-align: center;
+        }
+        .tick:after {
+          content: '';
+          position: absolute;
+          left: 1em;
+          margin-left: -1px;
+          top: 18px;
+          width: 1px;
+          height: 9px;
+          color: var(--duv-color-border-primary);
+        }
+        .tickLabel {
+          position: absolute;
+          left: -10px !important;
+          width: max-content;
+        }
+      }
+      .rc-slider-dot {
+        display: none;
+      }
+      .rc-slider-rail {
+        height: $track-height;
+        border: 1px solid var(--duv-color-border-primary);
+        background-color: var(--duv-color-background-primary);
+      }
+      .rc-slider-mark-text {
+        width: auto;
+      }
+    }
+  }
+}

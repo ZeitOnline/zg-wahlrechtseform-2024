@@ -1,0 +1,11 @@
+/** A copy of this lives also in useBreakpoint.js */
+
+$break-modern-phone: em(360px);
+$break-large-phone: em(390px);
+$break-phablet: em(520px); /* von ZON */
+$break-tablet: em(768px); /* von ZON */
+$break-desktop: em(980px); /* von ZON */
+$break-desktop-large: em(1150px);
+$break-desktop-extra-large: em(1360px);
+$break-areas: $break-tablet;
+$break-page-padding: $break-tablet;

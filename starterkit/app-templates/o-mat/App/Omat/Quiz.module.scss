@@ -1,0 +1,74 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    text-align: center;
+  }
+  .index {
+    @include tabular-nums;
+    @include font-sans-responsive-xs;
+    width: 4em;
+    height: 4em;
+    margin: 0 auto;
+    @include blurry-bg;
+    color: var(--duv-color-text-secondary);
+    border-radius: 50%;
+    line-height: 4em;
+    margin-bottom: var(--duv-size-margin-l);
+    white-space: nowrap;
+  }
+  .questionWrapper {
+    position: relative;
+  }
+  .question {
+  }
+  .questionText {
+    font-family: $font-franziska;
+    font-size: 1.25rem;
+    max-width: 20em;
+    margin: 0 auto;
+  }
+  .answers {
+    margin: var(--duv-size-margin-l) 0 0 0;
+    padding: 0;
+    list-style: none;
+    @include font-sans-responsive-m;
+    user-select: none;
+  }
+  .answer {
+    margin: var(--duv-size-margin-s) auto;
+    padding: var(--duv-size-padding-m) var(--duv-size-padding-l);
+    color: var(--duv-color-text-primary);
+    border-radius: var(--duv-size-border-radius-m);
+    cursor: pointer;
+    transform-origin: center;
+    max-width: 24em;
+    line-height: 1.3;
+    transition: box-shadow 0.1s, background 0.2s, transform 0.1s;
+    @include blurry-bg;
+
+    @include hover {
+      transform: scale(1.02) !important;
+      @include box-shadow;
+    }
+  }
+  li.answer:active {
+    transform: scale(0.95) !important;
+  }
+  .answer.clicked {
+    background: var(--duv-color-focus);
+  }
+  .skip {
+    background: transparent !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+
+    @include hover {
+      background: transparent;
+      box-shadow: none;
+    }
+  }
+  .skip .answerText {
+    opacity: 0.8;
+  }
+}

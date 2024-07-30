@@ -1,0 +1,45 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    max-width: 540px;
+    margin: 1.2rem auto 0 auto;
+    @include tabular-nums;
+    @include font-sans-responsive-s;
+    text-align: left;
+  }
+
+  .noData.container {
+    max-width: 540px;
+  }
+
+  .title {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 auto 0.5rem auto;
+    text-align: center;
+  }
+
+  .categories {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .category {
+    text-align: center;
+    line-height: 1.2;
+    padding: 0;
+    margin: 0 0.3em;
+  }
+
+  .swatch {
+    display: block;
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%;
+    margin: 0 auto 0.5em auto;
+  }
+}

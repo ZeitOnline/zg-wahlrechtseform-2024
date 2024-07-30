@@ -1,0 +1,114 @@
+@mixin unpadded {
+  margin-left: calc(var(--duv-size-padding-page-current) * -1);
+  margin-right: calc(var(--duv-size-padding-page-current) * -1);
+  width: calc(100% + var(--duv-size-padding-page-current) * 2);
+}
+
+@mixin padded {
+  padding-left: var(--duv-size-padding-page-current);
+  padding-right: var(--duv-size-padding-page-current);
+}
+
+@mixin respond-min($width) {
+  @media screen and (min-width: $width) {
+    @content;
+  }
+}
+
+@mixin focus-ring {
+  outline: none;
+
+  /* mouse */
+  &:focus:not(:focus-visible) {
+    outline: none !important;
+  }
+  /* keyboard */
+  &:focus-visible {
+    box-shadow: 0 0 0 3px Highlight;
+  }
+}
+
+@mixin respond-max($width, $exclusive: true) {
+  @if $exclusive {
+    $width: $width - 0.001;
+  }
+
+  @media screen and (max-width: $width) {
+    @content;
+  }
+}
+
+@mixin retina() {
+  @media screen and (min-resolution: 1.5dppx),
+    screen and (min-resolution: 144dpi) {
+    @content;
+  }
+}
+
+@mixin dark-mode {
+  :global(html.color-scheme-dark) & {
+    @content;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :global(html:not(.color-scheme-light)) & {
+      @content;
+    }
+  }
+}
+
+@mixin light-mode {
+  :global(html.color-scheme-light) & {
+    @content;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :global(html:not(.color-scheme-dark)) & {
+      @content;
+    }
+  }
+}
+
+@mixin linkWithBorder() {
+  position: relative;
+
+  &:after {
+    border-top: 1px solid currentColor;
+    bottom: -2px;
+    content: '';
+    height: 1px;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    width: 100%;
+  }
+  &:hover:after {
+    opacity: 0.8;
+  }
+}
+
+@mixin centered-line(
+  $position: 'before',
+  $color: var(--duv-color-border-primary),
+  $max-width: 8em,
+  $margin: 1.2em auto,
+  $height: 1px
+) {
+  &:#{$position} {
+    content: '';
+    display: block;
+    height: $height;
+    max-width: $max-width;
+    background: $color;
+    margin: $margin;
+  }
+}
+
+@mixin hover {
+  @media (hover: hover) {
+    &:hover,
+    &:active {
+      @content;
+    }
+  }
+}

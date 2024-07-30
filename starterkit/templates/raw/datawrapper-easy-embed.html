@@ -1,0 +1,55 @@
+<div class="embed embed--datawrapper article__item">
+  <iframe id="datawrapper-chart-<!-- slot:start:url --><!-- slot:end:url -->" class="embed__iframe" src="//datawrapper.dwcdn.net/<!-- slot:start:url --><!-- slot:end:url -->/" scrolling="no" frameborder="0" allowtransparency="true" width="100%" loading="lazy"></iframe>
+  <script>
+    if (typeof window.datawrapper === 'undefined') {
+      window.datawrapper = {};
+    }
+    window.datawrapper['<!-- slot:start:url --><!-- slot:end:url -->'] = {},
+    window
+      .datawrapper['<!-- slot:start:url --><!-- slot:end:url -->']
+      .iframe = document.getElementById('datawrapper-chart-<!-- slot:start:url --><!-- slot:end:url -->');
+    window.addEventListener('message', function (a) {
+      if (typeof a.data['datawrapper-height'] !== 'undefined') {
+        for (var b in a.data['datawrapper-height']) {
+          if ('<!-- slot:start:url --><!-- slot:end:url -->' == b) {
+            window
+              .datawrapper['<!-- slot:start:url --><!-- slot:end:url -->']
+              .iframe
+              .style
+              .height = a
+              .data['datawrapper-height'][b] + 'px'
+          }
+        }
+      }
+    });
+
+    (function () {
+      function forceDarkMode(dark) {
+        var iframe = window
+          .datawrapper['<!-- slot:start:url --><!-- slot:end:url -->']
+          .iframe;
+        var url = new URL(iframe.src);
+        url.search = dark
+          ? '?dark=true'
+          : '';
+        if (iframe.src !== url.href) {
+          iframe.src = url.href;
+        }
+      }
+
+      if (document.documentElement.classList.contains('color-scheme-dark')) {
+        forceDarkMode(true);
+      }
+
+      document.addEventListener('change', function (event) {
+        if (event.target.name === 'color-scheme') {
+          forceDarkMode(event.target.value === 'dark');
+        }
+      });
+
+      window.addEventListener('colorscheme', function (event) {
+        forceDarkMode(event.detail === 'dark');
+      });
+    })();
+  </script>
+</div>

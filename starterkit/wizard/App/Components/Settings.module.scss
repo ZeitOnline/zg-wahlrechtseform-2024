@@ -1,0 +1,19 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    .deploymentPath {
+      margin-top: var(--duv-size-s);
+      display: flex;
+      align-items: flex-end;
+    }
+    label {
+      display: block;
+      margin-bottom: var(--duv-size-xs);
+      @include font-sans-responsive-s;
+    }
+    button {
+      margin-left: var(--duv-size-s);
+    }
+  }
+}

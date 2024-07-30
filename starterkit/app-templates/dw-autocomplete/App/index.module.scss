@@ -1,0 +1,14 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    margin: var(--duv-size-margin-l) auto;
+  }
+
+  .input {
+    margin-top: var(--duv-size-margin-l);
+    max-width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

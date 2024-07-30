@@ -1,0 +1,12 @@
+{
+  "label": "Scroll-Progressor",
+  "inputs": [
+    {
+      "name": "projectId",
+      "label": "Projektkürzel",
+      "description": "Wird als Kürzel am Anfang der Pdisplayn eingesetzt",
+      "pattern": "[a-zA-Z0-9-]+",
+      "required": true
+    }
+  ]
+}

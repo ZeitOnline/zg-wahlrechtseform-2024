@@ -1,0 +1,22 @@
+@import 'core/styles/base';
+
+:local {
+  .path {
+    pointer-events: none;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.2;
+    stroke: var(--duv-color-bwscale-15);
+  }
+  .path.dark {
+    stroke: white;
+  }
+  .outline {
+    stroke: rgba(white, 0.6);
+    stroke-width: 4.6;
+  }
+  .outline.dark {
+    stroke: rgba(black, 0.6);
+  }
+}

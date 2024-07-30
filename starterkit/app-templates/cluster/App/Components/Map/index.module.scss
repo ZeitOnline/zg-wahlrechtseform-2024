@@ -1,0 +1,113 @@
+@import 'core/styles/base';
+
+.article-body {
+  max-width: unset !important;
+}
+
+:local {
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: -0.5rem;
+    margin-bottom: 2rem;
+
+    @include respond-min($break-tablet) {
+      margin-top: 2rem;
+      margin-bottom: 4rem;
+    }
+
+    .map {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 3/5;
+      max-height: 80vh;
+      height: 50rem;
+      margin-right: auto;
+
+      @include respond-max(1100px) {
+        width: 70vw;
+      }
+
+      @include respond-max($break-tablet) {
+        width: 100%;
+        max-width: 100%;
+        aspect-ratio: 7/10;
+        height: auto;
+      }
+    }
+
+    .sideTooltip {
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem;
+      min-width: 30vw;
+      max-width: 30vw;
+
+      @include respond-max($break-tablet) {
+        display: none;
+      }
+    }
+
+    .geocoder {
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+
+    .callToAction {
+      @include font-sans-responsive-s;
+      font-weight: bold;
+      color: #0dbe4b;
+      max-width: 450px;
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .extraLegendContainer {
+      width: 100%;
+      display: block;
+
+      @include respond-min($break-phablet) {
+        display: none;
+      }
+    }
+
+    .inlineLegendContainer {
+      width: 100%;
+      display: none;
+      @include respond-min($break-phablet) {
+        display: block;
+      }
+    }
+  }
+}
+
+:global {
+  .mapboxgl-touch-pan-blocker,
+  .mapboxgl-scroll-zoom-blocker,
+  .mapboxgl-touch-pan-blocker-show,
+  .mapboxgl-scroll-zoom-blocker-show {
+    display: none !important;
+  }
+
+  .mapboxgl-ctrl-attrib.mapboxgl-ctrl-attrib {
+    // a {
+    //   color: var(--duv-color-text-tertiary);
+    // }
+    // color: var(--duv-color-text-tertiary);
+
+    @include respond-min($break-tablet) {
+      max-width: calc((100vw - 560px) / 2);
+    }
+
+    @include dark-mode {
+      background-color: transparent;
+
+      a {
+        color: var(--duv-color-text-secondary) !important;
+      }
+    }
+  }
+}

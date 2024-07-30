@@ -1,0 +1,17 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    margin-bottom: 4rem;
+  }
+}
+
+.article-header {
+  display: flex;
+  flex-direction: column;
+
+  .article-embed {
+    order: 5;
+    width: 100%;
+  }
+}

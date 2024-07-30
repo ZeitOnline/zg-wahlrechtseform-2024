@@ -1,0 +1,106 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    display: inline-flex;
+    user-select: none;
+  }
+
+  .option {
+    @include font-sans-responsive-s;
+
+    &.small {
+      @include font-sans-responsive-xs;
+    }
+
+    display: inline-block;
+    border: none;
+    padding: var(--duv-size-padding-m);
+    line-height: 1;
+    appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 0.1s, color 0.1s;
+    transform-origin: center;
+    cursor: pointer;
+    color: var(--duv-color-text-secondary);
+    position: relative;
+    background: none;
+    background-color: var(--duv-color-background-tertiary);
+    @include focus-ring;
+    &:first-of-type {
+      border-top-left-radius: var(--duv-size-border-radius-m);
+      border-bottom-left-radius: var(--duv-size-border-radius-m);
+    }
+    &:last-of-type {
+      border-top-right-radius: var(--duv-size-border-radius-m);
+      border-bottom-right-radius: var(--duv-size-border-radius-m);
+    }
+
+    + .option {
+      margin-left: 1px;
+    }
+
+    @include respond-min($break-phablet) {
+      padding: var(--duv-size-padding-m) var(--duv-size-padding-l);
+    }
+    &:active {
+      transform: scale(0.98);
+    }
+    &:focus {
+      z-index: 1;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      top: -4px;
+      bottom: -4px;
+      left: -2px;
+      right: -2px;
+      border-radius: var(--duv-size-border-radius-m);
+      background-color: var(
+        --switcher-background,
+        var(--duv-color-text-primary)
+      );
+      @include box-shadow;
+      transition: opacity 0.1s, transform 0.15s;
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    &:focus-visible:before {
+      box-shadow: 0 0 0 3px Highlight;
+    }
+
+    &.isActive {
+      z-index: 1;
+      color: var(--switcher-color, var(--duv-color-background-primary));
+
+      &:before {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  }
+  .small .option {
+    padding: var(--duv-size-padding-s) var(--duv-size-padding-m);
+
+    &.isActive {
+      :before {
+        top: -2px;
+        bottom: -2px;
+        left: -2px;
+        right: -2px;
+        border-radius: var(--duv-size-border-radius-m);
+      }
+    }
+  }
+  .optionInner {
+    display: inline-block;
+    line-height: 1;
+    padding: 0.1em 0;
+
+    @include respond-min($break-phablet) {
+      padding: 0.2em 0;
+    }
+  }
+}

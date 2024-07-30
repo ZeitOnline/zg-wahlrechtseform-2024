@@ -1,0 +1,115 @@
+import {Meta, ColorPalette, ColorItem} from '@storybook/blocks';
+import {getPalette, rest} from './utils';
+
+<Meta title="Design/Farben" />
+
+<style>
+  {`
+  .darkEmulator {
+    background: #121212;
+    padding: 12px 12px 0;
+    margin-left: -12px;
+    margin-right: -12px;
+    margin-bottom: 24px;
+  }
+  .darkEmulator div {
+    color: white;
+  }
+  .dark-background {
+    position: absolute;
+    width: calc(35% + 10px);
+    height: calc(100% - 30px);
+    top: 20px;
+    right: -10px;
+    background: #121212;
+    border-radius: 6px;
+  }
+  .light-and-dark div[title] {
+    color: #666666;
+  }
+  .light-and-dark div[title]:last-of-type {
+    color: #999999;
+  }
+    `}
+</style>
+
+# Farben
+
+Wenn du sehen möchtest, welche Farben wir alle definiert haben, dann wirf gerne einen Blick in [unser Figma File mit unseren Variablen](https://www.figma.com/file/0irmKru0Pdg2iLMJjjcPLL/Design-Tokens-and-Library?node-id=1344%3A1048).
+
+Hier findest du eine Liste mit den wichtigsten **CSS Variablen**, die du wahrscheinlich am häuftigsten benötigst.
+
+🤓 Nerd Wissen: Dank des [Short-CSS-Vars Plugins](https://www.npmjs.com/package/@zonx/babel-plugin-short-css-vars) werden alle Variablen-Namen mit dem Projekt-Kürzel versehen. Dies garantiert, dass sie nicht mit anderen Variablen-Namen kollidieren.
+Damit die CSS Datei nicht zu groß wird erkennen und entfernen das Post-CSS Plugin Track-Var und das Vite Plugin Remove-CSS-Var alle nicht verwendeten Variablen während des build-Prozesses. Dynamische CSS-Variablen im JSX können nicht getrackt werden (z. B. ``<div style={{background: var(`--duv-color-party-${partyId}`)}} />``). Diese Variablen müssen an anderer Stelle im CSS verwendet werden, damit sie nicht entfernt werden.
+
+## Basis-Farben
+
+<ColorPalette style={{position: 'relative'}}>
+  {rest()}
+</ColorPalette>
+
+## Text
+
+<ColorPalette style={{position: 'relative'}}>
+  {getPalette('text')}
+</ColorPalette>
+
+## Headlines
+
+<ColorPalette style={{position: 'relative'}}>
+  {getPalette('headline')}
+</ColorPalette>
+
+## Hintergründe
+
+<ColorPalette style={{position: 'relative'}}>
+  {getPalette('background')}
+</ColorPalette>
+
+## Rahmen
+
+<ColorPalette style={{position: 'relative'}}>
+  {getPalette('border')}
+</ColorPalette>
+
+## Corona
+
+<ColorPalette style={{position: 'relative'}}>
+  {getPalette('corona')}
+</ColorPalette>
+
+## Energie
+
+<ColorPalette style={{position: 'relative'}}>
+  {getPalette('energie', /energie-text/g)}
+</ColorPalette>
+
+## Energie Textfarben
+
+<ColorPalette style={{position: 'relative'}}>
+  {getPalette('energie-text')}
+</ColorPalette>
+
+## Geschlechter
+
+<ColorPalette style={{position: 'relative'}}>
+  {getPalette('geschlechter')}
+</ColorPalette>
+
+## Parteien
+
+<ColorPalette style={{position: 'relative'}}>
+  {getPalette('parteien')}
+</ColorPalette>
+
+## Plan D
+
+<ColorPalette style={{position: 'relative'}}>
+  {getPalette('pland')}
+</ColorPalette>
+
+## Mieten/Kaufen
+
+<ColorPalette style={{position: 'relative'}}>
+  {getPalette('wohnen')}
+</ColorPalette>

@@ -1,0 +1,864 @@
+{
+  "size": {
+    "border-radius": {
+      "s": {
+        "$type": "number",
+        "$value": 2
+      },
+      "m": {
+        "$type": "number",
+        "$value": 4
+      },
+      "l": {
+        "$type": "number",
+        "$value": 8
+      }
+    },
+    "3xs": {
+      "$type": "number",
+      "$value": 1.600000023841858
+    },
+    "2xs": {
+      "$type": "number",
+      "$value": 3.200000047683716
+    },
+    "margin": {
+      "xs": {
+        "$type": "number",
+        "$value": "{size.xs}"
+      },
+      "s": {
+        "$type": "number",
+        "$value": "{size.s}"
+      },
+      "m": {
+        "$type": "number",
+        "$value": "{size.m}"
+      },
+      "l": {
+        "$type": "number",
+        "$value": "{size.l}"
+      },
+      "paragraph": {
+        "$type": "number",
+        "$value": "{size.s}"
+      },
+      "xl": {
+        "$type": "number",
+        "$value": "{size.xl}"
+      }
+    },
+    "xs": {
+      "$type": "number",
+      "$value": 4.800000190734863
+    },
+    "s": {
+      "$type": "number",
+      "$value": 9.600000381469727
+    },
+    "m": {
+      "$type": "number",
+      "$value": 20
+    },
+    "l": {
+      "$type": "number",
+      "$value": 38.400001525878906
+    },
+    "xl": {
+      "$type": "number",
+      "$value": 60
+    },
+    "padding": {
+      "s": {
+        "$type": "number",
+        "$value": "{size.2xs}"
+      },
+      "m": {
+        "$type": "number",
+        "$value": "{size.xs}"
+      },
+      "l": {
+        "$type": "number",
+        "$value": "{size.s}"
+      }
+    },
+    "width": {
+      "content-column": {
+        "$type": "number",
+        "$value": 660
+      },
+      "wide": {
+        "$type": "number",
+        "$value": 820
+      },
+      "article": {
+        "$type": "number",
+        "$value": 960
+      },
+      "article-without-padding": {
+        "$type": "number",
+        "$value": 1000
+      }
+    }
+  },
+  "color": {
+    "energie": {
+      "sonstige": {
+        "$type": "color",
+        "$value": "{color.shades.60}"
+      },
+      "text": {
+        "sonstige": {
+          "$type": "color",
+          "$value": "{color.shades.20}"
+        },
+        "kernenergie": {
+          "$type": "color",
+          "$value": "#4f3f1c"
+        },
+        "fernwaerme": {
+          "$type": "color",
+          "$value": "#593018"
+        },
+        "strom": {
+          "$type": "color",
+          "$value": "#103630"
+        },
+        "heizoel": {
+          "$type": "color",
+          "$value": "#401a14"
+        },
+        "super-e5": {
+          "$type": "color",
+          "$value": "#521d25"
+        },
+        "super-e10": {
+          "$type": "color",
+          "$value": "#4f1f3c"
+        },
+        "diesel": {
+          "$type": "color",
+          "$value": "#471f4a"
+        },
+        "erdgas": {
+          "$type": "color",
+          "$value": "#292052"
+        },
+        "lng": {
+          "$type": "color",
+          "$value": "#352352"
+        },
+        "steinkohle": {
+          "$type": "color",
+          "$value": "#403c30"
+        },
+        "braunkohle": {
+          "$type": "color",
+          "$value": "#4a342c"
+        },
+        "erneuerbare": {
+          "$type": "color",
+          "$value": "#054a1d"
+        },
+        "biomasse": {
+          "$type": "color",
+          "$value": "#3b4505"
+        },
+        "solar": {
+          "$type": "color",
+          "$value": "#4f4608"
+        },
+        "windkraft": {
+          "$type": "color",
+          "$value": "#06484f"
+        },
+        "wasserkraft": {
+          "$type": "color",
+          "$value": "#273c5e"
+        },
+        "gas": {
+          "$type": "color",
+          "$value": "{color.energie.text.erdgas}"
+        },
+        "oel": {
+          "$type": "color",
+          "$value": "{color.energie.text.heizoel}"
+        }
+      },
+      "kernenergie": {
+        "$type": "color",
+        "$value": "#dbaf4d"
+      },
+      "fernwaerme": {
+        "$type": "color",
+        "$value": "#e57c3e"
+      },
+      "strom": {
+        "$type": "color",
+        "$value": "#3bc3ae"
+      },
+      "heizoel": {
+        "$type": "color",
+        "$value": "#c85040"
+      },
+      "super-e5": {
+        "$type": "color",
+        "$value": "#c9485b"
+      },
+      "super-e10": {
+        "$type": "color",
+        "$value": "#c74f96"
+      },
+      "diesel": {
+        "$type": "color",
+        "$value": "#c356c9"
+      },
+      "erdgas": {
+        "$type": "color",
+        "$value": "#6f56de"
+      },
+      "lng": {
+        "$type": "color",
+        "$value": "#8f5fde"
+      },
+      "steinkohle": {
+        "$type": "color",
+        "$value": "#857e65"
+      },
+      "braunkohle": {
+        "$type": "color",
+        "$value": "#916757"
+      },
+      "erneuerbare": {
+        "$type": "color",
+        "$value": "#0dbe4b"
+      },
+      "biomasse": {
+        "$type": "color",
+        "$value": "#849b0a"
+      },
+      "solar": {
+        "$type": "color",
+        "$value": "#d8be16"
+      },
+      "windkraft": {
+        "$type": "color",
+        "$value": "#10c3d7"
+      },
+      "wasserkraft": {
+        "$type": "color",
+        "$value": "#6094e8"
+      },
+      "gas": {
+        "$type": "color",
+        "$value": "{color.energie.erdgas}"
+      },
+      "oel": {
+        "$type": "color",
+        "$value": "{color.energie.heizoel}"
+      }
+    },
+    "headline": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.shades.10}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.shades.25}"
+      }
+    },
+    "ozeanblau": {
+      "a": {
+        "$type": "color",
+        "$value": "#01cbdb"
+      },
+      "b": {
+        "$type": "color",
+        "$value": "#0088a0"
+      }
+    },
+    "corona": {
+      "infektionen": {
+        "$type": "color",
+        "$value": "#9e3d70"
+      },
+      "hospitalisierungen": {
+        "$type": "color",
+        "$value": "#ff8f28"
+      },
+      "intensivbetten": {
+        "$type": "color",
+        "$value": "#5a5ec8"
+      },
+      "tote": {
+        "$type": "color",
+        "$value": "#252525"
+      },
+      "impfungen": {
+        "$type": "color",
+        "$value": "#055a5a"
+      },
+      "impfung-1": {
+        "$type": "color",
+        "$value": "#1ab792"
+      },
+      "impfung-2": {
+        "$type": "color",
+        "$value": "#068c8b"
+      },
+      "impfung-3": {
+        "$type": "color",
+        "$value": "#006363"
+      },
+      "impfung-4": {
+        "$type": "color",
+        "$value": "#004040"
+      },
+      "ungeimpft": {
+        "$type": "color",
+        "$value": "#c4a600"
+      },
+      "tests": {
+        "$type": "color",
+        "$value": "#259661"
+      }
+    },
+    "bwscale": {
+      "0": {
+        "$type": "color",
+        "$value": "#000000"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "#222124"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "#313033"
+      },
+      "15": {
+        "$type": "color",
+        "$value": "#3f3e42"
+      },
+      "20": {
+        "$type": "color",
+        "$value": "#4d4d51"
+      },
+      "25": {
+        "$type": "color",
+        "$value": "#5b5b5f"
+      },
+      "30": {
+        "$type": "color",
+        "$value": "#69696d"
+      },
+      "35": {
+        "$type": "color",
+        "$value": "#76767b"
+      },
+      "40": {
+        "$type": "color",
+        "$value": "#838388"
+      },
+      "45": {
+        "$type": "color",
+        "$value": "#8f9094"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "#9b9ca0"
+      },
+      "55": {
+        "$type": "color",
+        "$value": "#a6a7ac"
+      },
+      "60": {
+        "$type": "color",
+        "$value": "#b1b2b7"
+      },
+      "65": {
+        "$type": "color",
+        "$value": "#bcbdc1"
+      },
+      "70": {
+        "$type": "color",
+        "$value": "#c7c8cb"
+      },
+      "75": {
+        "$type": "color",
+        "$value": "#d1d2d5"
+      },
+      "80": {
+        "$type": "color",
+        "$value": "#dbdbde"
+      },
+      "85": {
+        "$type": "color",
+        "$value": "#e3e4e5"
+      },
+      "90": {
+        "$type": "color",
+        "$value": "#efeff0"
+      },
+      "95": {
+        "$type": "color",
+        "$value": "#f7f7f7"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "shades": {
+      "0": {
+        "$type": "color",
+        "$value": "{color.bwscale.0}"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "{color.bwscale.5}"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "{color.bwscale.10}"
+      },
+      "15": {
+        "$type": "color",
+        "$value": "{color.bwscale.15}"
+      },
+      "20": {
+        "$type": "color",
+        "$value": "{color.bwscale.20}"
+      },
+      "25": {
+        "$type": "color",
+        "$value": "{color.bwscale.25}"
+      },
+      "30": {
+        "$type": "color",
+        "$value": "{color.bwscale.30}"
+      },
+      "35": {
+        "$type": "color",
+        "$value": "{color.bwscale.35}"
+      },
+      "40": {
+        "$type": "color",
+        "$value": "{color.bwscale.40}"
+      },
+      "45": {
+        "$type": "color",
+        "$value": "{color.bwscale.45}"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "{color.bwscale.50}"
+      },
+      "55": {
+        "$type": "color",
+        "$value": "{color.bwscale.55}"
+      },
+      "60": {
+        "$type": "color",
+        "$value": "{color.bwscale.60}"
+      },
+      "65": {
+        "$type": "color",
+        "$value": "{color.bwscale.65}"
+      },
+      "70": {
+        "$type": "color",
+        "$value": "{color.bwscale.70}"
+      },
+      "75": {
+        "$type": "color",
+        "$value": "{color.bwscale.75}"
+      },
+      "80": {
+        "$type": "color",
+        "$value": "{color.bwscale.80}"
+      },
+      "85": {
+        "$type": "color",
+        "$value": "{color.bwscale.85}"
+      },
+      "90": {
+        "$type": "color",
+        "$value": "{color.bwscale.90}"
+      },
+      "95": {
+        "$type": "color",
+        "$value": "{color.bwscale.95}"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "{color.bwscale.100}"
+      }
+    },
+    "text": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.shades.5}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.shades.30}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{color.shades.65}"
+      },
+      "pland-loesung": {
+        "$type": "color",
+        "$value": "#0574de"
+      },
+      "pland-problem": {
+        "$type": "color",
+        "$value": "#bd3873"
+      }
+    },
+    "border": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.shades.80}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.shades.85}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{color.shades.90}"
+      }
+    },
+    "background": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.shades.100}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.shades.95}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{color.shades.90}"
+      },
+      "card": {
+        "$type": "color",
+        "$value": "{color.shades.100}"
+      },
+      "popup": {
+        "$type": "color",
+        "$value": "{color.shades.100}"
+      },
+      "highlight": {
+        "$type": "color",
+        "$value": "#ffeb61"
+      },
+      "parteien": {
+        "us": {
+          "democrats": {
+            "$type": "color",
+            "$value": "#eaf7f9"
+          },
+          "republicans": {
+            "$type": "color",
+            "$value": "#fdf0ef"
+          }
+        }
+      },
+      "arbeit": {
+        "jobs": {
+          "$type": "color",
+          "$value": "#3c9d6f"
+        },
+        "sun-yellow": {
+          "$type": "color",
+          "$value": "{color.arbeit.sun-yellow}"
+        },
+        "pink": {
+          "$type": "color",
+          "$value": "#e15561"
+        }
+      }
+    },
+    "seegruen": {
+      "a": {
+        "$type": "color",
+        "$value": "#1cdd7e"
+      },
+      "b": {
+        "$type": "color",
+        "$value": "#269661"
+      }
+    },
+    "sonnengelb": {
+      "a": {
+        "$type": "color",
+        "$value": "#ffbb00"
+      },
+      "b": {
+        "$type": "color",
+        "$value": "#f76906"
+      }
+    },
+    "rubinrot": {
+      "a": {
+        "$type": "color",
+        "$value": "#f54a2b"
+      },
+      "b": {
+        "$type": "color",
+        "$value": "#b91109"
+      }
+    },
+    "beeren": {
+      "a": {
+        "$type": "color",
+        "$value": "#c11f7e"
+      }
+    },
+    "geschlechter": {
+      "frau": {
+        "$type": "color",
+        "$value": "#8c35ff"
+      },
+      "mann": {
+        "$type": "color",
+        "$value": "#118c71"
+      },
+      "andere": {
+        "$type": "color",
+        "$value": "#3bb8d3"
+      },
+      "keine-angabe": {
+        "$type": "color",
+        "$value": "{color.shades.50}"
+      },
+      "offen": {
+        "$type": "color",
+        "$value": "#f3d43b"
+      }
+    },
+    "parteien": {
+      "de": {
+        "spd": {
+          "$type": "color",
+          "$value": "#e31d34"
+        },
+        "cdu-csu-union": {
+          "$type": "color",
+          "$value": "#333333"
+        },
+        "linke": {
+          "$type": "color",
+          "$value": "#c13197"
+        },
+        "bsw": {
+          "$type": "color",
+          "$value": "#8037de"
+        },
+        "gruene": {
+          "$type": "color",
+          "$value": "#5ba700"
+        },
+        "fdp": {
+          "$type": "color",
+          "$value": "#f3d43b"
+        },
+        "afd": {
+          "$type": "color",
+          "$value": "#37a7e4"
+        },
+        "die-partei": {
+          "$type": "color",
+          "$value": "#f76906"
+        },
+        "andere": {
+          "$type": "color",
+          "$value": "#9c8e77"
+        }
+      },
+      "us": {
+        "democrats": {
+          "$type": "color",
+          "$value": "#5490a7"
+        },
+        "republicans": {
+          "$type": "color",
+          "$value": "#e46147"
+        }
+      },
+      "fr": {
+        "lrem": {
+          "$type": "color",
+          "$value": "#f3d43b"
+        },
+        "rn": {
+          "$type": "color",
+          "$value": "#37a7e4"
+        },
+        "fi": {
+          "$type": "color",
+          "$value": "#c13197"
+        },
+        "rec": {
+          "$type": "color",
+          "$value": "#af733c"
+        },
+        "lr": {
+          "$type": "color",
+          "$value": "#335588"
+        },
+        "eelv": {
+          "$type": "color",
+          "$value": "#5ba700"
+        },
+        "ps": {
+          "$type": "color",
+          "$value": "#e31d34"
+        },
+        "re": {
+          "$type": "color",
+          "$value": "#4d4d51"
+        },
+        "nfp": {
+          "$type": "color",
+          "$value": "#e31d34"
+        },
+        "dvg": {
+          "$type": "color",
+          "$value": "#c298b6"
+        },
+        "div": {
+          "$type": "color",
+          "$value": "#d49696"
+        },
+        "dvd": {
+          "$type": "color",
+          "$value": "#9bc3d8"
+        }
+      },
+      "it": {
+        "m5s": {
+          "$type": "color",
+          "$value": "#f3d43b"
+        },
+        "pd": {
+          "$type": "color",
+          "$value": "#e31d34"
+        },
+        "lega": {
+          "$type": "color",
+          "$value": "#39a48a"
+        },
+        "fdi": {
+          "$type": "color",
+          "$value": "#5e69d5"
+        },
+        "fi": {
+          "$type": "color",
+          "$value": "#37a7e4"
+        }
+      },
+      "uk": {
+        "lab": {
+          "$type": "color",
+          "$value": "#e4003b"
+        },
+        "con": {
+          "$type": "color",
+          "$value": "#3147b7"
+        },
+        "reform": {
+          "$type": "color",
+          "$value": "#1eb8d0"
+        },
+        "libdem": {
+          "$type": "color",
+          "$value": "#faa61a"
+        },
+        "green": {
+          "$type": "color",
+          "$value": "#02a95b"
+        },
+        "snp": {
+          "$type": "color",
+          "$value": "#cebb00"
+        },
+        "pc": {
+          "$type": "color",
+          "$value": "#dd6a27"
+        },
+        "sf": {
+          "$type": "color",
+          "$value": "#97ac13"
+        },
+        "dup": {
+          "$type": "color",
+          "$value": "#e31d70"
+        }
+      }
+    },
+    "focus": {
+      "$type": "color",
+      "$value": "#005fcc"
+    },
+    "wohnen": {
+      "kaufen": {
+        "$type": "color",
+        "$value": "#5a9fd4"
+      },
+      "mieten": {
+        "$type": "color",
+        "$value": "#279784"
+      }
+    },
+    "arbeit": {
+      "pink": {
+        "$type": "color",
+        "$value": "#e15561"
+      },
+      "sun-yellow": {
+        "$type": "color",
+        "$value": "#ffe52c"
+      },
+      "marigold": {
+        "$type": "color",
+        "$value": "#ffc800"
+      },
+      "jobs": {
+        "$type": "color",
+        "$value": "#1a884e"
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "#4f4f57"
+      },
+      "dark-inverse": {
+        "$type": "color",
+        "$value": "#bcbcc2"
+      }
+    },
+    "pland": {
+      "loesung": {
+        "$type": "color",
+        "$value": "#41a2ff"
+      },
+      "problem": {
+        "$type": "color",
+        "$value": "#e082ac"
+      },
+      "problem-secondary": {
+        "$type": "color",
+        "$value": "#af62a9"
+      },
+      "loesung-secondary": {
+        "$type": "color",
+        "$value": "#8577d1"
+      }
+    }
+  }
+}

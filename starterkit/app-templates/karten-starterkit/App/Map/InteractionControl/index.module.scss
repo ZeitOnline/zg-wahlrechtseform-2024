@@ -1,0 +1,59 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.625rem auto 1rem auto;
+
+    font-family: $font-tabletgothic;
+    font-size: 0.75rem;
+    letter-spacing: var(--duv-size-type-letter-spacing-s);
+
+    @include respond-min(350px) {
+      font-size: calc(13 / 16 * 1rem);
+    }
+    @include respond-min($break-tablet) {
+      margin: 1rem auto 2rem auto;
+      font-size: calc(14 / 16 * 1rem);
+    }
+  }
+
+  .label {
+    color: var(--duv-color-shades-60);
+    transition: color 0.3s;
+  }
+  .active.label {
+    color: var(--duv-color-shades-15);
+  }
+  .toggleContainer {
+    margin: 0 0.5em;
+  }
+  .toggle {
+    display: block;
+
+    :global {
+      .react-toggle-track {
+        width: 30px;
+        height: 15px;
+        background: var(--duv-color-shades-80) !important;
+      }
+
+      .react-toggle-thumb {
+        width: 15px;
+        height: 15px;
+        background: var(--duv-color-shades-35) !important;
+        top: 0;
+        border: none !important;
+        box-shadow: none !important;
+        left: -1px;
+      }
+    }
+  }
+  .container :global {
+    .react-toggle--checked .react-toggle-thumb {
+      left: 17px;
+    }
+  }
+}

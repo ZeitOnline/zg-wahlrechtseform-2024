@@ -1,0 +1,85 @@
+<script>
+  window.global = window;
+</script>
+
+<style>
+  @font-face {
+    font-family: 'TabletGothic';
+    src: url('https://static.zeit.de/p/zeit.web/fonts/tabletgothic/TabletGothic-Regular.woff2?v1')
+        format('woff2'),
+      url('https://static.zeit.de/p/zeit.web/fonts/tabletgothic/TabletGothic-Regular.woff?v1')
+        format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'TabletGothic';
+    src: url('https://static.zeit.de/p/zeit.web/fonts/tabletgothic/TabletGothic-Oblique.woff2?v1')
+        format('woff2'),
+      url('https://static.zeit.de/p/zeit.web/fonts/tabletgothic/TabletGothic-Oblique.woff?v1')
+        format('woff');
+    font-weight: normal;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'TabletGothic';
+    src: url('https://static.zeit.de/p/zeit.web/fonts/tabletgothic/TabletGothic-Bold.woff2?v1')
+        format('woff2'),
+      url('https://static.zeit.de/p/zeit.web/fonts/tabletgothic/TabletGothic-Bold.woff?v1')
+        format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'FranziskaWebPro';
+    src: url('https://static.zeit.de/p/zeit.web/fonts/franziska/FranziskaWebPro.woff')
+      format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'FranziskaWebPro';
+    src: url('https://static.zeit.de/p/zeit.web/fonts/franziska/FranziskaWebPro-Demibold.woff')
+      format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'FranziskaWebPro';
+    src: url('https://static.zeit.de/p/zeit.web/fonts/franziska/FranziskaWebPro-Italic.woff')
+      format('woff');
+    font-weight: normal;
+    font-style: italic;
+  }
+  .article-page {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+</style>
+
+<link
+  rel="stylesheet"
+  href="https://static.zeit.de/p/zeit.web/css/web.core/normalize.b648639a8a670ac0c5193dc2aa040d9c.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://static.zeit.de/p/zeit.web/css/web.site/base/base.b49aee54379475d9d75a7c8d1fc99dfd.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://static.zeit.de/p/zeit.web/css/web.site/content/content.d90906a4323aac0c06eb02e203d24b18.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://static.zeit.de/p/zeit.web/css/web.site/content/article.89365ecd150b657433992d4228e2b2ae.css"
+/>
+
+<style>
+  .sb-main-padded .article-page {
+    min-height: calc(100vh - 2rem); /* subtract storybook iframe padding */
+    padding-top: 1rem !important;
+    padding-right: 1rem !important;
+    padding-bottom: 1rem !important;
+    padding-left: 1rem !important;
+  }
+</style>

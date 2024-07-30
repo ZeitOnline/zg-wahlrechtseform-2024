@@ -1,0 +1,144 @@
+@import 'core/styles/base';
+
+$tooltipPadding: calc(var(--duv-size-padding-page-current) / 2);
+
+:local {
+  .noData {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    z-index: 1000;
+    // @include font-sans-responsive-l;
+    color: var(--duv-color-text-tertiary);
+    // min-height: 80px;
+    margin-bottom: var(--duv-size-margin-paragraph);
+    margin-left: var(--duv-size-margin-paragraph);
+    // text-align: center;
+    width: 100%;
+  }
+  .littleDataMarker {
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    display: block;
+    width: 6.5em;
+    height: 4px;
+    opacity: 0.3;
+    // background: url(src/static/images/pattern.svg);
+  }
+  .number {
+    font-size: 1.25rem;
+    line-height: 1.3;
+  }
+  .label {
+    color: var(--duv-color-text-secondary);
+    line-height: calc(18 / 14);
+  }
+  .axisLabel {
+    font-size: 11px;
+    fill: var(--duv-color-text-secondary);
+  }
+  .axisLabelFewData {
+    font-size: 11px;
+    fill: var(--duv-color-text-secondary);
+  }
+  .axisValue {
+    @include font-sans-responsive-m;
+    font-weight: bold;
+  }
+
+  .smallAxisValue {
+    fill: var(--duv-color-text-secondary);
+    @include font-sans-responsive-xs;
+  }
+
+  .axisChange {
+    font-weight: bold;
+    fill: var(--duv-color-text-secondary);
+    @include font-sans-responsive-xs;
+  }
+
+  .subtle {
+    fill: var(--duv-color-text-tertiary);
+    font-weight: normal;
+  }
+
+  .axisLine {
+    stroke: rgba(black, 0.1);
+    @include dark-mode {
+      stroke: rgba(white, 0.1);
+    }
+    stroke-width: 1;
+  }
+  .chartPathAvg {
+    stroke: var(--duv-color-shades-50);
+    stroke-width: 2;
+    stroke-dasharray: 4 4;
+    fill: none;
+  }
+
+  .chartLabelAvg {
+    font-size: calc(12 / 16 * 1rem);
+    letter-spacing: var(--duv-size-type-letter-spacing-l);
+    fill: var(--duv-color-shades-50);
+    text-anchor: end;
+  }
+  .averageSymbol {
+    font-size: 1.5em;
+    transform: translate(0.9em, 0);
+  }
+
+  .chartCircleAvg {
+    fill: var(--duv-color-shades-50);
+    stroke: none;
+  }
+
+  .chartContainer {
+    position: relative;
+    margin-top: auto;
+
+    h6 {
+      margin: 0;
+      @include font-sans-responsive-s;
+      color: var(--duv-color-text-secondary);
+    }
+
+    &.noData {
+      .label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include font-sans-responsive-m;
+        color: var(--duv-color-bwscale-60);
+      }
+    }
+  }
+  p + .chartContainer {
+    margin-top: var(--duv-size-margin-paragraph);
+  }
+
+  .chart {
+    overflow: visible;
+    transform: translate(0, -70px);
+    margin-bottom: -70px;
+  }
+  .dataMarker {
+    position: absolute;
+    display: block;
+    width: 1em;
+    margin-left: -0.5em;
+    height: 4px;
+  }
+  .fewDataMarker {
+    opacity: 0.3;
+    // background: url(src/static/images/pattern.svg);
+  }
+  .noDataMarker {
+    border: solid 1px rgba(black, 0.2);
+  }
+}

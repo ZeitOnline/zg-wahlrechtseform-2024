@@ -1,0 +1,84 @@
+@import 'core/styles/base';
+
+$tooltipPadding: calc(var(--duv-size-padding-s) * 0.5)
+  calc(var(--duv-size-padding-s) * 0.75) 0 calc(var(--duv-size-padding-s) * 1.5);
+
+:local {
+  .popup {
+    z-index: 1000;
+    color: var(--duv-color-shades-30);
+    text-align: left;
+    pointer-events: all;
+    @include tabular-nums;
+    width: 400px;
+    max-width: 100% !important;
+
+    @include respond-max($break-tablet) {
+      transform: none !important;
+      position: fixed !important;
+      bottom: var(--duv-size-padding-s) !important;
+      left: var(--duv-size-padding-s) !important;
+      right: var(--duv-size-padding-s) !important;
+      top: auto !important;
+      flex-direction: row;
+    }
+
+    @include respond-min($break-tablet) {
+      margin: 0;
+      margin-left: auto;
+      width: auto;
+      max-width: 400px !important;
+
+      width: max-content !important;
+
+      [data-page-type='centerpage'] & {
+        width: 350px !important;
+      }
+    }
+    :global(.mapboxgl-popup-content) {
+      border-radius: 4px !important;
+      overflow: hidden;
+      padding: $tooltipPadding;
+      @include box-shadow;
+      pointer-events: all !important;
+      // width: 100%;
+      width: 100%;
+      max-width: 400px;
+      @include respond-max($break-tablet) {
+        max-width: calc(100vw - 2 * var(--duv-size-padding-s)) !important;
+      }
+    }
+    :global(.mapboxgl-popup-tip) {
+      display: none;
+    }
+  }
+  .closeButton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    pointer-events: all;
+    z-index: 3;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    width: fit-content;
+  }
+
+  .container {
+    width: 450px;
+    max-width: 100%;
+  }
+
+  .footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0;
+  }
+}

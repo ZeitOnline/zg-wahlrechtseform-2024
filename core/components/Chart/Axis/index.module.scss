@@ -1,0 +1,38 @@
+@import 'core/styles/base';
+:local {
+  .tick {
+    text {
+      @include font-sans-responsive-xs;
+      @include tabular-nums;
+      fill: var(--duv-color-text-secondary);
+      line-height: 1;
+    }
+    line {
+      stroke: rgba(var(--duv-color-text-primary--rgb), 0.3);
+      fill: none;
+      stroke-width: 1;
+    }
+  }
+  .x {
+    text {
+      text-anchor: middle;
+    }
+  }
+  .y {
+    text {
+      text-anchor: end;
+    }
+  }
+  .inset.y {
+    text {
+      text-anchor: start;
+    }
+  }
+  text.isFront {
+    paint-order: stroke;
+    stroke: var(--duv-color-background-primary);
+    stroke-width: 3px;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+  }
+}

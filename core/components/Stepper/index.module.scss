@@ -1,0 +1,61 @@
+@import 'core/styles/base';
+
+:local {
+  .value {
+    @include font-sans-s;
+    color: var(--duv-color-text-primary);
+    @include tabular-nums;
+    flex-grow: 1;
+    text-align: center;
+    margin: 0 0.25em;
+  }
+
+  .container {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+    position: relative;
+    border-radius: var(--duv-size-border-radius-m);
+    border: 1px solid var(--duv-color-border-primary);
+  }
+  .container.disabled {
+    cursor: auto;
+    opacity: 0.65;
+  }
+
+  .button {
+    appearance: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    font-smoothing: inherit;
+    text-align: inherit;
+    padding: 0.3em 0.4em 0.1em;
+    margin: 0.3em;
+    border-radius: var(--duv-size-border-radius-s);
+    &:enabled {
+      cursor: pointer;
+    }
+    &:enabled:hover {
+      background-color: var(--duv-color-background-tertiary);
+    }
+    &:focus-visible {
+      outline: 0;
+      box-shadow: 0 0 0 3px Highlight;
+    }
+    &.small {
+      padding: 0.1em 0.5em 0.2em;
+      margin: 0.15em;
+      svg {
+        width: 0.6em;
+        height: 0.6em;
+      }
+    }
+  }
+}

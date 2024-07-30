@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>16 / cross-out-geometric-bold</title>
+    <g id="16-/-cross-out-geometric-bold" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group" transform="translate(2.500000, 2.500000)" stroke="#252525" stroke-width="3">
+            <line x1="11" y1="0" x2="0" y2="11" id="Path-10"></line>
+            <line x1="11" y1="0" x2="0" y2="11" id="Path-10-Copy" transform="translate(5.500000, 5.500000) rotate(-90.000000) translate(-5.500000, -5.500000) "></line>
+        </g>
+    </g>
+</svg>

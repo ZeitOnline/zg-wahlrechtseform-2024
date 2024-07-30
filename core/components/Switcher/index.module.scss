@@ -1,0 +1,103 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    display: inline-flex;
+    user-select: none;
+  }
+
+  .option {
+    @include font-sans-s;
+    position: relative;
+    display: inline-block;
+    border: none;
+    padding: var(--duv-size-padding-m) var(--duv-size-padding-l);
+    line-height: 1;
+    appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 0.1s, color 0.1s;
+    transform-origin: center;
+    cursor: pointer;
+    color: var(--duv-color-text-secondary);
+    position: relative;
+    background: none;
+    background-color: var(--duv-color-shades-90);
+    @include focus-ring;
+
+    &:first-of-type {
+      border-top-left-radius: var(--duv-size-border-radius-m);
+      border-bottom-left-radius: var(--duv-size-border-radius-m);
+    }
+    &:last-of-type {
+      border-top-right-radius: var(--duv-size-border-radius-m);
+      border-bottom-right-radius: var(--duv-size-border-radius-m);
+    }
+
+    &:focus {
+      z-index: 1;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      top: 2px;
+      bottom: 2px;
+      left: 2px;
+      right: 2px;
+      border-radius: calc(var(--duv-size-border-radius-m) - 1px);
+      background-color: var(
+        --switcher-background,
+        var(--duv-color-background-primary)
+      );
+      transition: opacity 0.1s, transform 0.15s;
+      opacity: 0;
+    }
+    &:focus-visible:before {
+      box-shadow: 0 0 0 3px Highlight;
+    }
+
+    &:disabled,
+    &[disabled] {
+      color: var(--duv-color-shades-75);
+
+      &:hover {
+        cursor: default;
+      }
+    }
+
+    &.isActive {
+      z-index: 1;
+      color: var(--switcher-color, var(--duv-color-text-primary));
+
+      &:before {
+        opacity: 1;
+      }
+    }
+    &.isSmall {
+      @include font-sans-s;
+      padding: var(--duv-size-padding-s) var(--duv-size-padding-m);
+    }
+
+    &.borderRight {
+      :after {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        top: 8px;
+        bottom: 8px;
+        right: -1px;
+        border-right: 1px solid var(--duv-color-border-primary);
+      }
+    }
+  }
+
+  .optionInner {
+    display: inline-block;
+    line-height: 1;
+    padding: 0.1em 0;
+
+    @include respond-min($break-phablet) {
+      padding: 0.2em 0;
+    }
+  }
+}

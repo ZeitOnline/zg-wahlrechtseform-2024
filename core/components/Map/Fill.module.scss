@@ -1,0 +1,18 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+
+    path {
+      fill: var(--duv-color-background-secondary);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  }
+}

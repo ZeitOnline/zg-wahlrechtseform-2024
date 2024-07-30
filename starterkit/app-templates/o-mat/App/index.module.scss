@@ -1,0 +1,15 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    margin-top: var(--duv-size-xl);
+    margin-bottom: var(--duv-size-xl);
+  }
+  .omat {
+    background: var(--duv-color-background-secondary);
+
+    @include respond-min($break-phablet) {
+      border-radius: var(--duv-size-border-radius-l);
+    }
+  }
+}

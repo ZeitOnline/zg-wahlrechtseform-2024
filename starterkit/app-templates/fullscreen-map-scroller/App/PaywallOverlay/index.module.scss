@@ -1,0 +1,78 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    position: relative;
+  }
+
+  .exclusiveText {
+    @include font-sans-responsive-s;
+    text-transform: uppercase;
+    color: var(--duv-color-text-secondary);
+    font-size: 0.8125em;
+    letter-spacing: 0.08em;
+  }
+
+  .exclusiveContainer {
+    background-color: var(--duv-color-background-primary);
+    width: 180px;
+    height: 89px;
+    text-align: center;
+    padding: 1.3rem 1.5rem 1rem 1.5rem;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 0px 0px 30px rgba(var(--duv-color-bwscale-0--rgb), 0.15);
+
+    @include dark-mode {
+      background-color: #1e1c1f;
+    }
+  }
+
+  .zPlusBadge {
+    display: block;
+    @include font-sans-responsive-s;
+    font-weight: bold;
+    line-height: 1.25;
+    margin: 0;
+    hyphens: none !important;
+    position: absolute;
+    top: -18px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    svg {
+      padding: 1px;
+      width: 38px;
+      background-color: var(--duv-color-rubinrot-b);
+      fill: white;
+    }
+  }
+
+  .overlay {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(var(--duv-color-background-primary--rgb), 0.01);
+    backdrop-filter: blur(2px);
+  }
+
+  .image {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    pointer-events: none;
+  }
+}

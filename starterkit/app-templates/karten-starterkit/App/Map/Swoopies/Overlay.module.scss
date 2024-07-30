@@ -1,0 +1,10 @@
+@import 'core/styles/base';
+
+:local {
+  .svgOverlay {
+    pointer-events: none;
+  }
+  .svgOverlay * {
+    pointer-events: auto;
+  }
+}

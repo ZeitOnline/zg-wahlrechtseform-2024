@@ -1,0 +1,83 @@
+@import 'core/styles/base';
+
+:local {
+  .wrapper {
+    @include font-sans-responsive-s;
+    @include tabular-nums;
+    flex-grow: 1;
+    text-align: left;
+    color: var(--x-color-primary);
+    width: 100%;
+    max-width: 19em;
+    @include respond-min($break-tablet) {
+      max-width: 24em;
+    }
+  }
+
+  .title {
+    color: var(--x-color-light);
+    line-height: 1.2;
+  }
+
+  .titleBold {
+    font-weight: 700;
+    margin-right: 2px;
+    color: var(--x-color-primary);
+    display: inline;
+  }
+
+  .scaleWrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    @include respond-min($break-tablet) {
+      flex-wrap: nowrap;
+    }
+  }
+
+  .scale {
+    flex-grow: 1;
+    margin: 0 5px;
+    height: 6px;
+    border-radius: 3px;
+    max-width: 120px;
+  }
+
+  .scaleMin,
+  .scaleMax {
+    font-weight: 700;
+  }
+
+  .scaleNoData {
+    color: var(--x-color-light);
+    display: flex;
+    align-items: center;
+    flex-basis: 100%;
+    margin-left: 0em;
+    @include respond-min($break-tablet) {
+      flex-basis: auto;
+      margin-left: 0.75em;
+    }
+  }
+
+  .scaleNoDataIcon {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 0.5em;
+    border-radius: 2px;
+    opacity: 0.8;
+    // background-image: linear-gradient(
+    //   135deg,
+    //   var(--x-color-lighter) 16.67%,
+    //   #ffffff 16.67%,
+    //   #ffffff 50%,
+    //   var(--x-color-lighter) 50%,
+    //   var(--x-color-lighter) 66.67%,
+    //   #ffffff 66.67%,
+    //   #ffffff 100%
+    // );
+    background-color: #ccc;
+    background-size: 4px 4px;
+  }
+}

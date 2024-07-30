@@ -1,0 +1,59 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    // max-height: 90vh;
+    transition: opacity 0.9s;
+    opacity: 0;
+    pointer-events: none;
+    box-sizing: content-box;
+  }
+  .placeholder {
+    position: relative;
+  }
+
+  .preloadImage {
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(2px);
+  }
+
+  .loader {
+    :global {
+      animation-name: pulse-animation;
+    }
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 55px;
+    height: 68px;
+    transform: scale(0.7);
+  }
+
+  .loadingIcon {
+    width: 100%;
+  }
+}
+@keyframes pulse-animation {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

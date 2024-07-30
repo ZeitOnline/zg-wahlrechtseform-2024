@@ -1,0 +1,45 @@
+<div class="zg-embed x-spacing--large">
+    <div class="zg-opinionlocator-wrapper">
+        <div class="zg-opinionlocator-loader">
+            <img src="/static/images/z.svg" />
+        </div>
+        <div class="zg-opinionlocator">
+            <script type="options">
+                {
+                    "id": "21-07-parteienverortung",
+                    "kicker": "Umfrage",
+                    "title": "Wo steht Ihre Partei?",
+                    "question": "",
+                    "resultText": "",
+                    "sharingUrl": "",
+                    "sharingText": "",
+                    "sharingHashtags": [],
+                    "minX": -100,
+                    "maxX": 100,
+                    "minXLabel": "<strong>Links (wirtschaftlich)</strong>",
+                    "maxXLabel": "<strong>Rechts (wirtschaftlich)</strong>",
+                    "minY": -100,
+                    "maxY": 100,
+                    "minYLabel": "<strong>Konservativ (gesellschaftlich)</strong>",
+                    "maxYLabel": "<strong>Progressiv (gesellschaftlich)</strong>",
+                    "colorX": "#333333",
+                    "colorY": "#333333",
+                    "labelColorX": "#252525",
+                    "labelColorY": "#252525",
+                    "densityMinColor": "#E5E5E5",
+                    "densityMaxColor": "#333333",
+                    "highlights": [
+                    ],
+                    "tokenHighlights": [],
+                    "showPoints": false,
+                    "credits": "",
+                    "showChartToggle": false,
+                    "dragCallToAction": "Wo verorten Sie Ihre Partei?"
+                }
+            </script>
+        </div>
+    </div>
+
+    <zon-head-css></zon-head-css>
+    <zon-linked-js></zon-linked-js>
+</div>

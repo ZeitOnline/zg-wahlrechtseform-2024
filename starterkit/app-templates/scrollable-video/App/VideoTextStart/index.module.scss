@@ -1,0 +1,62 @@
+@import 'core/styles/base';
+
+[data-prop-display='video-text-start'],
+[data-prop-display='video-text-ende'] {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+[data-prop-display='video-text-start']:last-of-type
+  [data-prop-display='video-text-ende'] {
+  padding-bottom: 50vh;
+}
+
+:local {
+  .card {
+    line-height: 1.4;
+    position: absolute !important;
+    z-index: 797;
+    width: 100%;
+    max-width: 41.25rem !important;
+    right: 0;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+
+    &.debug {
+      outline: 1px solid magenta;
+    }
+
+    @include respond-min($break-tablet) {
+      z-index: 799;
+      width: calc(50vw - 2em);
+      right: max((50vw - 41.25rem) / 3 * 2, 1em);
+    }
+
+    :global(.paragraph) {
+      font-size: 1.0625rem;
+    }
+    :global(.article__subheading) {
+      margin-top: 0;
+    }
+    :global(.article__item--apart) {
+      margin-top: 2em !important;
+      margin-bottom: 2em !important;
+    }
+
+    p + p {
+      margin-top: var(--duv-size-margin-paragraph);
+    }
+    div:has(figure) {
+      margin-top: var(--duv-size-margin-m);
+      margin-bottom: var(--duv-size-margin-m);
+    }
+  }
+
+  .debugInfo {
+    position: absolute;
+    bottom: 0.5em;
+    color: magenta;
+    @include font-sans-s;
+  }
+}

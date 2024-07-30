@@ -1,0 +1,30 @@
+@import 'core/styles/base';
+
+:local {
+  .howto {
+    @include font-sans-responsive-m;
+    max-width: var(--duv-size-width-content-column);
+    padding: var(--duv-size-padding-page-current);
+    margin: var(--duv-size-margin-m) auto;
+    border-radius: var(--duv-size-border-radius-m);
+
+    background: var(--duv-color-background-highlight);
+    box-shadow: 7px 7px 0 rgba(black, 0.05);
+    @include dark-mode {
+      background: #696026;
+      box-shadow: 7px 7px 0 rgba(black, 0.8);
+    }
+    border: dashed 2px rgba(var(--duv-color-text-primary--rgb), 0.2);
+
+    p {
+      margin: 0;
+    }
+    ol,
+    ul {
+      margin: 0;
+    }
+    & > *:not(:first-child) {
+      margin-top: var(--duv-size-margin-paragraph);
+    }
+  }
+}

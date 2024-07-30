@@ -1,0 +1,44 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 1px;
+    line-height: 1.25;
+  }
+  .label {
+    position: absolute;
+    width: 10em;
+    left: -5em;
+    bottom: 0;
+    text-align: center;
+  }
+  .labelText {
+    @include font-sans-responsive-xs;
+    color: var(--duv-color-background-primary);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    &.dark {
+      color: var(--duv-color-text-primary);
+      transition: color 0.3s, -webkit-text-stroke 0.3s;
+    }
+  }
+  .labelOutline {
+    -webkit-text-stroke: 3px var(--duv-color-text-primary);
+    color: var(--duv-color-text-primary);
+    opacity: 0.6;
+
+    &.dark {
+      -webkit-text-stroke: 3px var(--duv-color-background-primary);
+      color: white;
+      opacity: 0.8;
+    }
+  }
+}

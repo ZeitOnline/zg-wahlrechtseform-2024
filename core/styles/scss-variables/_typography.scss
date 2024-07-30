@@ -1,0 +1,61 @@
+@use 'sass:math';
+
+$sans-fallbacks: 'Helvetica Neue', Helvetica, Arial, FreeSans, sans-serif;
+$serif-fallbacks: Georgia, Palatino, 'Palatino Linotype', FreeSerif, serif;
+
+$font-franziska: 'FranziskaWebPro', $serif-fallbacks !default;
+$font-tabletgothic: 'TabletGothic', $sans-fallbacks !default;
+$font-beckett: 'BeckettLight', 'Impact', 'Arial Black', 'Arial Bold', Gadget,
+  sans-serif !default;
+$font-patronbold: 'PatronBold', $sans-fallbacks !default;
+$font-tiemann: 'ZeitTiemannSchmal', Georgia, Palatino, 'Palatino Linotype',
+  FreeSerif, serif;
+$base-font-family: $font-tabletgothic !default;
+
+@mixin tabular-nums {
+  font-feature-settings: 'tnum' 1;
+  font-variant-numeric: tabular-nums;
+}
+@mixin normal-nums {
+  font-feature-settings: 'tnum' 0;
+  font-variant-numeric: normal;
+}
+@mixin font-sans-responsive-xs {
+  font-family: $font-tabletgothic;
+  font-size: var(--duv-size-type-responsive-xs);
+  letter-spacing: var(--duv-size-type-letter-spacing-responsive-xs);
+}
+@mixin font-sans-responsive-s {
+  font-family: $font-tabletgothic;
+  font-size: var(--duv-size-type-responsive-s);
+  letter-spacing: var(--duv-size-type-letter-spacing-responsive-s);
+}
+@mixin font-sans-responsive-m {
+  font-family: $font-tabletgothic;
+  font-size: var(--duv-size-type-responsive-m);
+  letter-spacing: var(--duv-size-type-letter-spacing-responsive-m);
+}
+@mixin font-sans-responsive-l {
+  font-family: $font-tabletgothic;
+  font-size: var(--duv-size-type-responsive-l);
+  letter-spacing: var(--duv-size-type-letter-spacing-responsive-l);
+}
+@mixin font-sans-responsive-xl {
+  font-family: $font-tabletgothic;
+  font-size: var(--duv-size-type-responsive-xl);
+  letter-spacing: var(--duv-size-type-letter-spacing-responsive-xl);
+}
+@mixin font-sans-s {
+  font-family: $font-tabletgothic;
+  font-size: var(--duv-size-type-s);
+  letter-spacing: var(--duv-size-type-letter-spacing-s);
+}
+@mixin font-sans-m {
+  font-family: $font-tabletgothic;
+  font-size: var(--duv-size-type-m);
+  letter-spacing: var(--duv-size-type-letter-spacing-m);
+}
+@mixin font-text {
+  font-family: $font-franziska;
+  font-size: 1.25rem;
+}

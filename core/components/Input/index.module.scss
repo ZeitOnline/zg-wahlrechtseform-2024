@@ -1,0 +1,117 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    position: relative;
+    max-width: 16em;
+
+    input {
+      position: relative;
+      border-radius: var(--duv-size-border-radius-m);
+      width: 100%;
+      background-color: var(--duv-color-background-primary);
+      height: 34px;
+      border: solid 1px var(--duv-color-border-primary);
+      color: var(--duv-color-text-primary);
+      display: inline-block;
+      box-shadow: none;
+      -webkit-appearance: none;
+      padding: 0.4em 0.8em;
+      @include font-sans-s;
+
+      @media (pointer: coarse) {
+        // text shouldn’t be smaller than 16px,
+        // otherwise iOS starts to zoom the page
+        padding: 0.3em 0.8em;
+        font-size: 16px;
+      }
+
+      &:disabled {
+        cursor: default;
+
+        &::placeholder {
+          color: var(--duv-color-shades-90);
+        }
+      }
+      &::placeholder {
+        color: rgba(var(--duv-color-text-primary--rgb), 0.4);
+      }
+
+      @include focus-ring;
+      &:focus {
+        background-color: var(--duv-color-background-primary);
+      }
+
+      &.small {
+        padding: var(--duv-size-padding-s);
+        height: 1.7em;
+      }
+    }
+
+    // copied over from Autocomplete
+    &.showSearchIcon {
+      .searchIcon {
+        stroke: var(--duv-color-shades-45);
+        position: absolute;
+        left: 12px;
+        top: 8px;
+        min-width: 18px;
+        height: 18px;
+        margin-right: 10px;
+        z-index: 1;
+      }
+
+      input {
+        padding-left: 40px;
+      }
+    }
+
+    // a copy of this lives in Select.module.scss
+    .clearButton {
+      -webkit-appearance: none;
+      position: absolute;
+      top: 0;
+      right: 2px;
+      border: none;
+      transition: opacity 0.2s;
+      padding: 0;
+      display: block;
+      width: 2rem;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background: transparent;
+      border-radius: 50%;
+      cursor: pointer;
+      color: var(--duv-color-text-tertiary);
+      @include focus-ring;
+
+      &:focus {
+        color: var(--duv-color-text-secondary);
+      }
+      @include hover {
+        color: var(--duv-color-text-secondary);
+      }
+
+      svg {
+        vertical-align: middle;
+        color: currentColor;
+        width: 20px;
+        height: 20px;
+
+        padding: 4px;
+        height: 28px;
+        width: 28px;
+        cursor: pointer;
+
+        rect {
+          fill: var(--duv-color-background-tertiary);
+        }
+        path {
+          stroke: var(--duv-color-headline-primary);
+        }
+      }
+    }
+  }
+}

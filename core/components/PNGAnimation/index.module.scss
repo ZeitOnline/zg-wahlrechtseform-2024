@@ -1,0 +1,58 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem auto 0 auto;
+
+    // @include respond-min($breakpoint-tablet) {
+    //   margin-left: auto;
+    //   margin-right: auto;
+    //   max-width: 62.5em;
+    // }
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .date {
+    // position: absolute;
+    // top: 1rem;
+    // left: 0;
+    // width: 100%;
+    // text-align: center;
+    // backg
+    // background: rgba(var(--x-background-primary--rgb), 0.8);
+    // border-radius: 0 0 4px 0;
+    // color: var(--x-color-primary);
+    // font-family: TabletGothic, Helvetica Neue, Helvetica, Arial, FreeSans,
+    //   sans-serif;
+    // font-feature-settings: 'tnum' 1, 'tnum';
+    // font-size: 0.9375rem;
+    // font-variant-numeric: tabular-nums;
+    // height: 1.45rem;
+    // left: 0;
+    // letter-spacing: 0.03em;
+    // padding: 0.1em 0.3em 0;
+    // position: absolute;
+    // top: 0;
+    // z-index: 1;
+    margin: 0 0 0.5rem 0;
+    font-feature-settings: 'tnum' 1, 'tnum';
+    font-weight: bold;
+    @include font-sans-responsive-l;
+  }
+
+  .source {
+    width: 100%;
+    margin: 0.5rem 0 0 0;
+    @include font-sans-responsive-xs;
+    justify-self: start;
+  }
+}

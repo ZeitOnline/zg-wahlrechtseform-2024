@@ -1,0 +1,49 @@
+@import 'core/styles/base';
+
+:local {
+  .exclusiveText {
+    @include font-sans-responsive-s;
+    text-transform: uppercase;
+    color: var(--duv-color-text-secondary);
+    font-size: 0.8125em;
+    letter-spacing: 0.08em;
+  }
+
+  .exclusiveContainer {
+    background-color: var(--duv-color-background-popup);
+    width: 180px;
+    height: 89px;
+    text-align: center;
+    padding: 1.6rem 1.5rem 1rem 1.5rem;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 0px 0px 30px rgba(var(--duv-color-bwscale-0--rgb), 0.15);
+    line-height: 1.2;
+  }
+
+  .zPlusBadge {
+    display: block;
+    @include font-sans-responsive-s;
+    font-weight: bold;
+    line-height: 1.25;
+    margin: 0;
+    hyphens: none !important;
+    position: absolute;
+    top: -18px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    svg {
+      padding: 1px;
+      width: 38px;
+      background-color: var(--duv-color-rubinrot-b);
+      fill: white;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@import 'core/styles/base';
+
+:local {
+  .table {
+    display: block;
+    &[data-debug='true'] {
+      outline: 1px solid var(--duv-color-beeren-a);
+    }
+  }
+}

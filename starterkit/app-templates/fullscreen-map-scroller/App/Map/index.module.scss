@@ -1,0 +1,43 @@
+@import 'core/styles/base';
+
+.mapboxgl-ctrl.mapboxgl-ctrl-attrib {
+  max-width: 440px;
+  background-color: rgba(var(--duv-color-background-card--rgb), 0.85);
+  @include respond-max($break-desktop-large) {
+    max-width: 350px;
+  }
+
+  a {
+    color: var(--duv-color-text-secondary) !important;
+  }
+}
+
+:local {
+  .wrapper {
+    height: 100vh;
+    width: 100%;
+  }
+  .legendContainer {
+    position: absolute;
+    left: calc(50% - 9.5em);
+    text-align: center;
+    width: 19em;
+    padding: var(--duv-size-padding-m);
+    bottom: calc(env(safe-area-inset-bottom) + var(--duv-size-padding-l));
+    border-radius: var(--duv-size-border-radius-m);
+    @include font-sans-responsive-s;
+    @include blurry-bg;
+
+    @include respond-min($break-tablet) {
+      bottom: 0;
+      border-radius: var(--duv-size-border-radius-m)
+        var(--duv-size-border-radius-m) 0 0;
+    }
+  }
+  .legendTitle {
+    font-size: 1em;
+    color: var(--duv-color-text-primary);
+    font-weight: bold;
+    margin: 0;
+  }
+}

@@ -1,0 +1,90 @@
+import {Meta} from '@storybook/blocks';
+
+<Meta title="Starterkit/SCSS" parameters={{previewTabs: {canvas: {hidden: true}}}} />
+
+# SCSS
+
+Es gibt diverse Helfer, Mixins und Variablen.
+
+* hover
+* respond-min
+* respond-max
+* padded
+* unpadded
+* dark-mode
+* light-mode
+* retina
+
+## hover
+
+Einfach nur `:hover` zu schreiben ist für Touch doof, weil man dann teils zweimal tippen muss, Hover-Styles nicht wieder verschwinden bis man woanders tippt usw. Daher immer dieses Mixin benutzen, das sich darum kümmert.
+
+```css
+.meineKlasse {
+  text-decoration: none;
+
+  @include hover {
+    text-decoration: underline;
+  }
+}
+```
+
+Heraus kommt dann
+
+```css
+.meineKlasse {
+  text-decoration: none;
+}
+.meineKlasse:active {
+  text-decoration: underline;
+}
+@media (hover: hover)
+  .meineKlasse:hover {
+    text-decoration: underline;
+  }
+}
+```
+
+## respond-min/respond-max
+
+Shortcuts für die entsprechende Media Query. Lassen sich super mit unseren Breakpoints benutzen. Am besten nur `respond-min` benutzen.
+
+`respond-max` sorgt zusätzlich dafür, dass der Wert etwas kleiner gemacht wird, so dass alles *unter* dem Wert gemeint ist.
+
+```css
+.meinLayout {
+  width: 100%;
+
+  @include respond-min($break-tablet) {
+    width: 50%;
+  }
+}
+```
+
+## dark-mode
+
+Wenn für den Darkmode etwas anders aussehen soll. Kümmert sich auch darum, ob Darkmode im Artikel geforced wurde usw.
+
+Meistens überflüssig, wenn man CSS-Variablen benutzt.
+
+```css
+.meinLayout {
+  background: lightgrey;
+
+  @include dark-mode {
+    background: darkgrey;
+  }
+}
+```
+
+## light-mode
+
+Kann mal nützlich sein, wenn man eine CSS-Weiche bauen möchte, um Dinge nur in hell oder dunkel darzustellen:
+
+```css
+.darkOnly {
+  @include light-mode {
+    display: none;
+  }
+}
+```

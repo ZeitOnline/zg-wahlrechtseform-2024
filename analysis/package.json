@@ -1,0 +1,13 @@
+{
+  "name": "analysis",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "scripts/index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}

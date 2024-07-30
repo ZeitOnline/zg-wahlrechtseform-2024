@@ -1,0 +1,62 @@
+@mixin box-shadow {
+  box-shadow: 0 5px 16px rgba(black, 0.08), 0 3px 8px rgba(black, 0.1);
+
+  @include dark-mode {
+    box-shadow: 0 5px 16px rgba(black, 0.15), 0 3px 8px rgba(black, 0.2);
+  }
+}
+
+@mixin blurry-bg(
+  $color: var(--duv-color-background-popup--rgb),
+  $opacity: 0.8
+) {
+  background-color: rgba($color, 0.95);
+
+  @supports (backdrop-filter: blur(6px)) {
+    background-color: rgba($color, $opacity);
+    backdrop-filter: blur(6px);
+  }
+}
+
+@mixin floating-element-border($style: solid, $width: 0.5px) {
+  background-clip: padding-box;
+  border: $style $width rgba(black, 0.2);
+
+  @include dark-mode {
+    border: $style $width rgba(white, 0.15);
+  }
+}
+
+@mixin highlighted-string(
+  $bg: var(--duv-color-background-highlight),
+  $color: var(--duv-color-bwscale-15)
+) {
+  box-decoration-break: clone;
+  padding: 0.1em 0.3em;
+  border-radius: var(--duv-size-border-radius-s);
+  background-color: $bg;
+  color: $color;
+}
+
+@mixin fadeout-element-after(
+  $color-rgb: var(--duv-color-background-primary--rgb),
+  $height: 5em,
+  $gradient-end-offset: 0%
+) {
+  position: relative;
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: $height;
+    background: linear-gradient(
+      to bottom,
+      rgba($color-rgb, 0) 0%,
+      rgba($color-rgb, 1) 100% - $gradient-end-offset
+    );
+  }
+}

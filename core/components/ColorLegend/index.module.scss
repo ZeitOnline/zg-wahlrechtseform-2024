@@ -1,0 +1,97 @@
+@import 'core/styles/base';
+
+:local {
+  .wrapper {
+    margin-bottom: var(--duv-size-margin-l);
+    @include font-sans-responsive-l;
+  }
+
+  .colorsWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+  }
+
+  .title {
+    @include font-sans-responsive-s;
+    line-height: 1;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.4em;
+  }
+
+  .item {
+    flex: 0 0 0.75em;
+    max-width: 0.75em;
+    height: 0.75em;
+    margin: 0;
+    position: relative;
+  }
+  .withPadding {
+    margin: 0 1px;
+  }
+  .color {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .first {
+    border-top-left-radius: var(--duv-size-border-radius-m);
+    border-bottom-left-radius: var(--duv-size-border-radius-m);
+  }
+  .last {
+    border-top-right-radius: var(--duv-size-border-radius-m);
+    border-bottom-right-radius: var(--duv-size-border-radius-m);
+  }
+  .circle {
+    border-radius: 50%;
+  }
+
+  .minLabel,
+  .maxLabel {
+    @include font-sans-responsive-s;
+    font-weight: bold;
+    flex-grow: 0;
+  }
+  .minLabel {
+    margin-right: 0.25em;
+  }
+  .maxLabel {
+    margin-left: 0.25em;
+  }
+
+  .label {
+    @include font-sans-responsive-s;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    height: 1em;
+    position: absolute;
+    top: calc(100% + 0.5em);
+    left: 50%;
+    transform: translate(-50%, 0%);
+    white-space: pre;
+  }
+
+  .gradient {
+    height: 1em;
+    flex-grow: 1;
+    flex-basis: 200px;
+    max-width: 240px;
+    border-radius: var(--duv-size-border-radius-m);
+    position: relative;
+  }
+
+  .gradientLabel {
+    @include font-sans-responsive-s;
+    font-weight: bold;
+    line-height: 1;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: calc(100% + 0.5em);
+    transform: translateX(-50%);
+    padding-left: 0.1em;
+  }
+}

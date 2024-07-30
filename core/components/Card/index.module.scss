@@ -1,0 +1,49 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    z-index: 1;
+    position: relative;
+  }
+  .card {
+    --background-color: var(--duv-color-background-card--rgb);
+    --border-color: transparent;
+    z-index: 1;
+    position: relative;
+    border-radius: var(--duv-size-border-radius-l);
+  }
+  .container .card {
+    position: static;
+  }
+  .contentWrapper {
+    border-radius: var(--duv-size-border-radius-l);
+    background-color: rgba(var(--background-color--rgb), 1);
+    z-index: auto;
+    position: relative;
+    height: 100%;
+    padding: var(--duv-size-padding-page-current);
+
+    &::before {
+      content: '';
+      border-radius: var(--duv-size-border-radius-l);
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+      @include box-shadow;
+    }
+  }
+  .grey {
+    --background-color: var(--duv-color-background-tertiary--rgb);
+    --border-color: var(--duv-color-shades-85);
+
+    .contentWrapper {
+      border: 1px solid var(--border-color);
+    }
+  }
+  .blurryBackground .contentWrapper {
+    @include blurry-bg(var(--background-color), 0.9);
+  }
+}

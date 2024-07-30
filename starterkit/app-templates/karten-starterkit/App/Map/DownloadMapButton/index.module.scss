@@ -1,0 +1,12 @@
+@import 'core/styles/base';
+
+:local {
+  .mapDownloadButton {
+    @include font-sans-responsive-xs;
+    position: absolute;
+    left: var(--duv-size-padding-s);
+    top: var(--duv-size-padding-s);
+    z-index: 3;
+    color: var(--duv-color-text-primary);
+  }
+}

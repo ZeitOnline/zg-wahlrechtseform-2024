@@ -1,0 +1,196 @@
+@import 'core/styles/base';
+
+:local {
+  @mixin track() {
+    width: 100%;
+    height: 100%;
+    background: none; /* get rid of Firefox track background */
+  }
+
+  @mixin thumb() {
+    width: var(--size, 20px);
+    height: var(--size, 20px);
+    border-radius: var(--size, 20px);
+    border: 2px solid var(--track-color, var(--duv-color-shades-60));
+    pointer-events: auto;
+    cursor: grab;
+    &:active {
+      cursor: grabbing;
+    }
+  }
+
+  .container {
+    --dif: calc(var(--max) - var(--min));
+    position: relative;
+    color: var(--track-color, var(--duv-color-shades-60));
+    background: linear-gradient(
+      0deg,
+      var(--duv-color-shades-90) var(--size, 20px),
+      transparent 0
+    );
+    border-radius: var(--size, 20px);
+
+    touch-action: pan-x;
+    display: grid;
+    grid-template: repeat(2, max-content) var(--size, 20px) / 1fr 1fr;
+
+    &::before,
+    &::after {
+      grid-column: 1 / span 2;
+      grid-row: 3;
+      background: currentColor;
+      content: '';
+    }
+    &::before {
+      margin-left: calc(
+        (var(--lower) - var(--min)) / var(--dif) * (100% - var(--size, 20px))
+      );
+      width: calc(
+        0.5em + 4px + (var(--upper) - var(--lower)) / var(--dif) *
+          (100% - var(--size, 20px))
+      );
+      border-radius: var(--size, 20px) 0 0 var(--size, 20px);
+    }
+    &.hasTwoSliders::before {
+      margin-left: calc(
+        0.5em + 4px + (var(--lower) - var(--min)) / var(--dif) *
+          (100% - var(--size, 20px))
+      );
+      width: calc(
+        (var(--upper) - var(--lower)) / var(--dif) * (100% - var(--size, 20px))
+      );
+      border-radius: 0;
+    }
+
+    &::after {
+      margin-left: calc(
+        0.5em + (var(--upper) - var(--min)) / var(--dif) *
+          (100% - var(--size, 20px))
+      );
+      width: calc(
+        (var(--lower) - var(--upper)) / var(--dif) * (100% - var(--size, 20px))
+      );
+    }
+    &:not(.hasTwoSliders) .upperRange {
+      pointer-events: all;
+    }
+    &.disabled {
+      opacity: 0.65;
+    }
+  }
+
+  .range {
+    width: 100%;
+    color: inherit;
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background: none;
+    pointer-events: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+
+    &::-webkit-slider-runnable-track,
+    &::-webkit-slider-thumb,
+    & {
+      -webkit-appearance: none;
+    }
+
+    &::-webkit-slider-runnable-track {
+      @include track;
+    }
+    &::-moz-range-track {
+      @include track;
+    }
+
+    &::-webkit-slider-thumb {
+      @include thumb;
+      background-color: var(--lower-color, var(--duv-color-bwscale-100));
+      box-shadow: none;
+    }
+    &::-moz-range-thumb {
+      @include thumb;
+      width: calc(var(--size, 20px) * 0.8);
+      height: calc(var(--size, 20px) * 0.8);
+      background-color: var(--lower-color, var(--duv-color-bwscale-100));
+    }
+    &:last-of-type::-webkit-slider-thumb {
+      background-color: var(--upper-color, var(--duv-color-bwscale-100));
+    }
+    &:last-of-type::-moz-range-thumb {
+      background-color: var(--upper-color, var(--duv-color-bwscale-100));
+    }
+    &:focus-visible {
+      outline: 0 !important;
+    }
+    &:focus-visible::-webkit-slider-thumb {
+      outline: 0 !important;
+      box-shadow: 0 0 0 3px Highlight;
+    }
+    &:focus-visible::-moz-range-thumb {
+      outline: 0 !important;
+      box-shadow: 0 0 0 3px Highlight;
+    }
+    &:disabled::-webkit-slider-thumb {
+      cursor: auto;
+    }
+    &:disabled::-moz-range-thumb {
+      cursor: auto;
+    }
+  }
+
+  .tooltip {
+    position: absolute;
+    bottom: calc(100% + 0.75em);
+    text-align: center;
+    transform: translateX(-50%);
+    @include box-shadow;
+    border-radius: var(--duv-size-border-radius-m);
+    padding: var(--duv-size-padding-s) var(--duv-size-padding-l);
+    background-color: var(--duv-color-background-card);
+    color: var(--duv-color-text-primary);
+    @include font-sans-s;
+    font-weight: bold;
+
+    &:after {
+      content: '';
+      position: absolute;
+      border-top: solid 0.35em var(--duv-color-background-card);
+      border-left: solid 0.35em transparent;
+      border-right: solid 0.35em transparent;
+      top: 100%;
+      left: 50%;
+      margin-left: -0.35em;
+      width: 0;
+      height: 0;
+    }
+    &.lowerTooltip {
+      left: calc(
+        (var(--size, 20px) / 2) + (var(--lower) - var(--min)) / var(--dif) *
+          (100% - var(--size, 20px))
+      );
+    }
+    &.upperTooltip {
+      left: calc(
+        (var(--size, 20px) / 2) + (var(--upper) - var(--min)) / var(--dif) *
+          (100% - var(--size, 20px))
+      );
+    }
+    visibility: hidden;
+  }
+
+  .lowerRange:hover ~ .lowerTooltip {
+    visibility: visible;
+  }
+  .upperRange:hover ~ .upperTooltip {
+    visibility: visible;
+  }
+}

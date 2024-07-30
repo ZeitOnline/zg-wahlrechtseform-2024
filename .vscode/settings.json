@@ -1,0 +1,6 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/analysis/venv/bin/python",
+  "jupyter.notebookFileRoot": "${workspaceFolder}/analysis",
+  "python.venvPath": "${workspaceFolder}/analysis",
+  // "python.terminal.activateEnvironment": true,
+}

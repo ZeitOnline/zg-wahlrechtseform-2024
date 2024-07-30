@@ -1,0 +1,80 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    small {
+      font-size: 1em;
+      color: var(--duv-color-text-tertiary);
+    }
+  }
+  .list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    & > li {
+      margin: 0;
+      padding: var(--duv-size-padding-l) 0;
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+
+      & > a {
+        margin-right: var(--duv-size-s);
+        text-decoration: none;
+      }
+    }
+    & > li + li {
+      border-top: solid 1px var(--duv-color-border-primary);
+    }
+    h5 {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    button {
+      margin-right: var(--duv-size-s);
+    }
+  }
+  .newAppDialog {
+    @include font-sans-responsive-s;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      & > li {
+        margin: 0;
+        padding: var(--duv-size-s) 0;
+      }
+    }
+    label {
+      display: block;
+      margin-bottom: var(--duv-size-xs);
+    }
+    .inputDescription {
+      display: block;
+      margin-top: 0.2em;
+      color: var(--duv-color-text-secondary);
+    }
+  }
+
+  .loadingOverlay {
+    position: fixed;
+    top: -8rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    @include blurry-bg;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .loadingNote {
+      margin-top: 8rem;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+@import 'core/styles/base';
+
+.zg-sticky-container {
+  margin-bottom: var(--duv-size-margin-l);
+  // nur wenn das aktiv (min 1px) ist, wird das margin
+  // des letzten child elements berücksichtigt
+  padding: 1px 0;
+}

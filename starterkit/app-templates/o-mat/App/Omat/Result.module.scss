@@ -1,0 +1,47 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    text-align: center;
+  }
+  .title {
+    margin: 0 auto var(--duv-size-margin-l) auto;
+    text-align: left;
+    max-width: 34rem;
+    @include font-sans-responsive-xl;
+    text-align: center;
+  }
+  .kicker {
+    display: block;
+    @include font-sans-responsive-s;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--duv-color-text-secondary);
+  }
+  .img {
+    display: block;
+    width: 62%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .text {
+    @include font-text;
+    max-width: 34rem;
+    text-align: left;
+    margin: 0 auto;
+  }
+  button.replay {
+    margin-top: var(--duv-size-margin-l);
+    transition: transform 0.2s;
+    transform-origin: center;
+
+    &:hover {
+      transform: scale(1.02);
+    }
+    &:active {
+      transform: scale(0.96);
+    }
+  }
+}

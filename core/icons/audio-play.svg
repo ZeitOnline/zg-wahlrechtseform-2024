@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>16 / audio-play</title>
+    <g id="16-/-audio-play" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Player-Icon-/-Play" transform="translate(-0.500000, -0.500000)">
+            <g id="Group-7" transform="translate(5.610000, 4.420000)" fill="#252525">
+                <path d="M4.69070316,1.22140631 L7.66593077,7.17186154 C7.83457179,7.50914358 7.69786123,7.91927525 7.36057919,8.08791627 C7.26577052,8.13532061 7.16122693,8.16 7.05522761,8.16 L1.10477239,8.16 C0.727679603,8.16 0.421985502,7.8543059 0.421985502,7.47721311 C0.421985502,7.3712138 0.446664897,7.26667021 0.494069232,7.17186154 L3.46929684,1.22140631 C3.63793786,0.884124272 4.04806954,0.747413714 4.38535158,0.916054734 C4.51748955,0.98212372 4.62463417,1.08926834 4.69070316,1.22140631 Z" id="Triangle" transform="translate(4.080000, 4.080000) rotate(90.000000) translate(-4.080000, -4.080000) "></path>
+            </g>
+            <circle id="Oval" stroke="#252525" cx="8.5" cy="8.5" r="7.5"></circle>
+        </g>
+    </g>
+</svg>

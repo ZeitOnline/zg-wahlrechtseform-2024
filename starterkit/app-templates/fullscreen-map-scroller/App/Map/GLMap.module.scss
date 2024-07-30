@@ -1,0 +1,41 @@
+@import 'core/styles/base';
+
+.main .article {
+  .maplibregl-ctrl-attrib-inner.mapboxgl-ctrl-attrib-inner {
+    color: black;
+  }
+
+  .mapboxgl-ctrl-attrib.mapboxgl-compact {
+    background: transparent;
+    border-radius: 4px;
+  }
+  .mapboxgl-ctrl-attrib.mapboxgl-compact-show {
+    @include blurry-bg;
+  }
+}
+
+:local {
+  .map {
+    height: 100%;
+    width: 100%;
+    transition: opacity 0.7s, height 0.3s;
+    pointer-events: none;
+    touch-action: none;
+
+    &.interactive {
+      pointer-events: unset;
+      touch-action: unset;
+    }
+  }
+  .wrapper {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.mapboxgl-touch-pan-blocker,
+.mapboxgl-scroll-zoom-blocker,
+.mapboxgl-touch-pan-blocker-show,
+.mapboxgl-scroll-zoom-blocker-show {
+  display: none !important;
+}

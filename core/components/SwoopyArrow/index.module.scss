@@ -1,0 +1,39 @@
+@import 'core/styles/base';
+
+:local {
+  .swoopy {
+    pointer-events: none;
+    transition: opacity 0.6s, transform 0.4s;
+    opacity: 0;
+    transform: translate(0, -20px);
+  }
+  .swoopy.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  .swoopyPath {
+    fill: none;
+    stroke: var(--duv-color-text-secondary);
+    stroke-width: 1px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .swoopyPath.swoopyOutline {
+    stroke: rgba(var(--duv-color-background-primary--rgb), 0.7);
+    stroke-width: 3px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .swoopyText {
+    @include font-sans-responsive-xs;
+    fill: var(--duv-color-text-secondary);
+    stroke: none;
+  }
+  .swoopyText.swoopyOutline {
+    fill: rgba(var(--duv-color-background-primary--rgb), 0.7);
+    stroke: rgba(var(--duv-color-background-primary--rgb), 0.7);
+    stroke-width: 3px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+}

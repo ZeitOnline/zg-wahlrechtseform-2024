@@ -1,0 +1,12 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    padding: var(--duv-size-padding-page-current);
+    overflow: hidden;
+
+    @include respond-min($break-tablet) {
+      border-radius: var(--duv-size-border-radius-l);
+    }
+  }
+}

@@ -1,0 +1,77 @@
+@import 'core/styles/base';
+
+:local {
+  .button {
+    @media screen and (min-width: 48em) {
+      --duv-size-type-responsive-m: 1.05em; // original 1.125 is too much
+    }
+    text-decoration: none;
+    border-radius: var(--duv-size-border-radius-m);
+    display: inline-block;
+    @include font-sans-responsive-m;
+    line-height: 1.125rem;
+    padding: 0.4375rem 0.9375rem 0.375rem;
+    text-align: center;
+    transition: background-color 0.1s ease-in-out;
+    color: var(--duv-color-text-primary);
+    font-weight: bold;
+    border: none;
+    @include focus-ring;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+
+    cursor: pointer;
+    &:active {
+      transform: scale(0.98);
+    }
+
+    &:disabled {
+      opacity: 0.65;
+      pointer-events: none;
+    }
+  }
+  .secondary.button {
+    background-color: var(--duv-color-shades-90);
+    @include hover {
+      background-color: var(--duv-color-shades-80);
+    }
+  }
+  .primary.button {
+    background-color: var(--duv-color-shades-15);
+    color: var(--duv-color-background-primary);
+    @include hover {
+      background-color: var(--duv-color-shades-5);
+    }
+  }
+  .tertiary.button {
+    background-color: transparent;
+    font-weight: normal;
+
+    @include hover {
+      background-color: var(--duv-color-shades-95);
+    }
+  }
+  .small.button {
+    --duv-size-type-responsive-m: 0.9em;
+    @media screen and (min-width: 48em) {
+      --duv-size-type-responsive-m: 0.95em;
+    }
+    text-transform: none;
+    padding: var(--duv-size-3xs) var(--duv-size-xs);
+  }
+  .link.button {
+    @include hover {
+      color: inherit;
+    }
+  }
+  .icon.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+
+    svg {
+      margin-right: 5px;
+    }
+  }
+}

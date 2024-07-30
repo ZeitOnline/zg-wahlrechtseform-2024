@@ -1,0 +1,17 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    transform: translate(-50%, -100%);
+  }
+
+  .marker {
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(-45deg);
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    box-shadow: 0 0 0 1.5px #fff;
+    border: 2px solid #777;
+  }
+}

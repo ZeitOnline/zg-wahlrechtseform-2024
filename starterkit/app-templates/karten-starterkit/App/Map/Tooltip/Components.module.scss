@@ -1,0 +1,44 @@
+@import 'core/styles/base';
+
+$tooltipPadding: calc(var(--duv-size-padding-page-current) / 2);
+
+:local {
+  .content {
+    position: relative;
+    @include tabular-nums;
+  }
+
+  .header {
+    margin-bottom: var(--duv-size-margin-s);
+  }
+
+  .headline {
+    @include font-sans-responsive-m;
+    margin: 0;
+  }
+
+  .subline {
+    @include font-sans-responsive-s;
+    font-weight: normal;
+    color: var(--duv-color-text-secondary);
+    line-height: 1.4;
+    margin: 0;
+  }
+
+  .body {
+    @include font-sans-responsive-s;
+    display: flex;
+    flex-direction: column;
+
+    :global(.zg-text--muted) {
+      color: var(--duv-color-shades-45);
+    }
+
+    p {
+      margin: 0;
+    }
+    p + p {
+      margin-top: var(--duv-size-margin-paragraph);
+    }
+  }
+}

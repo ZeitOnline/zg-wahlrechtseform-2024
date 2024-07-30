@@ -1,0 +1,52 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    @include font-sans-responsive-s;
+    color: var(--duv-color-shades-20);
+    padding: 0;
+    text-align: center;
+    margin: var(--duv-size-padding-page-current) auto 0 auto;
+
+    a,
+    .infoboxToggleLabel {
+      color: inherit;
+      @include linkWithBorder;
+    }
+
+    :global(.article-header) & {
+      padding-bottom: 1rem;
+    }
+  }
+  .infoboxToggle {
+    @include font-sans-responsive-s;
+    color: inherit;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+
+    svg {
+      position: relative;
+      top: 0.15em;
+      height: 16px;
+      width: 16px;
+      transform: rotate(45deg);
+      transform-origin: center;
+      color: var(--duv-color-shades-10);
+    }
+  }
+  .infoboxToggleIcon {
+    position: relative;
+
+    transform-origin: center;
+    transition: transform 0.3s;
+    vertical-align: top;
+    position: relative;
+  }
+  .toggled .infoboxToggleIcon {
+    transform: rotate(90deg);
+  }
+}

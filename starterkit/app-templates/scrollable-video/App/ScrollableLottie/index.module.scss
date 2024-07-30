@@ -1,0 +1,15 @@
+@import 'core/styles/base';
+
+[data-prop-display='scrollable-lottie-start'] {
+  position: sticky;
+  top: 0;
+}
+
+:local {
+  .wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: #f0d9ab;
+  }
+}

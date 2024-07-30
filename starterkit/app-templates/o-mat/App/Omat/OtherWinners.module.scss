@@ -1,0 +1,16 @@
+@import 'core/styles/base';
+
+:local {
+  .container {
+    max-width: 34rem;
+    text-align: left;
+    margin: var(--duv-size-margin-paragraph) auto;
+    @include font-sans-responsive-m;
+    color: var(--duv-color-text-secondary);
+
+    span {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

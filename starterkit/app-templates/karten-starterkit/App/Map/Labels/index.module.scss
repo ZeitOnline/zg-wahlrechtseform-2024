@@ -1,0 +1,81 @@
+@import 'core/styles/base';
+
+:local {
+  .labelContainer {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .label {
+    @include font-sans-responsive-s;
+    @include tabular-nums;
+    line-height: 1.1;
+    color: var(--duv-color-bwscale-15);
+    font-weight: normal;
+    pointer-events: none;
+    user-select: none !important;
+    width: 100px;
+    display: block;
+    width: 150px;
+    text-align: center;
+  }
+  .label.dark {
+    color: white;
+  }
+  .lablContainer .label {
+    text-align: center;
+  }
+  .region {
+    font-size: 10px;
+    @include respond-min($break-tablet) {
+      font-size: 11px;
+    }
+    text-transform: uppercase;
+    letter-spacing: var(--duv-size-type-letter-spacing-xl);
+  }
+  .textContent {
+    display: block;
+    position: relative;
+  }
+  .light.textContent {
+    text-shadow: 0 1px 0 rgba(white, 0.6), 1px 0 0 rgba(white, 0.6),
+      0 -1px 0 rgba(white, 0.6), -1px 0 0 rgba(white, 0.6);
+
+    @supports (-webkit-text-stroke: 2.5px white) {
+      text-shadow: none;
+      &:before {
+        display: block;
+        width: 100%;
+        opacity: 0.6;
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        content: attr(data-content);
+        -webkit-text-stroke: 2.5px white;
+      }
+    }
+  }
+  .dark.textContent {
+    text-shadow: 0 1px 0 rgba(black, 0.6), 1px 0 0 rgba(black, 0.6),
+      0 -1px 0 rgba(black, 0.6), -1px 0 0 rgba(black, 0.6);
+
+    @supports (-webkit-text-stroke: 2.5px black) {
+      text-shadow: none;
+      &:before {
+        display: block;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        opacity: 0.4;
+        content: attr(data-content);
+        -webkit-text-stroke: 2.5px black;
+      }
+    }
+  }
+}

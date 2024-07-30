@@ -1,0 +1,46 @@
+### Project specific ###
+# feel free to add your files here :)
+
+### General ###
+.DS_Store
+
+### Python ###
+.ipynb_checkpoints
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+### R ###
+.Rhistory
+.Rapp.history
+.RData
+.RDataTmp
+.Ruserdata
+/*.tar.gz
+/*.Rcheck/
+.Rproj.user/
+.httr-oauth
+.Renviron
+
+### Node ###
+node_modules/
+
+### Office ###
+*.tmp
+~$*.doc*
+~$*.xls*
+*.xlk
+
+### Logs ###
+*.log
+npm-debug.log*
+
+### Environment ###
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
