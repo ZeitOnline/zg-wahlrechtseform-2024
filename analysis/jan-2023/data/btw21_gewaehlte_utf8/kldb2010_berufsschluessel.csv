@@ -1,0 +1,50 @@
+# (c) Der Bundeswahlleiter 2017;;;
+# (c) Bundesagentur für Arbeit. Klassifikation der Berufe, Ausgabe 2010 (KldB 2010), eigene Änderungen/Ergänzungen;;;
+# ;;;
+# Klassifizierung der Berufsschlüssel für Sonderheft- und Ergebnistabellen;;;
+# ;;;
+# Anmerkung: Die Klassifizierung erfolgte anhand der Selbstauskünfte der Kandidatinnen und Kandidaten aus ihren Wahlvorschlägen.;;;
+# Bei mehreren Angaben wurde – soweit erkennbar – vom vornehmlich ausgeübten Beruf bzw. Tätigkeit ausgegangen.;;;
+# ;;;
+Berufsbereich_Schluessel;Berufsbereich_Bezeichnung;Berufshauptgruppe_Berufsschluessel;Berufshauptgruppe_Bezeichnung
+0;Sonstige;04;Schüler, Auszubildende, Studenten (eigene Ergänzung)
+0;Sonstige;05;Rentner, Pensionäre (eigene Ergänzung)
+0;Sonstige;06;Hausfrauen, Arbeitssuchende (eigene Ergänzung)
+0;Sonstige;09;Ohne nähere Tätigkeitsangabe, z. B. Selbstständige (eigene Ergänzung)
+1;Land-, Forst- und Tierwirtschaft und Gartenbau;11;Land-, Tier- und Forstwirtschaftsberufe
+1;Land-, Forst- und Tierwirtschaft und Gartenbau;12;Gartenbauberufe und Floristik
+2;Rohstoffgewinnung, Produktion und Fertigung;21;Rohstoffgewinnung und -aufbereitung, Glas- und Keramikherstellung und -verarbeitung
+2;Rohstoffgewinnung, Produktion und Fertigung;22;Kunststoffherstellung und -verarbeitung, Holzbe- und -verarbeitung
+2;Rohstoffgewinnung, Produktion und Fertigung;23;Papier- und Druckberufe, technische Mediengestaltung
+2;Rohstoffgewinnung, Produktion und Fertigung;24;Metallerzeugung und -bearbeitung, Metallbauberufe
+2;Rohstoffgewinnung, Produktion und Fertigung;25;Maschinen- und Fahrzeugtechnikberufe
+2;Rohstoffgewinnung, Produktion und Fertigung;26;Mechatronik-, Energie- und Elektroberufe
+2;Rohstoffgewinnung, Produktion und Fertigung;27;Technische Forschungs-, Entwicklungs-, Konstruktions- und Produktionssteuerungsberufe
+2;Rohstoffgewinnung, Produktion und Fertigung;28;Textil- und Lederberufe
+2;Rohstoffgewinnung, Produktion und Fertigung;29;Lebensmittelherstellung und -verarbeitung
+3;Bau, Architektur, Vermessung und Gebäudetechnik;31;Bauplanungs-, Architektur- und Vermessungsberufe
+3;Bau, Architektur, Vermessung und Gebäudetechnik;32;Hoch- und Tiefbauberufe
+3;Bau, Architektur, Vermessung und Gebäudetechnik;33;(Innen-)Ausbauberufe
+3;Bau, Architektur, Vermessung und Gebäudetechnik;34;Gebäude- und versorgungstechnische Berufe
+4;Naturwissenschaft, Geografie und Informatik;41;Mathematik-, Biologie-, Chemie- und Physikberufe
+4;Naturwissenschaft, Geografie und Informatik;42;Geologie-, Geografie- und Umweltschutzberufe
+4;Naturwissenschaft, Geografie und Informatik;43;Informatik-, Informations- und Kommunikationstechnologieberufe
+5;Verkehr, Logistik, Schutz und Sicherheit;51;Verkehrs- und Logistikberufe (außer Fahrzeugführung)
+5;Verkehr, Logistik, Schutz und Sicherheit;52;Führer/innen von Fahrzeug- und Transportgeräten
+5;Verkehr, Logistik, Schutz und Sicherheit;53;Schutz-, Sicherheits- und Überwachungsberufe
+5;Verkehr, Logistik, Schutz und Sicherheit;54;Reinigungsberufe
+5;Verkehr, Logistik, Schutz und Sicherheit;01;Militär (eigene Änderung)
+6;Kaufmännische Dienstleistungen, Warenhandel, Vertrieb, Hotel und Tourismus;61;Einkaufs-, Vertriebs- und Handelsberufe
+6;Kaufmännische Dienstleistungen, Warenhandel, Vertrieb, Hotel und Tourismus;62;Verkaufsberufe
+6;Kaufmännische Dienstleistungen, Warenhandel, Vertrieb, Hotel und Tourismus;63;Tourismus-, Hotel- und Gaststättenberufe
+7;Unternehmensorganisation, Buchhaltung, Recht und Verwaltung;71;Berufe in Unternehmensführung und -organisation
+7;Unternehmensorganisation, Buchhaltung, Recht und Verwaltung;72;Berufe in Finanzdienstleistungen, Rechnungswesen und Steuerberatung
+7;Unternehmensorganisation, Buchhaltung, Recht und Verwaltung;73;Berufe in Recht und Verwaltung
+8;Gesundheit, Soziales, Lehre und Erziehung;81;Medizinische Gesundheitsberufe
+8;Gesundheit, Soziales, Lehre und Erziehung;82;Nichtmedizinische Gesundheits-, Körperpflege- und Wellnessberufe, Medizintechnik
+8;Gesundheit, Soziales, Lehre und Erziehung;83;Erziehung, soziale und hauswirtschaftliche Berufe, Theologie
+8;Gesundheit, Soziales, Lehre und Erziehung;84;Lehrende und ausbildende Berufe
+9;Sprach-, Literatur-, Geistes-, Gesellschafts- und Wirtschaftswissenschaften, Medien, Kunst, Kultur und Gestaltung;91;Sprach-, literatur-, geistes-, gesellschafts- und wirtschaftswissenschaftliche Berufe
+9;Sprach-, Literatur-, Geistes-, Gesellschafts- und Wirtschaftswissenschaften, Medien, Kunst, Kultur und Gestaltung;92;Werbung, Marketing, kaufmännische und redaktionelle Medienberufe
+9;Sprach-, Literatur-, Geistes-, Gesellschafts- und Wirtschaftswissenschaften, Medien, Kunst, Kultur und Gestaltung;93;Produktdesign und kunsthandwerkliche Berufe, bildende Kunst, Musikinstrumentenbau
+9;Sprach-, Literatur-, Geistes-, Gesellschafts- und Wirtschaftswissenschaften, Medien, Kunst, Kultur und Gestaltung;94;Darstellende und unterhaltende Berufe

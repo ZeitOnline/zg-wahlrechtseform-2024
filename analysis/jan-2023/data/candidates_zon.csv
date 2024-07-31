@@ -1,0 +1,737 @@
+partyLabel,firstName,lastName,birthdate,constituencyName,person_id,survivor
+SPD,Sören,Bartol,1974,Marburg,1e289936-5766-4fd2-b515-a6aa042d7e7b,#N/A
+SPD,Michael,Müller,1964,Berlin-Charlottenburg-Wilmersdorf,4eded915-c159-4d96-8309-0dedc3017c90,#N/A
+SPD,Dirk,Heidenblut,1961,Essen II,20d248fd-3461-4ab5-bcd6-9beffcba03eb,#N/A
+SPD,Michael,Thews,1964,Hamm – Unna II,ac91ef8d-8c0f-48aa-8375-6a7a4e785ea8,#N/A
+SPD,Katrin,Zschau,1976,Rostock – Landkreis Rostock II,46c7cee5-2142-4a13-97c7-46e16a35f553,#N/A
+SPD,Tim,Klüssendorf,1991,Lübeck,e4ec5891-b051-4fb3-9e84-e88ad0140801,#N/A
+SPD,Niels,Annen,1973,Hamburg,6156446f-718d-45da-aaa7-27dfd3325f60,#N/A
+SPD,Josephine,Ortleb,1986,Saarbrücken,b0d444bb-42c0-4ad4-801e-cbf0a1c161fb,#N/A
+SPD,Falko,Droßmann,1973,Hamburg-Mitte,75d30fe6-7fe3-43cc-9da1-a3c1156cee78,#N/A
+SPD,Susanne,Michel,1963,Sachsen,ab07407e-97e9-4709-bfe6-810b4efdad50,#N/A
+SPD,Rasha,Nasr,1992,Sachsen,a25dd815-1e8c-4544-85a0-717f491c8977,#N/A
+SPD,Franziska,Mascheck,1979,Sachsen,454e8f81-22f0-4682-9005-b60a3e36bf25,#N/A
+SPD,Fabian,Funke,1997,Sachsen,161556e1-766f-4c80-ba4d-b1d73dcd3794,#N/A
+SPD,Holger,Mann,1979,Sachsen,3acbd43c-3beb-4d2c-a710-0c60d7f4470a,#N/A
+SPD,Carlos,Kasper,1994,Sachsen,f7e5228a-c234-4e7d-ab20-ce8dbec9d188,#N/A
+SPD,Nadja,Sthamer,1990,Sachsen,400af997-fdc7-454b-aad8-797eaf4d4c75,#N/A
+SPD,Daniel,Schneider,1976,Cuxhaven – Stade II,7acf6546-968a-4c1b-ac82-9f60826f3342,#N/A
+SPD,Wiebke,Papenbrock,1979,Prignitz – Ostprignitz-Ruppin – Havelland I,3a38e009-5ede-4b81-b038-eeb066d50f57,#N/A
+SPD,Melanie,Wegling,1990,Groß-Gerau,ad7ad44e-c0ad-4a27-92a4-0c4db2ff8697,#N/A
+CSU,Michael,Kießling,1973,Starnberg – Landsberg am Lech,0304ca84-b0e6-48a4-80a3-0054a2ca6907,#N/A
+CSU,Alexander,Radwan,1964,Bad Tölz-Wolfratshausen – Miesbach,42b7414f-3e4d-4a15-88ce-8c8e8b47b37d,#N/A
+CDU,Alexander,Throm,1968,Heilbronn,831875a9-547f-47a6-9759-a7dacc5bae6d,#N/A
+CDU,Franziska,Hoppermann,1982,Hamburg,446ee3a0-f9ab-4dce-a69d-dc83639204b3,#N/A
+CDU,Christoph,de Vries,1974,Hamburg,0bc556a0-65a4-4791-88dc-4068cbae190a,#N/A
+CDU,Christoph,Ploß,1985,Hamburg,b3482093-d215-453b-be02-709e19c96d5f,#N/A
+CSU,Jonas,Geissler,1984,Coburg,43ae14f9-4b87-4057-aab1-4d49e68c7505,#N/A
+CDU,Christiane,Schenderlein,1981,Sachsen,1d740118-fb12-485a-acce-269c259010f2,#N/A
+CDU,Marco,Wanderwitz,1975,Sachsen,22424dc1-1d8d-4209-8e49-fba98c6d2058,#N/A
+CDU,Carsten,Körber,1979,Sachsen,f80e5dad-6f6a-4444-97e5-5a8241fbf2fd,#N/A
+CDU,Stefan,Rouenhoff,1978,Kleve,fce60a6d-ad80-4c57-ae03-0d67666d96ae,#N/A
+CDU,Gunther,Krichbaum,1964,Pforzheim,c6690ff7-3a6c-4d1b-a9e7-957521cfe71c,#N/A
+CDU,Sepp,Müller,1989,Dessau – Wittenberg,aac6a082-9401-4228-818b-3af0bd7fc7e6,#N/A
+CDU,Günter,Krings,1969,Mönchengladbach,0bfcd62e-b0e8-4d74-9b3b-5dfec4010427,#N/A
+CDU,Maria-Lena,Weiss,1981,Rottweil – Tuttlingen,0222f3f8-a70e-419c-9eb1-e2e92cc3069b,#N/A
+CDU,Florian,Müller,1987,Olpe – Märkischer Kreis I,911e2cac-f1ea-450b-8709-a00cf48f26da,#N/A
+CDU,Olav,Gutting,1970,Bruchsal – Schwetzingen,a643ac1d-d69a-4d59-84ab-a3d57ef8cafa,#N/A
+Grüne,Emilia,Fester,1998,Hamburg,188465fd-ceb6-4a0f-b231-05787fdac9aa,#N/A
+Grüne,Katharina,Beck,1982,Hamburg,240cb66d-b74a-4872-9c18-d597b179fdc1,#N/A
+Grüne,Kassem,Saleh,1993,Sachsen,9996c6aa-00c6-4501-97fe-54777a54369b,#N/A
+Grüne,Paula,Piechotta,1986,Sachsen,c7319b35-efd9-494c-92db-4f4dc74fb1ea,#N/A
+Grüne,Merle,Spellerberg,1996,Sachsen,57a8b1ad-f4ad-43e6-b729-1c9362407a0d,#N/A
+Grüne,Bernhard,Herrmann,1966,Sachsen,56acc53d-57dc-4c1f-989d-0bf56de3ec9d,#N/A
+Grüne,Sandra,Detzer,1980,Baden-Württemberg,5cfef7fe-bcc1-4a52-9ea7-454e95a3b13e,#N/A
+Grüne,Harald,Ebner,1964,Baden-Württemberg,87ea37f4-1bf8-4acd-a6ba-c1550e6fbcad,#N/A
+Grüne,Sebastian,Schäfer,1979,Baden-Württemberg,04f24902-afd6-40a0-b6b8-4203c7b9edaf,#N/A
+Grüne,Beate,Müller-Gemmeke,1960,Baden-Württemberg,8839d2e9-f889-415f-8bc7-edeb5b1d03dc,#N/A
+Grüne,Marcel,Emmerich,1991,Baden-Württemberg,66ddb03b-6455-4a9c-8fda-a0dfb35b170a,#N/A
+FDP,Michael,Kruse,1983,Hamburg,6a729ebf-86bf-4232-890a-f1b264214d7f,#N/A
+FDP,Ria,Schröder,1992,Hamburg,52faac97-46d5-458a-8d19-ae3ef13a7e44,#N/A
+FDP,Torsten,Herbst,1973,Sachsen,002558ca-6a0c-48fa-a54b-b2b48e0e248b,#N/A
+FDP,Ulrike,Harzer,1968,Sachsen,6d5e2d76-7d49-499f-8141-3abe413ab349,#N/A
+FDP,Frank,Müller-Rosentritt,1982,Sachsen,76b6fe63-d15f-43f4-8598-e7f156e93d34,#N/A
+FDP,Nico,Tippelt,1967,Sachsen,0d32a5d1-6b6a-4065-978d-91ab0376677f,#N/A
+FDP,Philipp,Hartewig,1994,Sachsen,f5498743-2bed-4efe-914a-a8150105a599,#N/A
+FDP,Judith,Skudelny,1975,Baden-Württemberg,bf81e384-6745-422e-966b-2b19b8aee860,#N/A
+FDP,Christoph,Hoffmann,1957,Baden-Württemberg,5b783cdb-1d9f-4a72-b04d-45f730ca5adb,#N/A
+AfD,Robert,Farle,1950,Mansfeld,547ea491-8999-4bbb-8acb-ad4d86bfd9bf,#N/A
+AfD,Bernd,Baumann,1958,Hamburg,f78217da-d162-40ea-b452-678a34bec068,#N/A
+AfD,Marc,Jongen,1968,Baden-Württemberg,1acdfa81-7d03-4e2c-a3a9-31de8b8b013b,#N/A
+AfD,Jürgen,Braun,1961,Baden-Württemberg,0e6ef0c2-6c6c-42c0-96e3-56ac927f0163,#N/A
+AfD,Alice,Weidel,1979,Baden-Württemberg,9dba9c7f-e6f5-4a4e-81f5-6ef588ea0fd8,#N/A
+AfD,Martin,Hess,1971,Baden-Württemberg,fc3ea6e0-2a53-4197-a9db-914bd010e44b,#N/A
+AfD,Malte,Kaufmann,1976,Baden-Württemberg,2460cdaa-35a8-4548-b256-0f3deba8ad8b,#N/A
+Linke,Żaklin,Nastić,1980,Hamburg,61e4ab6c-f7a7-47fe-8cba-58dedf666fa5,#N/A
+Linke,Caren,Lay,1972,Sachsen,dca54887-0754-49f5-a804-cfa8b1587d99,#N/A
+Linke,André,Hahn,1963,Sachsen,353fed3c-c1af-42ef-b743-03044a8135a9,#N/A
+SSW,Stefan,Seidler,1979,Schleswig-Holstein,70a54b1c-035f-444c-81d5-ba6c41e279d0,#N/A
+SPD,Leni,Breymaier,1960,Baden-Württemberg,9fdb6446-b2ab-469d-8e81-0c4c2590ddfc,#N/A
+SPD,Martin,Gerster,1971,Baden-Württemberg,e3a5569f-9fa7-4af0-8a50-493ab4dc966c,#N/A
+SPD,Johannes,Fechner,1972,Baden-Württemberg,af9e9278-c513-4138-96bc-a7bc468d4a2d,#N/A
+SPD,Saskia,Esken,1961,Baden-Württemberg,2aa02a71-ee56-40b2-b4a0-6922c0c6c288,#N/A
+SPD,Derya,Türk-Nachbaur,1973,Baden-Württemberg,8098c63e-527d-4d1b-9c01-152b1354423e,#N/A
+SPD,Kevin,Leiser,1993,Baden-Württemberg,d173c96f-d72e-4d96-9d5c-8a35b0ee2d06,#N/A
+SPD,Katja,Mast,1971,Baden-Württemberg,57ccce36-3cb5-4894-bc70-5318e0f6ea7d,#N/A
+SPD,Josip,Juratovic,1959,Baden-Württemberg,6ed9d0e1-db47-431e-96d9-b01f30a02e1f,#N/A
+SPD,Rita,Schwarzelühr-Sutter,1962,Baden-Württemberg,d3153e40-a910-4cf0-b1af-bd4d5010bf9e,#N/A
+SPD,Takis,Mehmet Ali,1991,Baden-Württemberg,a4a6ef59-80a8-4339-8a78-061125e17274,#N/A
+SPD,Heike,Engelhardt,1961,Baden-Württemberg,9231f0f8-4766-424e-9787-5e5a3df8a649,#N/A
+SPD,Jasmina,Hostert,1982,Baden-Württemberg,9aa9bc15-90cf-452d-9207-e52ffd29d4ab,#N/A
+SPD,Robin,Mesarosch,1991,Baden-Württemberg,5bee81bc-df4e-41ca-9983-a057305f237b,#N/A
+SPD,Macit,Karaahmetoǧlu,1968,Baden-Württemberg,39266afd-24c1-4abd-aa67-7eddc78f45c8,#N/A
+SPD,Nils,Schmid,1973,Baden-Württemberg,1d23f181-d5ef-4c98-836f-afe23cb14c31,#N/A
+SPD,Lars,Castellucci,1974,Baden-Württemberg,eb86ba82-4db7-4012-9217-3c06d3e150de,#N/A
+SPD,Gabriele,Katzmarek,1960,Baden-Württemberg,0cae968d-dc56-4867-b4ba-08d16ae5e2be,#N/A
+SPD,Parsa,Marvi,1982,Baden-Württemberg,a434214b-61be-44aa-a093-97afd097479f,#N/A
+CDU,Dietrich,Monstadt,1957,Mecklenburg-Vorpommern,6feca9de-49cc-47e9-bbf8-2c053d7bc2a7,#N/A
+CDU,Philipp,Amthor,1992,Mecklenburg-Vorpommern,79691f08-12df-493e-ad55-f89cb57100cc,#N/A
+CDU,Simone,Borchardt,1967,Mecklenburg-Vorpommern,e8252882-e692-4e2e-95e8-25d29e2b7c60,#N/A
+CDU,Marc,Biadacz,1979,Böblingen,171b0400-d991-4b7c-a2ef-11d446677580,#N/A
+CSU,Alois,Rainer,1965,Straubing,0f2edafb-c3d9-4e0f-9c49-ff980eadd214,#N/A
+CDU,Elisabeth,Winkelmeier-Becker,1962,Rhein-Sieg-Kreis I,366a8c4a-f4b4-4bd0-9d38-47f7f36bc4e1,#N/A
+CSU,Hansjörg,Durz,1971,Augsburg-Land,1b2f953f-71a0-4a26-b732-8aae21f6091f,#N/A
+CDU,Christina,Stumpp,1987,Waiblingen,d8de84f1-a9ae-423b-8e36-d9e4a70803b0,#N/A
+CDU,Wolfgang,Schäuble,1942,Offenburg,8b15d57f-d27c-45ec-81c4-99fd5ff7f330,#N/A
+CSU,Silke,Launert,1976,Bayreuth,6f221392-2246-4de5-b4c5-7853d32ecb7c,#N/A
+CDU,Carsten,Linnemann,1977,Paderborn,eef0b827-a280-47ca-8ad1-9523eade75b4,#N/A
+CSU,Katrin,Staffler,1981,Fürstenfeldbruck,3576d607-80d1-4b0e-a5da-832d123ba274,#N/A
+CSU,Bernhard,Loos,1955,München-Nord,19055abd-9888-48a6-bc3d-89320cc7da6b,#N/A
+CDU,Gitta,Connemann,1964,Unterems,fb3d8766-b49e-4a4e-945d-b965e6d933ba,#N/A
+CSU,Albert,Rupprecht,1968,Weiden,0580d03f-febc-4198-8dba-79d5a751148e,#N/A
+CSU,Hans-Peter,Friedrich,1957,Hof,570889a8-919c-4cd7-9a8d-e90905f8946c,#N/A
+CDU,Michael,Brand,1973,Fulda,3bb09574-16c8-406f-b24b-8148d8b51d74,#N/A
+Grüne,Christian,Kühn,1979,Baden-Württemberg,a572e8dd-dc39-4e53-adac-050c201a4b96,#N/A
+Grüne,Stephanie,Aeffner,1976,Baden-Württemberg,22e9307d-df71-4eb2-a6c4-7daffee8204f,#N/A
+Grüne,Anna,Christmann,1983,Baden-Württemberg,4d1e97b6-6196-4c33-8879-0a046b01fc77,#N/A
+Grüne,Tobias,Bacherle,1994,Baden-Württemberg,03a0be5f-83fc-4227-b2a9-d12a9d7d6890,#N/A
+Grüne,Ricarda,Lang,1994,Baden-Württemberg,9a390876-986a-428e-8883-e75a39ee047b,#N/A
+Grüne,Melis,Sekmen,1993,Baden-Württemberg,08ee0030-d128-4a9c-9ab0-45147eb3e852,#N/A
+Grüne,Anja,Reinalter,1970,Baden-Württemberg,e7a5a97f-04cd-4eaa-a929-f0fc562ddf2a,#N/A
+Grüne,Matthias,Gastel,1970,Baden-Württemberg,bf8632b1-5e77-4f30-90c3-a46465e9eead,#N/A
+Grüne,Agnieszka,Brugger,1985,Baden-Württemberg,1d85d982-c862-4d1d-adb9-107d666740cc,#N/A
+Grüne,Claudia,Müller,1981,Mecklenburg-Vorpommern,d7cb0d02-efc7-4a73-ad57-70149204dfed,#N/A
+FDP,Stephan,Seiter,1963,Baden-Württemberg,493df092-4f6b-433f-80be-21d60d75bc9c,#N/A
+FDP,Claudia,Raffelhüschen,1968,Baden-Württemberg,49b678f9-60ce-4e8a-8a90-ec1ecd6b85e7,#N/A
+FDP,Michael,Theurer,1967,Baden-Württemberg,86d62382-d2db-4d65-8ce9-d1e315d35323,#N/A
+FDP,Renata,Alt,1965,Baden-Württemberg,b2cd85af-0ee3-4365-a006-57ec2fdf6123,#N/A
+FDP,Pascal,Kober,1971,Baden-Württemberg,df6e6289-e032-4ff9-816c-17baa8e4480d,#N/A
+FDP,Rainer,Semet,1957,Baden-Württemberg,f6a2577d-44a0-4c46-83e3-0cae9dabdfb7,#N/A
+FDP,Valentin,Abel,1991,Baden-Württemberg,a952591c-dfd7-4cdc-913c-b20abc486551,#N/A
+FDP,Benjamin,Strasser,1987,Baden-Württemberg,46c76d38-061c-4d48-a04c-d82c975e5a06,#N/A
+AfD,Marc,Bernhard,1972,Baden-Württemberg,f32bab3f-edfb-457b-9ec1-f62423a83251,#N/A
+AfD,Dirk,Spaniel,1971,Baden-Württemberg,1260a7f0-84bd-4b1f-b1d7-0a0227bd1212,#N/A
+AfD,Markus-Cornel,Frohnmaier,1991,Baden-Württemberg,fcf4d64a-7f1e-425d-aa2a-0b9af7572153,#N/A
+AfD,Christina,Baum,1956,Baden-Württemberg,09e12bf6-3750-4e88-b59d-52be21278b9b,#N/A
+AfD,Thomas,Seitz,1967,Baden-Württemberg,1a0b7086-49a1-4c1f-86b3-8ad5567fd65a,#N/A
+AfD,Ulrike,Schielke-Ziesing,1969,Mecklenburg-Vorpommern,4c00d218-bae8-403b-b137-565c60efa3cd,#N/A
+AfD,Leif-Erik,Holm,1970,Mecklenburg-Vorpommern,5b07e764-cca4-4ff5-b2c1-7f5df07632a9,#N/A
+Linke,Katja,Kipping,1978,Sachsen,34cca3c0-a91a-4c70-a9a4-de2d20923cb8,#N/A
+Linke,Gökay,Akbulut,1982,Baden-Württemberg,2e66cecd-9eb5-475f-9eed-35264ef30db0,#N/A
+Linke,Jessica,Tatti,1981,Baden-Württemberg,8c4f0d4f-80c2-4c82-b119-f3e90d0aad4e,#N/A
+Linke,Bernd,Riexinger,1955,Baden-Württemberg,87bb5398-02fd-44df-ba2e-85142dd65ecc,#N/A
+SPD,Heike,Baehrens,1955,Baden-Württemberg,f0636ad2-9252-45cb-bca8-7c43f999cd08,#N/A
+SPD,Lina,Seitzl,1989,Baden-Württemberg,b9d8f6c0-6bd4-4f97-a776-e61422ea5224,#N/A
+SPD,Martin,Rosemann,1976,Baden-Württemberg,4fafc9da-1de2-48e4-a0fb-ef7c911e816c,#N/A
+SPD,Jakob,Blankenburg,1997,Lüchow-Dannenberg – Lüneburg,9bc2323c-0399-4224-af06-8b37b9b31aa3,#N/A
+SPD,Daniel,Baldy,1994,Mainz,c6bc95bf-3583-4a4d-b67d-23653c12121f,#N/A
+SPD,Matthias,Mieves,1985,Kaiserslautern,05a0891f-0e44-4c10-9f00-ea4807b02bfa,#N/A
+SPD,Thomas,Hitschler,1982,Südpfalz,0223ee7c-8f56-428e-8cfd-3ed6f5bbfd1f,#N/A
+SPD,Andreas,Larem,1964,Darmstadt,134076fa-e7f2-4904-b9f6-f603d4472675,#N/A
+SPD,Franziska,Kersten,1968,Börde – Jerichower Land,45a16de7-b289-4afe-b6e4-cd7245f27e94,#N/A
+SPD,Michael,Gerdes,1960,Bottrop – Recklinghausen III,88c4318b-d0c9-4be3-8aae-50f22e55616a,#N/A
+SPD,Maja,Wallstein,1986,Cottbus – Spree-Neiße,d1f151f1-070d-47f5-93f7-9f31180106b7,#N/A
+SPD,Claudia,Moll,1968,Aachen II,8a7f03d7-cddc-41ca-bcf2-c4394c9f7dae,#N/A
+SPD,Olaf,Scholz,1958,Potsdam – Potsdam-Mittelmark II – Teltow-Fläming II,8fe04953-6cb3-4c0b-b21b-58a478c20899,#N/A
+SPD,Svenja,Stadler,1976,Harburg,f7c33a0e-8bd3-423d-8d3b-fd5cd439534b,#N/A
+SPD,Esra-Leon,Limbacher,1989,Homburg,061bafee-e6a1-4188-a903-3ff049be236d,#N/A
+SPD,Bettina,Hagedorn,1955,Ostholstein – Stormarn-Nord,e0a359a1-bdc5-4db2-9f7f-361128ef5d4a,#N/A
+SPD,Jürgen,Berghahn,1960,Lippe I,54c47b72-3892-4d70-80dd-110a4d6d1d90,#N/A
+CDU,Nicolas,Zippelius,1987,Karlsruhe-Land,e5b15d8a-263d-45fa-9fc4-ba6b093fb2d7,#N/A
+CDU,Moritz,Oppelt,1989,Rhein-Neckar,5d782439-35b5-4015-8919-c7eac865dd31,#N/A
+CSU,Sebastian,Brehm,1971,Nürnberg-Nord,dfe222fc-0b83-412c-9818-80f86f18e9cb,#N/A
+CSU,Peter,Ramsauer,1954,Traunstein,a5647c87-5254-466b-ab90-2300e33f7dac,#N/A
+CDU,Christian,von Stetten,1970,Schwäbisch Hall – Hohenlohe,ed2ca7bf-af83-4e73-bbfa-64133b16a62e,#N/A
+CSU,Tobias,Winkler,1978,Fürth,83e9c4ad-c669-4dd2-934c-1f02c19b9986,#N/A
+CDU,Ronja,Kemmer,1989,Ulm,f2bd8686-47b7-4a22-a8a4-eb10705735f7,#N/A
+CDU,Jan,Metzler,1981,Worms,026408cd-5041-4e03-ac31-1b39087f57fc,#N/A
+CDU,Petra,Nicolaisen,1965,Schleswig-Holstein,850d90df-c80f-4d96-8f3d-c21133bedf11,#N/A
+CDU,Ingo,Gädechens,1960,Schleswig-Holstein,7cfb0d1d-3efc-4fbb-833e-e4fe6c0a5c54,#N/A
+CDU,Gero,Storjohann,1958,Schleswig-Holstein,51086a86-ed38-4480-ac13-c36eff131d0f,#N/A
+CDU,Johann,Wadephul,1963,Schleswig-Holstein,67eb7a16-97ea-46cc-9773-f93e94ec76bc,#N/A
+CSU,Stefan,Müller,1975,Erlangen,f32e86d4-578b-4e33-8ee0-80a6a35ef1a8,#N/A
+CDU,Anne,König,1984,Borken II,8a7033b4-0a01-4d76-9245-03a377408711,#N/A
+CDU,Oliver,Grundmann,1971,Stade I – Rotenburg II,a327a774-9d58-4f85-875d-2bbb56c406d2,#N/A
+CDU,Peter,Beyer,1970,Mettmann II,7a0dc1e9-b5a5-4ee5-a7a6-f14dbd2419d4,#N/A
+Grüne,Konstantin,von Notz,1971,Schleswig-Holstein,809c68a4-7461-4c0d-ac5d-bedfa4c6ab06,#N/A
+Grüne,Bruno,Hönel,1996,Schleswig-Holstein,6c6cc8a4-568d-4975-b023-7a257acbc12a,#N/A
+Grüne,Luise,Amtsberg,1984,Schleswig-Holstein,fa27d193-6b0d-469d-bf77-59453c870281,#N/A
+Grüne,Denise,Loop,1994,Schleswig-Holstein,d665ef14-77c8-480e-b40c-3372d5fa0555,#N/A
+Grüne,Ingrid,Nestle,1977,Schleswig-Holstein,0be32b3b-9557-4188-bc56-953d49d749be,#N/A
+Grüne,Omid,Nouripour,1975,Frankfurt am Main II,0ae4753f-8f5a-4f25-8609-2667a945275d,#N/A
+Grüne,Maria,Klein-Schmeink,1958,Münster,3cca9f23-0159-484b-bc42-10cfd7845062,#N/A
+Grüne,Franziska,Brantner,1979,Heidelberg,5d09a54f-4a39-42d0-9b35-3d6d89b9314b,#N/A
+Grüne,Katja,Keul,1969,Niedersachsen,4b157409-1e14-4307-a8fd-2c48c83188f0,#N/A
+Grüne,Filiz,Polat,1978,Niedersachsen,4cba68c9-3e12-4016-9ebe-60e7afb78941,#N/A
+FDP,Martin,Gaßner-Herz,1985,Baden-Württemberg,0a5a1d08-cd1c-4891-978a-f8a9b25e1e00,#N/A
+FDP,Florian,Toncar,1979,Baden-Württemberg,c53cea12-5957-42b2-ac25-972849168918,#N/A
+FDP,Konrad,Stockmeier,1977,Baden-Württemberg,125d2aff-4cdd-4065-896a-7d3b3a81f79e,#N/A
+FDP,Ann-Veruschka,Jurisch,1972,Baden-Württemberg,fbe473c7-6d9d-4c5b-a77c-277c9d9eb46e,#N/A
+FDP,Michael,Link,1963,Baden-Württemberg,4b918039-eebc-4236-ba63-e0e914c2623e,#N/A
+FDP,Jens,Brandenburg,1986,Baden-Württemberg,d7993325-a0db-4978-a58d-c2067abb619f,#N/A
+FDP,Hagen,Reinhold,1978,Mecklenburg-Vorpommern,0d95d80a-49fe-4e77-a091-c2ef989aea50,#N/A
+FDP,Maximilian,Mordhorst,1996,Schleswig-Holstein,dfcd9d40-6086-410a-86be-fc389eab20b2,#N/A
+AfD,Enrico,Komning,1968,Mecklenburg-Vorpommern,afbc5877-408f-41f2-99a8-0c6afbdc1613,#N/A
+AfD,Gereon,Bollmann,1953,Schleswig-Holstein,e4169146-db83-4e3d-bb23-41d9758508f0,#N/A
+AfD,Uwe,Witt,1959,Schleswig-Holstein,3225eb76-f531-40f6-9181-529a8b808942,#N/A
+AfD,Thomas,Dietz,1967,Erzgebirgskreis I,82af6060-1743-4a0f-8d48-9bc96b39c5cd,#N/A
+AfD,Marcus,Bühl,1977,Gotha – Ilm-Kreis,f6978e2c-411d-4f25-9834-9d27e489582c,#N/A
+AfD,Karsten,Hilse,1964,Bautzen I,d153ecf5-e4ae-4c10-94f2-c20458b581fe,#N/A
+AfD,Tino,Chrupalla,1975,Görlitz,d8c13ca8-0d2a-4534-b3aa-ac9f218e71fd,#N/A
+Linke,Dietmar,Bartsch,1958,Mecklenburg-Vorpommern,d10b6fb0-df84-405d-87af-6a6b5a8cc638,#N/A
+Linke,Ina,Latendorf,1971,Mecklenburg-Vorpommern,5fd5956f-188e-4f69-a9a3-0bf316109f55,#N/A
+Linke,Cornelia,Möhring,1960,Schleswig-Holstein,bc9a305d-ab86-4b54-8a44-c1caff8e42dc,#N/A
+SPD,Herbert,Wollmann,1951,Altmark,2a27946f-694a-4a21-9f68-bf2f6c537f39,#N/A
+SPD,Mahmut,Özdemir,1987,Duisburg II,6056bbad-a264-46b1-b137-bb1b711b6b7e,#N/A
+SPD,Dagmar,Schmidt,1973,Lahn-Dill,627170c7-2237-4587-b907-59cbb9291712,#N/A
+SPD,Christian,Schreider,1971,Ludwigshafen/Frankenthal,72fc8ad1-948e-4787-bf34-0fb73c295407,#N/A
+SPD,Bernd,Westphal,1960,Hildesheim,15ed1a0c-a2b2-44db-9ff0-208ed03c3e45,#N/A
+SPD,Johann,Saathoff,1967,Aurich – Emden,e8067761-8acc-4a6f-9e13-ac712d8737f3,#N/A
+SPD,Frauke,Heiligenstadt,1966,Goslar – Northeim – Osterode,de9d9bc8-1626-4f11-b5ca-188306b3f595,#N/A
+SPD,Uwe,Schmidt,1966,Bremen II – Bremerhaven,51fad4e6-8b7f-433a-bb71-637347bc12fe,#N/A
+SPD,Martin,Kröber,1992,Magdeburg,0b734b3f-e3bd-4ca1-b001-40de72638abc,#N/A
+SPD,Stefan,Zierke,1970,Uckermark – Barnim I,dc6aa0f1-8807-4147-bdfd-cbbe3ae5492f,#N/A
+SPD,Sylvia,Lehmann,1954,Dahme-Spreewald – Teltow-Fläming III – Oberspreewald-Lausitz I,ca412baa-3fc9-4545-b4da-8d5d7358478f,#N/A
+SPD,Inaki,Echeverria,1980,Ennepe-Ruhr-Kreis II,a76cc92c-124f-4e6a-ae8a-9a862a8162e8,#N/A
+SPD,Dorothee,Martin,1978,Hamburg-Nord,a0d50413-2121-474d-9457-13dcc072e66d,#N/A
+SPD,Nina,Scheer,1971,Herzogtum Lauenburg – Stormarn-Süd,39d65b92-10c5-4299-a424-2efd52a22545,#N/A
+SPD,Karamba,Diaby,1961,Halle,d524d23e-6da7-4c90-8981-fa0eb9c540e2,#N/A
+SPD,Jan,Oehl,1993,Hanau,5ecf5c5e-322c-4576-b153-1152282192b0,#N/A
+CSU,Daniela,Ludwig,1975,Rosenheim,7d3ac1e0-6c7b-4229-9ece-70390e4a7406,#N/A
+CSU,Thomas,Silberhorn,1968,Bamberg,fbc3e93d-38a0-417e-9604-83ecd59d33ab,#N/A
+CDU,Joachim-Friedrich,Merz,1955,Hochsauerlandkreis,d43ef1b3-1be7-41ec-93e8-da8043db8fbb,#N/A
+CSU,Stephan,Pilsinger,1987,München-West/Mitte,16d8a716-5699-46dd-897e-61e4e9229587,#N/A
+CDU,Thomas,Heilmann,1964,Berlin-Steglitz-Zehlendorf,dac48c3d-3266-453f-9828-567b69f53c2f,#N/A
+CDU,Paul,Ziemiak,1985,Märkischer Kreis II,53a2368c-a683-4732-b8dc-7468a481ce10,#N/A
+CSU,Anja,Weisgerber,1976,Schweinfurt,e87fe616-f861-4b14-a2e2-6841c2240cfd,#N/A
+CDU,Erwin,Rüddel,1955,Neuwied,796e8690-472d-42fb-b396-a84429bc5634,#N/A
+CDU,Mark,Helfrich,1978,Steinburg – Dithmarschen Süd,afc292e3-c064-47c7-bfea-49185e35bb90,#N/A
+CDU,Silvia,Breher,1973,Cloppenburg – Vechta,00647197-dcf4-4200-a4b9-ff0e83922c55,#N/A
+CDU,Marlon,Bröhr,1974,Mosel/Rhein-Hunsrück,6d668289-9bf8-499e-8e99-69bee03215f7,#N/A
+CDU,André,Berghegger,1972,Osnabrück-Land,f4a98e6f-3afa-4232-83e0-a33f7d099c94,#N/A
+CDU,Monika,Grütters,1962,Berlin-Reinickendorf,f28019cd-679e-4595-891d-ecb118475999,#N/A
+CDU,Carsten,Müller,1970,Niedersachsen,466b776f-d834-437b-b229-2bd6193e08ff,#N/A
+CDU,Michael,Grosse-Brömer,1960,Niedersachsen,3a3d1ce9-2bce-49af-8870-a410a42381d0,#N/A
+CDU,Tilman,Kuban,1987,Niedersachsen,92c6c1d5-62c5-4a21-b18b-5ca87d020fb8,#N/A
+Grüne,Jürgen,Trittin,1954,Niedersachsen,df9e4f10-befd-492f-aab1-02008a8cf6e5,#N/A
+Grüne,Peer,Wenzel,1962,Niedersachsen,ef89bd10-af91-4f30-b4ab-75083100b02b,#N/A
+Grüne,Sven-Christian,Kindler,1985,Niedersachsen,915265ee-d2b6-4147-bfd5-1c67344bf7b9,#N/A
+Grüne,Christina-Johanne,Schröder,1983,Niedersachsen,dd12d3b2-0324-4719-ba20-3afe63f5545b,#N/A
+Grüne,Swantje,Michaelsen,1979,Niedersachsen,b8a2c862-9827-488f-9b91-03e5368ae525,#N/A
+Grüne,Julian,Pahlke,1991,Niedersachsen,6251988b-f30c-449a-a70b-2d9237d5f4d4,#N/A
+Grüne,Julia,Verlinden,1979,Niedersachsen,e46639b8-5796-432d-8ad6-66809a4faadf,#N/A
+Grüne,Helge,Limburg,1982,Niedersachsen,5dbe29f8-249f-457e-8aff-3bcc8343254b,#N/A
+Grüne,Patrizia,Menge,1960,Niedersachsen,ce9b844f-672c-4df9-8dc5-818bcc1ae47d,#N/A
+FDP,Wolfgang,Kubicki,1952,Schleswig-Holstein,baee7597-2332-4b50-8a49-05def50f0d29,#N/A
+FDP,Gyde,Jensen-Bornhöft,1989,Schleswig-Holstein,04e6504d-5b59-43c4-9b04-fe992f61c614,#N/A
+FDP,Christine,Aschenberg-Dugnus,1959,Schleswig-Holstein,6b11df57-a49c-4734-a9f7-2283ac90b3bb,#N/A
+FDP,Knut,Gerschau,1961,Niedersachsen,654235ef-04c9-454e-a3c9-b55ddb530c13,#N/A
+FDP,Anikó,Merten,1982,Niedersachsen,9ae5b023-5a4a-4a47-b2e5-d0374e6f0886,#N/A
+FDP,Anja,Schulz,1985,Niedersachsen,140a3755-33a1-48b6-9cc8-854be607150e,#N/A
+FDP,Matthias,Seestern-Pauly,1984,Niedersachsen,8b6df9b5-5c09-4a7b-b64e-411e33773851,#N/A
+AfD,Klaus,Stöber,1961,Eisenach – Wartburgkreis – Unstrut-Hainich-Kreis,732f6571-a0f9-4063-9ebc-787942b23982,#N/A
+AfD,René,Bochmann,1969,Nordsachsen,3bd36c93-0edd-4c42-8b7c-ae1dfc1b0ece,#N/A
+AfD,Matthias,Moosdorf,1965,Zwickau,0c7b6935-4f58-4fdb-ad7d-9c1de7d5f214,#N/A
+AfD,Thomas,Ehrhorn,1959,Niedersachsen,e092326b-4feb-4bd1-b79f-31a1cfc2f79d,#N/A
+AfD,Jörn,König,1967,Niedersachsen,14592bab-11b5-4601-8531-d316ca3eb1cc,#N/A
+AfD,Dietmar,Friedhoff,1966,Niedersachsen,418ad518-f617-4a5f-ad74-e6add36c1eb2,#N/A
+AfD,Franz,Wundrak,1955,Niedersachsen,5b68e7b2-f10a-453e-8767-39d8023a9282,#N/A
+Linke,Sören,Pellmann,1977,Leipzig II,9546c773-ed9e-45af-bd84-05895d2ce380,#N/A
+Linke,Gesine,Lötzsch,1961,Berlin-Lichtenberg,855bdd2b-532a-41f5-911c-37a660cf298f,#N/A
+Linke,Victor,Perli,1982,Niedersachsen,6da6e763-5b5f-4d14-9407-e9e1571df30d,#N/A
+SPD,Anja,Troff-Schaffarzyk,1969,Niedersachsen,c0ebf2eb-4c82-4b79-9901-770f14d05f4e,#N/A
+SPD,Anke,Hennig,1964,Niedersachsen,b0ae6b00-85a3-49f3-80be-c3affbcc7965,#N/A
+SPD,Peggy,Schierenbeck,1970,Niedersachsen,f4c1ff4f-bd6f-4c23-850b-cfe2ac2420b4,#N/A
+SPD,Mathias,Papendieck,1982,Frankfurt (Oder) – Oder-Spree,ddff1b2c-1391-42cc-97c8-adef77b9da43,#N/A
+SPD,Sebastian,Fiedler,1973,Mülheim – Essen I,66be3f19-9480-4d28-b269-3d7123f7e108,#N/A
+SPD,Yasmin,Fahimi,1967,Stadt Hannover II,e3c876cf-31d8-4641-8964-e7956fcb9b40,#N/A
+SPD,Esther,Dilcher,1965,Waldeck,c5be0ae0-d178-460e-8a30-8a3713b0d8aa,#N/A
+SPD,Marja-Liisa,Völlers,1984,Nienburg II – Schaumburg,e091705c-f47f-4076-9d5e-b26790d360b0,#N/A
+SPD,Saliha,Özoğuz,1967,Hamburg-Wandsbek,0bf366e4-8949-405f-865e-ffa3f909981e,#N/A
+SPD,Helmut,Kleebank,1964,Berlin-Spandau – Charlottenburg Nord,b6b13cc1-0c3a-4714-9841-b2a0b43e03df,#N/A
+SPD,Jan,Dieren,1991,Krefeld II – Wesel II,cbd7b0cb-dc7a-463f-87df-bd43a3be8d26,#N/A
+SPD,Rolf,Mützenich,1959,Köln III,8a7a9913-9301-4df2-8b20-c69ac001ed23,#N/A
+SPD,Heiko,Maas,1966,Saarlouis,348fe2df-1441-44c4-8752-d3ce3c9792b8,#N/A
+SPD,Bernd,Rützel,1968,Bayern,f6f0589a-7ed9-4a5e-9273-9323eaa9523a,#N/A
+SPD,Claudia,Tausend,1964,Bayern,bbb7b3cf-20fa-45bb-addf-7f65d0ed6d37,#N/A
+CDU,Hendrik,Hoppenstedt,1972,Niedersachsen,276e75ab-c82c-4247-bdde-f097d254540c,#N/A
+CDU,Anne,Janssen,1982,Niedersachsen,440ae4b0-06af-4f4f-afdc-5c1af77b60df,#N/A
+CDU,Mathias,Middelberg,1964,Niedersachsen,6882c77a-1b7b-4982-acbe-3013faadbc43,#N/A
+CDU,Fritz,Güntzler,1966,Niedersachsen,27862da0-5eef-4a3f-9981-2e2a37bf811a,#N/A
+CDU,Stephan,Albani,1968,Niedersachsen,53f16acf-2a85-48bd-9595-e3ead861bbcd,#N/A
+CDU,Enak,Ferlemann,1963,Niedersachsen,8e93eb78-630f-45f5-9960-7e406c99e992,#N/A
+CDU,Mareike,Wulf,1979,Niedersachsen,71b6681a-cd6b-48c4-b565-864ceeef3dd4,#N/A
+CSU,Dorothee,Bär,1978,Bad Kissingen,67a78a89-53d7-47be-8294-c39a6f6f59d7,#N/A
+CDU,Yannick,Bury,1990,Emmendingen – Lahr,2a791b91-4058-4cd6-b42a-c2104160de54,#N/A
+CDU,Jens,Koeppen,1962,Brandenburg,a768fb21-ccc0-4a6f-9e6d-e2346acf121d,#N/A
+CDU,Jana,Schimke,1979,Brandenburg,21ed7064-0e06-49dc-be12-b56bd69a4f71,#N/A
+CDU,Knut,Abraham,1966,Brandenburg,d2c5eed2-cb28-40e3-b285-f81402ba48bc,#N/A
+CDU,Uwe,Feiler,1965,Brandenburg,253bc55b-a6c8-42f7-9b95-b8a994448390,#N/A
+CDU,Thomas,Jarzombek,1973,Düsseldorf I,4fa467cd-89ec-4109-a005-3f197ebcb571,#N/A
+CDU,Patrick,Schnieder,1968,Bitburg,9a040b80-13ee-4f4b-8128-276ea25e4f4b,#N/A
+Grüne,Karoline,Otte,1996,Niedersachsen,c16490f8-f585-4f1e-a5d6-bd712e3f46cd,#N/A
+Grüne,Frank,Bsirske,1952,Niedersachsen,23c3b89b-cf2d-4080-9bfe-be146b3bbe2c,#N/A
+Grüne,Cem,Özdemir,1965,Stuttgart I,fe354ff4-fc8e-43f9-b818-df8c3f78aaa0,#N/A
+Grüne,Annalena,Baerbock,1980,Brandenburg,699ce19f-4754-48c1-860a-99dacdb9f36f,#N/A
+Grüne,Michael,Kellner,1977,Brandenburg,ada7a808-a6de-49a4-98cf-87c6e4486c45,#N/A
+Grüne,Canan,Bayram,1966,Berlin-Friedrichshain-Kreuzberg – Prenzlauer Berg Ost,388c58a4-1b70-43a5-9317-0b1b308b86b5,#N/A
+Grüne,Oliver,Krischer,1969,Aachen I,d78b5edc-ba8a-45ac-a7f6-e5c1f369895c,#N/A
+Grüne,Johannes,Wagner,1991,Bayern,18fa46f3-a4fb-46c5-9ea3-4a4089b4325b,#N/A
+Grüne,Claudia,Roth,1955,Bayern,78941298-ba7f-4ef8-9109-e54f66ceb702,#N/A
+FDP,Jens,Beeck,1969,Niedersachsen,d2839a9b-49a4-469f-bcf2-a8a1beb37a97,#N/A
+FDP,Gero,Hocker,1975,Niedersachsen,36c69fd5-54de-4ff9-93c9-3c80f2cbf876,#N/A
+FDP,Christian,Dürr,1977,Niedersachsen,de3a6e05-785a-49a0-8267-ba9ae18f76c1,#N/A
+FDP,Konstantin,Kuhle,1989,Niedersachsen,257b92a5-5367-47cf-87e8-ab5f2c31e3eb,#N/A
+FDP,Linda,Teuteberg,1981,Brandenburg,5ac3ad13-0651-4282-91a4-24ce64599c96,#N/A
+FDP,Friedhelm,Boginski,1955,Brandenburg,b8218852-e5b7-4779-aef8-6574a2335e3e,#N/A
+FDP,Lukas,Köhler,1986,Bayern,0740e465-2522-4bbb-9e93-3318811c6eb0,#N/A
+AfD,Frank,Rinck,1986,Niedersachsen,070ec336-4812-4d1f-83b3-2d9dd55f92b6,#N/A
+AfD,Dirk,Brandes,1974,Niedersachsen,a2ee31b2-e0ac-49b8-9e44-5105be728991,#N/A
+AfD,René,Springer,1979,Brandenburg,24164726-c5e8-4141-862e-bc5d7b0c9774,#N/A
+AfD,Eberhardt,Gauland,1941,Brandenburg,18111789-e1e6-49f9-8a0f-dd39c2df4152,#N/A
+AfD,Steffen,Kotré,1971,Brandenburg,e8337974-0d50-477e-85a0-8816838657e8,#N/A
+AfD,Hannes,Gnauck,1991,Brandenburg,a0078bdc-fecf-4efe-9158-8c0496afd6df,#N/A
+Linke,Amira,Mohamed Ali,1980,Niedersachsen,2ed2f961-ec5d-4bbf-a995-cc2eebbf2cd3,#N/A
+Linke,Heidi,Reichinnek,1988,Niedersachsen,0fb293e8-403b-4bc6-a7d0-c82b70e37b98,#N/A
+Linke,Anke,Domscheit-Berg,1968,Brandenburg,7cd44199-d3fa-4f4f-9172-d6cd8c0e4a63,#N/A
+SPD,Carsten,Träger,1973,Bayern,d65183c2-227d-45ca-a98a-58460b44e773,#N/A
+SPD,Sebastian,Roloff,1983,Bayern,1e08818f-690c-4ad3-8236-933859f7678f,#N/A
+SPD,Michael,Schrodi,1977,Bayern,fed5d5a2-8704-49f7-a2af-255efa1148eb,#N/A
+SPD,Rita,Hagl-Kehl,1970,Bayern,68010941-3fee-412a-9dd4-eec71691dbf8,#N/A
+SPD,Ulrich,Grötsch,1975,Bayern,4e442c7f-07fc-4269-8e48-79c582785b45,#N/A
+SPD,Anette,Kramme,1967,Bayern,a154506f-5ed2-42e6-868c-0930d67993c4,#N/A
+SPD,Christoph,Schmid,1976,Bayern,f97a898f-9ae0-4ad2-a3d4-aca07db20d29,#N/A
+SPD,Ulrike,Bahr,1964,Bayern,dee79367-bfe7-41a0-a1f9-18064dd413de,#N/A
+SPD,Gabriela,Heinrich,1963,Bayern,03b2c552-0171-46b6-ab85-79dab3f81a86,#N/A
+SPD,Carmen,Wegge,1989,Bayern,bd8283ff-43bb-4dbb-8beb-b28fd914da48,#N/A
+SPD,Markus,Hümpfer,1992,Bayern,30677a8c-4c4c-4ab3-b79f-0e3457294bae,#N/A
+SPD,Johannes,Schätzl,1993,Bayern,0ec6414f-7189-4d73-82e8-cb04403d9634,#N/A
+SPD,Bärbel,Kofler,1967,Bayern,d7420ff3-bbcd-4e73-bf01-f87a5ee02ead,#N/A
+SPD,Andreas,Schwarz,1965,Bayern,9cb30835-142a-413b-b6bf-94d9a6954530,#N/A
+CDU,Norbert,Altenkamp,1972,Main-Taunus,7e65e7f7-92bf-4609-b9b9-bec54495b680,#N/A
+CSU,Reinhard,Brandl,1977,Ingolstadt,78b961fc-95f2-41bf-bc20-fb0bafa94e61,#N/A
+CDU,Thorsten,Frei,1973,Schwarzwald-Baar,e1ec98de-72be-4f53-849e-189768c10cca,#N/A
+CDU,Klaus,Mack,1973,Calw,cf01bd00-5685-4db3-97b0-4aed4fe36884,#N/A
+CSU,Thomas,Erndl,1974,Deggendorf,8d109d00-50c5-4d03-beae-72d918627d43,#N/A
+CDU,Annette,Widmann-Mauz,1966,Tübingen,9290e337-bf3c-427d-9bf4-6bec6efbbfcb,#N/A
+CDU,Thomas,Rachel,1962,Düren,03327e2c-04e6-40da-8959-6e5ed5c9c317,#N/A
+CDU,Ralph,Brinkhaus,1968,Gütersloh I,d1dcabee-b83d-4bed-b7a8-6e63f0d7e240,#N/A
+CSU,Florian,Hahn,1974,München-Land,54e1032d-a15c-49d0-99fe-fbe75a92c725,#N/A
+CDU,Josef,Rief,1960,Biberach,888cf6ae-a4fe-4026-aeb2-cc1fe728265b,#N/A
+CDU,Christian,Haase,1966,Höxter – Gütersloh III – Lippe II,95807676-fcd2-4a2c-b9b8-8e9bb7aef093,#N/A
+CDU,Mechthild,Heil,1961,Ahrweiler,58dc5a8a-78b3-459a-8415-a6214c9fe97f,#N/A
+CSU,Paul,Lehrieder,1959,Würzburg,0e699c83-d36e-449e-9fca-012d08a30ebf,#N/A
+CDU,Andreas,Mattfeldt,1969,Osterholz – Verden,d4f08e31-e9b1-4aa2-8d4a-d6610ac5ca59,#N/A
+Grüne,Leon,Eckert,1995,Bayern,486b787e-f4c1-4b2a-b910-33f56b9cbc55,#N/A
+Grüne,Saskia,Weishaupt,1993,Bayern,90c435dd-bffa-481b-89d5-afbd1279d76d,#N/A
+Grüne,Ekin,Deligöz,1971,Bayern,000eb1b8-dc5b-4327-a9bd-2721c5c88104,#N/A
+Grüne,Niklas,Wagener,1998,Bayern,f7d17c72-b541-4907-9b94-8528ff387d59,#N/A
+Grüne,Lisa,Badum,1983,Bayern,f7522b26-8dad-492a-a0b8-c7df36a2010f,#N/A
+Grüne,Sascha,Müller,1970,Bayern,c8e13342-9359-49ad-8259-e1ab98392aba,#N/A
+Grüne,Markus,Ganserer,1977,Bayern,bfa15a3f-8578-4249-adcf-7e3d2fa8a1d5,#N/A
+Grüne,Manuela,Rottmann,1972,Bayern,8aa95ed2-0b32-4ac7-b02d-291af49906fc,#N/A
+Grüne,Dieter,Janecek,1976,Bayern,82cf3d96-77ac-4619-b80a-bb12dc28585c,#N/A
+FDP,Thomas,Sattelberger,1949,Bayern,d03290ae-ce67-48eb-84de-84a753eb4e36,#N/A
+FDP,Kristine,Lütke,1982,Bayern,12bd0f00-4e1e-40a9-8406-67c93c81ea48,#N/A
+FDP,Thomas,Hacker,1967,Bayern,ec545cd8-3d80-4305-8eac-c73bf75b5998,#N/A
+FDP,Katja,Hessel,1972,Bayern,7143a9ae-9f95-4b5d-8f23-4ec1d23e7b39,#N/A
+FDP,Andrew,Ullmann,1963,Bayern,04af7c20-17ef-4a22-b2e8-a36b69f8626d,#N/A
+FDP,Daniel,Föst,1976,Bayern,7fef5475-0bda-4ab8-8722-57428b88160f,#N/A
+AfD,Norbert,Kleinwächter,1986,Brandenburg,e6b060b0-b2b2-4f16-ae7a-6562bd8ff289,#N/A
+AfD,Wolfgang,Wiehle,1964,Bayern,adeb156a-32f7-439f-a39c-a98179920c87,#N/A
+AfD,Peter,Felser,1969,Bayern,44052826-7420-4cc9-ac72-37fc8c8cb0e0,#N/A
+AfD,Petr,Bystron,1972,Bayern,864276ea-7647-4ede-90ea-5024bdfc3166,#N/A
+AfD,Peter,Boehringer,1969,Bayern,b599fd15-1d63-4dc3-9587-0783ce533e6f,#N/A
+AfD,Corinna,Miazga,1983,Bayern,dbafefab-fbfa-4766-a3c9-5177a7f0cb1c,#N/A
+Linke,Christian,Görke,1962,Brandenburg,80c976f3-fbe5-491a-806f-ce797f359674,#N/A
+Linke,Nicole,Gohlke,1975,Bayern,13ae8d91-393b-4173-addd-b1cc33b99192,#N/A
+Linke,Ates,Gürpinar,1984,Bayern,663cda1b-a185-4ee4-b81b-20f564d51bb7,#N/A
+SPD,Jan,Plobner,1992,Bayern,4f3173aa-b743-4de2-b076-f86d628a43de,#N/A
+SPD,Jörg,Nürnberger,1967,Bayern,a7114501-8351-4359-a329-fb9685f841b4,#N/A
+SPD,Andreas,Mehltretter,1991,Bayern,8660e05e-8bd2-4252-9537-671e17f4d644,#N/A
+SPD,Carolin,Wagner,1982,Bayern,43e6773b-1674-4583-b5c7-ecc9c9c04e4e,#N/A
+SPD,Martina,Stamm-Fibich,1965,Bayern,bcff0059-720c-4ae1-942c-aac92370d5cc,#N/A
+SPD,Sabine,Dittmar,1964,Bayern,f81fbb0f-a475-43a8-b5cf-29e9973cadee,#N/A
+SPD,Marianne,Schieder,1962,Bayern,b84dc418-b2a7-4b3f-8484-4a909d2a14e4,#N/A
+SPD,Susanne,Mittag,1958,Delmenhorst – Wesermarsch – Oldenburg-Land,e5cc7ce7-af3a-4ba5-9c67-82337e363716,#N/A
+SPD,Simona,Koß,1961,Märkisch-Oderland – Barnim II,df26e72a-d9e0-4e41-b6c0-93643bc602af,#N/A
+SPD,Christian,Petry,1965,St. Wendel,dcfcbe6a-bd14-4620-90f9-bb8d83737b4a,#N/A
+SPD,Brian,Nickholz,1989,Recklinghausen II,52d3c4ac-fdd1-4542-bac3-8c2fb51280b3,#N/A
+SPD,Frank,Ullrich,1958,Suhl – Schmalkalden-Meiningen – Hildburghausen – Sonneberg,ba698241-12d9-4575-926e-38f949b58a07,#N/A
+SPD,Stefan,Schwartze,1974,Herford – Minden-Lübbecke II,f1118c7e-b9ec-4cdb-9886-1bf75b7670cf,#N/A
+SPD,Carsten,Schneider,1976,Erfurt – Weimar – Weimarer Land II,14ad7c88-79a8-43d4-bdaf-84e63692991c,#N/A
+CDU,Hermann,Färber,1963,Göppingen,ca4a38b2-cd34-4277-b2fe-34e94e156911,#N/A
+CDU,Georg,Kippels,1959,Rhein-Erft-Kreis I,05344b56-4254-4580-89c4-693b56c746bc,#N/A
+CDU,Marc,Henrichmann,1976,Coesfeld – Steinfurt II,7a3a59e1-1ef8-45ce-a2b9-2dd7da5bf420,#N/A
+CSU,Alexander,Engelhard,1972,Neu-Ulm,60049ab9-70ea-4fa7-9101-f4289941d447,#N/A
+CDU,Ingmar,Jung,1978,Wiesbaden,8edb6f7e-14f5-4404-bb4e-30baf9e1b153,#N/A
+CDU,Thomas,Gebhart,1971,Rheinland-Pfalz,5646b116-2d93-40ea-ab53-d54238f35682,#N/A
+CDU,Julia,Klöckner,1972,Rheinland-Pfalz,6f98e077-90aa-4268-9595-4537288bde49,#N/A
+CDU,Jens,Lehmann,1967,Leipzig I,8f19f9a0-0cf7-4ff2-bd0f-b45d880c920e,#N/A
+CDU,Nina,Warken,1979,Odenwald – Tauber,3be23550-bddc-4f7c-a403-f5af5e7c9ea6,#N/A
+CDU,Tino,Sorge,1975,Sachsen-Anhalt,5fe754ca-3fdd-4484-b75f-9088b57fb937,#N/A
+CDU,Albert,Stegemann,1976,Mittelems,fd3802e6-330a-4645-b368-c030131e50b3,#N/A
+CDU,Andreas,Jung,1975,Konstanz,3f4c1ace-4300-4851-b5ce-b71cf83fa7d1,#N/A
+CDU,Ottilie,Klein,1984,Berlin,80241f44-3a8e-49d1-8d65-6751374fdb16,#N/A
+Grüne,Erhard,Grundl,1963,Bayern,cc67f17d-2629-48d7-bec1-77039e7809ca,#N/A
+Grüne,Anton,Hofreiter,1970,Bayern,5afc5643-3175-4038-9d17-74606b22cda0,#N/A
+Grüne,Tina,Winklmann,1980,Bayern,06f85d87-ce76-499b-9a41-ff61fc5e3dd2,#N/A
+Grüne,Marlene,Schönberger,1990,Bayern,89f6a103-2fc3-4cdc-a057-7c07dd9dcef9,#N/A
+Grüne,Stefan,Schmidt,1981,Bayern,b4c8fdea-539e-419d-be7b-a92b63a327e7,#N/A
+Grüne,Karl,Bär,1985,Bayern,7b74bd53-3101-4ede-ab88-ed46cd1e0ad1,#N/A
+Grüne,Till,Steffen,1973,Hamburg-Eimsbüttel,75e8f4c4-5ed2-4816-a47f-00a485a786de,#N/A
+Grüne,Sven,Lehmann,1979,Köln II,4e2f3638-7059-48b9-88ee-61f0e50a65b3,#N/A
+FDP,Maximilian,Funke-Kaiser,1993,Bayern,25a54f04-ed29-467a-b3d3-01c600150939,#N/A
+FDP,Nicole,Bauer,1987,Bayern,1df374f2-6f29-4068-a5ba-4ed25ae08a5e,#N/A
+FDP,Ulrich,Lechte,1977,Bayern,99389453-76dc-4e09-a712-be830d33a6f8,#N/A
+FDP,Muhanad,Al-Halak,1989,Bayern,ccf76e05-b817-4fbc-8416-e343e3c7efba,#N/A
+FDP,Sandra,Bubendorfer-Licht,1969,Bayern,ea64a36d-fa78-4370-b440-146f8229d673,#N/A
+FDP,Karsten,Klein,1977,Bayern,b07b852e-989c-4a80-aa9d-f39e238a5407,#N/A
+AfD,Gerold,Otten,1955,Bayern,cb9185ac-884c-42ac-9936-c80bfe4c9dcc,#N/A
+AfD,Martin,Sichert,1980,Bayern,bb70f640-000e-4da9-ac45-53e23bdcf95f,#N/A
+AfD,Tobias,Peterka,1982,Bayern,87417461-bc88-442b-a70f-37571adc65ba,#N/A
+AfD,Rainer,Kraft,1974,Bayern,49800b5f-c273-4845-93ec-1c60ddde0869,#N/A
+AfD,Rose,Huy,1953,Bayern,a3d80f29-549a-44a6-8439-76f2a02f8eb3,#N/A
+Linke,Klaus,Ernst,1954,Bayern,f1e63cda-516c-4899-b9f2-0353f9e6fdfe,#N/A
+Linke,Susanne,Ferschl,1973,Bayern,be6250de-8662-498f-a5fb-32659adcce18,#N/A
+Linke,Alexander,Ulrich,1971,Rheinland-Pfalz,b7186469-861a-4b4e-b76d-7793dea3c81f,#N/A
+SPD,Karl,Lauterbach,1963,Leverkusen – Köln IV,99adc922-a230-4e3a-b4f3-2e2e1c92bd44,#N/A
+SPD,Erik,von Malottki,1986,Mecklenburgische Seenplatte I – Vorpommern-Greifswald II,edfaedb9-756f-43bf-9592-5dfd86194bee,#N/A
+SPD,Axel,Schäfer,1952,Bochum I,ca009785-69c5-4030-8849-93dbb0f7de04,#N/A
+SPD,Reem,Alabali-Radovan,1990,Schwerin – Ludwigslust-Parchim I – Nordwestmecklenburg I,30722bb9-4b55-4987-a40b-afd645edb485,#N/A
+SPD,Jens,Peick,1981,Dortmund I,2ba99c1d-4bdc-45c9-9bb8-6e7d99ebb0e3,#N/A
+SPD,Bettina,Müller,1959,Main-Kinzig – Wetterau II – Schotten,e4edf67a-e94d-4ae7-b98d-892bb70d872a,#N/A
+SPD,Rainer,Keller,1965,Wesel I,f0f9bed1-fe63-404c-8750-f929973b3f24,#N/A
+SPD,Holger,Becker,1964,Jena – Sömmerda – Weimarer Land I,833b0dcc-a67c-4a2a-bee6-f61813323514,#N/A
+SPD,Johannes,Arlt,1984,Mecklenburgische Seenplatte II – Landkreis Rostock III,82d39ee6-05c2-473f-8747-06ad03f8ecb2,#N/A
+SPD,Natalie,Pawlik,1992,Wetterau I,72a465fb-eeb4-4019-a812-4cddf3b59c2e,#N/A
+SPD,Sonja,Eichwede,1987,Brandenburg an der Havel – Potsdam-Mittelmark I – Havelland III – Teltow-Fläming I,4ed6f5da-1c71-4cda-8a38-cdb9c15d832d,#N/A
+SPD,Bärbel,Bas,1968,Duisburg I,fd03c0ba-ab24-47d9-bf74-99d41cc8eb70,#N/A
+SPD,Dirk,Vöpel,1971,Oberhausen – Wesel III,7c7070e8-1b1c-4b55-82a1-2022f33e9e84,#N/A
+CDU,Jan-Marco,Luczak,1975,Berlin,9644ca01-d534-4010-9452-96d28a541758,#N/A
+CDU,Hans-Jürgen,Thies,1955,Soest,d4ddd03c-fa8c-42ac-a48e-0e62a21fbb3c,#N/A
+CDU,Thomas,Bareiß,1975,Zollernalb – Sigmaringen,1198c0e8-def3-4e4b-b154-13977593c967,#N/A
+CDU,Jens,Spahn,1980,Steinfurt I – Borken I,addde4af-3266-4026-ab8f-82104ddf5e1e,#N/A
+CSU,Wolfgang,Stefinger,1985,München-Ost,f02d78de-f324-4c7a-924a-1949aba1b842,#N/A
+CDU,Thomas,Röwekamp,1966,Bremen,b6c25e94-c6b0-4415-a8a2-6cecdf9b53bb,#N/A
+CDU,Mario,Czaja,1975,Berlin-Marzahn-Hellersdorf,6a181ce6-2262-4727-ada6-de25d0c1037d,#N/A
+CSU,Alexander,Dobrindt,1970,Weilheim,25ca8e5e-18d5-431e-8fdb-5c5b32920d2e,#N/A
+CSU,Peter,Aumer,1976,Regensburg,e3fc5b87-e6c2-4105-8099-61fbddb38c04,#N/A
+CSU,Ralph,Edelhäußer,1973,Roth,0a161b59-cbd6-40ac-a822-1797980fe2e6,#N/A
+CDU,Stefan,Heck,1982,Hessen,fbd476af-755a-45ec-824e-776827e14d86,#N/A
+CDU,Armin,Schwarz,1968,Hessen,45fd226f-e2a3-417d-80ef-09c3d9b00623,#N/A
+Grüne,Tabea,Rößner,1966,Rheinland-Pfalz,e8d6137b-655e-49ed-9eba-0a0ca706932c,#N/A
+Grüne,Armin,Grau,1959,Rheinland-Pfalz,f406f67e-0d42-4447-ac85-6ada48993f1c,#N/A
+Grüne,Tobias,Lindner,1982,Rheinland-Pfalz,8c0789d0-c065-40d6-b52d-a96a19fa898c,#N/A
+Grüne,Corinna,Rüffer,1975,Rheinland-Pfalz,6296c4ee-8dca-4780-ae14-cf382a5a2717,#N/A
+Grüne,Misbah,Khan,1989,Rheinland-Pfalz,2937cd3a-93de-495f-aa65-aa39c8f4c065,#N/A
+Grüne,Linda,Heitmann,1982,Hamburg-Altona,d26746ac-6b80-4fcc-9a6f-38b7dbc46a60,#N/A
+Grüne,Steffi,Lemke,1968,Sachsen-Anhalt,52562dc2-dfd8-44fb-a4d6-c3e174b21508,#N/A
+Grüne,Nina,Stahr,1982,Berlin,d1cf730a-fac2-4951-bc0a-0a2382d3f255,#N/A
+FDP,Stephan,Thomae,1968,Bayern,4eb3cab9-05d9-4b2d-96a7-ccdee2d7bc57,#N/A
+FDP,Manuel,Höferlin,1973,Rheinland-Pfalz,73e98236-70d2-4813-84bd-1b05d0e20058,#N/A
+FDP,Carina,Konrad,1982,Rheinland-Pfalz,47740081-edf0-4ea0-a902-dadc629d42ab,#N/A
+FDP,Mario,Brandenburg,1983,Rheinland-Pfalz,73bf56f8-df1e-4023-b3a4-88bab4e2244e,#N/A
+FDP,Sandra,Weeser,1969,Rheinland-Pfalz,37a4a7ae-0b5d-446a-90d5-cd5da4de9182,#N/A
+AfD,Stephan,Protschka,1977,Bayern,fa45c693-968d-490b-927f-da3ab9cceae1,#N/A
+AfD,Johannes,Huber,1987,Bayern,589c6dd8-c062-4542-b2d1-934b57b2d012,#N/A
+AfD,Barbara,Lenk,1982,Meißen,4711357d-30ce-454d-a3f3-9b215b1d4269,#N/A
+AfD,Edgar,Naujok,1960,Leipzig-Land,de1b5c4a-01da-4a39-93a3-b57e4e0176c4,#N/A
+AfD,Michael,Kaufmann,1964,Saalfeld-Rudolstadt – Saale-Holzland-Kreis – Saale-Orla-Kreis,5e931b1f-8d79-440b-9c5e-db21fd221ed5,#N/A
+Linke,Jan,Korte,1977,Sachsen-Anhalt,44c6b447-6ae2-4009-a0dc-40d57df37fea,#N/A
+Linke,Petra,Sitte,1960,Sachsen-Anhalt,d19da33d-0036-4245-9cb3-45ec67abe99f,#N/A
+Linke,Pascal,Meiser,1975,Berlin,6fd1575a-98dd-4042-a41d-76bfa0a4e0cf,#N/A
+SPD,Martin,Diedenhofen,1995,Rheinland-Pfalz,348869ee-ac89-4f97-b484-c23dbfe6bf5d,#N/A
+SPD,Lena,Werner,1994,Rheinland-Pfalz,a3a07226-182f-43a9-bac2-ffc1253c23a8,#N/A
+SPD,Thorsten,Rudolph,1974,Rheinland-Pfalz,8103cd70-2f67-427f-8cd3-6ee461340d97,#N/A
+SPD,Isabel,Mackensen-Geis,1986,Rheinland-Pfalz,6bb2b147-3f16-4b31-b3d0-c2043c4aebca,#N/A
+SPD,Wiebke,Esdar,1984,Bielefeld – Gütersloh II,a0e1ac99-5f4f-456c-9f8d-e5f3d25529fb,#N/A
+SPD,Detlef,Müller,1964,Chemnitz,13a021e4-75ff-4497-b612-f79bd6556f1c,#N/A
+SPD,Katrin,Budde,1965,Sachsen-Anhalt,5598510b-a6be-49be-8aa4-b94af98c9c06,#N/A
+SPD,Bengt,Bergt,1982,Segeberg – Stormarn-Mitte,9f42368c-1ed3-4487-8275-d297ede0f22f,#N/A
+SPD,Siemtje,Möller,1983,Friesland – Wilhelmshaven – Wittmund,6b362d0c-5c5b-4b8f-9279-39c1182c0d03,#N/A
+SPD,Manuel,Gava,1991,Stadt Osnabrück,8f415bf6-f338-4a47-b57c-1db5ce31d215,#N/A
+SPD,Andreas,Rimkus,1962,Düsseldorf II,288db093-ac84-42c6-9121-1586881224d2,#N/A
+SPD,Cansel,Kiziltepe,1975,Berlin,adb84e27-b225-406b-8e34-132889cb9bba,#N/A
+CDU,Katja,Leikert,1975,Hessen,6c90c3d6-4c95-4715-8922-e01b65f06d56,#N/A
+CDU,Helge,Braun,1972,Hessen,cedb64a9-aed3-4024-8d9f-e4651e2bab88,#N/A
+CDU,Patricia,Lips,1963,Hessen,866f86ea-dc44-4a87-860f-e9457e61e31c,#N/A
+CDU,Axel,Knoerig,1967,Diepholz – Nienburg I,a27be7f2-962a-4fb9-8a81-a56f0b74b625,#N/A
+CDU,Carsten,Brodesser,1967,Oberbergischer Kreis,243dc208-1300-4ac3-8e5d-ba3d63469701,#N/A
+CDU,Ingeborg,Gräßle,1961,Backnang – Schwäbisch Gmünd,2fd70f38-5ce5-4f34-be83-8d619ee3b7f8,#N/A
+CSU,Susanne,Hierl,1973,Amberg,6f960075-41e1-4fd4-91dd-a1132426e9ae,#N/A
+CDU,Michael,Meister,1961,Bergstraße,245ece4d-7ca3-43d1-b038-e8713780ff70,#N/A
+CDU,Wilfried,Oellers,1975,Heinsberg,a5d90814-2d46-4a8f-892b-84e56dfd17ca,#N/A
+CDU,Volker,Mayer-Lay,1981,Bodensee,32f7ce4d-6972-44fc-b10f-0f3b4c51727f,#N/A
+CDU,Klaus,Wiener,1962,Mettmann I,cb70fb61-425b-4a4b-9750-58a7746e087a,#N/A
+CDU,Dieter,Stier,1964,Burgenland – Saalekreis,35cc4db5-aa96-4e02-91ff-11279e649010,#N/A
+Grüne,Renate,Künast,1955,Berlin,6cdaee20-9c45-4f00-b254-8f97511f5500,#N/A
+Grüne,Elisabeth,Paus,1968,Berlin,f71ff229-9c31-4639-aace-654d2d34da0b,#N/A
+Grüne,Andreas,Audretsch,1984,Berlin,6df611f9-c040-49f8-a0e6-c649455375b9,#N/A
+Grüne,Kirsten,Kappert-Gonther,1966,Bremen,26b15ee4-a589-4476-84a1-e75808dc9087,#N/A
+Grüne,Awet,Tesfaiesus,1974,Hessen,cb57ff9e-1482-4663-8015-01e0549251d3,#N/A
+Grüne,Deborah,Düring,1994,Hessen,e4d0f1f0-0489-4780-88d7-52d900579589,#N/A
+FDP,Volker,Wissing,1970,Rheinland-Pfalz,0f90716a-5c96-4655-83a6-eca1f2d9fad9,#N/A
+FDP,Marcus,Faber,1984,Sachsen-Anhalt,fc596ed9-5d67-4be8-983d-f8f3068bef15,#N/A
+FDP,Ingo,Bodtke,1965,Sachsen-Anhalt,c43c1801-f078-48f1-9509-e260c6782dc9,#N/A
+FDP,Lars,Lindemann,1971,Berlin,76b740cf-5dad-43e7-ac44-2e2dc630c85b,#N/A
+FDP,Daniela,Kluckert,1980,Berlin,732f45c8-312a-43ec-adb1-567f460b122b,#N/A
+FDP,Christoph,Meyer,1975,Berlin,11e95e86-a248-4883-8147-2c3d193b61e3,#N/A
+AfD,Andreas,Bleck,1988,Rheinland-Pfalz,1995cde2-5f2c-4bf0-8dd2-5c2f48f8f69d,#N/A
+AfD,Nicole,Höchst,1970,Rheinland-Pfalz,b5d1534d-4e25-4a28-b88b-12370a228d4f,#N/A
+AfD,Bernd,Schattner,1968,Rheinland-Pfalz,e3d6db80-33fa-46b6-babd-fcfa2ac155a3,#N/A
+AfD,Sebastian,Münzenmaier,1989,Rheinland-Pfalz,5021f8c3-62d5-4f33-8c11-1d9638714c45,#N/A
+AfD,Martin,Reichardt,1969,Sachsen-Anhalt,2ea64dc9-0677-4f98-bd58-1474754a6358,#N/A
+Linke,Petra,Pau,1963,Berlin,ed8e704e-9278-4b63-a27b-4b9be195089a,#N/A
+Linke,Janine,Wißler,1981,Hessen,bb462137-ee43-42a2-bc25-82a78477cd46,#N/A
+SPD,Ruppert,Stüwe,1978,Berlin,bea80498-d955-4cda-bdd3-ad7486131288,#N/A
+SPD,Annika,Klose,1992,Berlin,8a640beb-81b1-4f11-a1a3-8403fda8f8ff,#N/A
+SPD,Frank,Schwabe,1970,Recklinghausen I,8f7996d3-08ce-4b21-8d54-424ddecf403a,#N/A
+SPD,Matthias,Miersch,1968,Hannover-Land II,b1922bf5-ad2d-409b-a208-9ab522495bec,#N/A
+SPD,Achim,Post,1959,Minden-Lübbecke I,1b0ad0b7-d454-4b59-95c4-fe0935385757,#N/A
+SPD,Armand,Zorn,1988,Frankfurt am Main I,9c1c2aa3-9dcb-493b-bdb4-204c4217ce84,#N/A
+SPD,Timon,Gremmels,1976,Kassel,98a4781f-95bf-42f6-bf75-0f0c730b98df,#N/A
+SPD,Falko,Mohrs,1984,Helmstedt – Wolfsburg,a9062413-043f-439d-9100-6f1429caed2c,#N/A
+SPD,Ralf,Stegner,1959,Pinneberg,c196eddb-2625-42f2-8458-580d00de6ad2,#N/A
+SPD,Adis,Ahmetovic,1993,Stadt Hannover I,a0ca6eeb-0dd4-40cf-9488-6e2cc2346d54,#N/A
+SPD,Kaweh,Mansoori,1988,Hessen,3c2200a5-8249-4f63-ac13-8c7e786f06e2,#N/A
+CDU,Fabian,Gramling,1987,Neckar-Zaber,6144b6f8-dbbe-4a74-a220-0f04dda324be,#N/A
+CDU,Markus,Koob,1977,Hochtaunus,4f337281-1063-440d-b34a-9bc517b51c0e,#N/A
+CDU,Michael,Donth,1967,Reutlingen,76397742-377d-4802-9f44-e526753b2f32,#N/A
+CSU,Emmi,Zeulner,1987,Kulmbach,338202ed-e5b9-4e3d-a3cc-22f59be063a4,#N/A
+CSU,Andreas,Lenz,1981,Erding – Ebersberg,62981591-8b51-49db-85fa-96ea3517220c,#N/A
+CDU,Hermann,Gröhe,1961,Neuss I,bc159da0-7f1a-4da8-a72b-602f66e39cd1,#N/A
+CDU,Josef,Oster,1971,Koblenz,f50ff5ce-a55b-479d-bd63-7b485bca8d41,#N/A
+CSU,Artur,Auernhammer,1963,Ansbach,de5330b7-ec36-4868-a3a3-b08e6270bb27,#N/A
+CDU,Markus,Uhl,1979,Saarland,b14977ad-4cac-4e27-b8c2-8803b2d995b3,#N/A
+CDU,Nadine,Schön,1983,Saarland,854b983a-4003-44d9-87f8-8d5c119b76b5,#N/A
+CSU,Volker,Ullrich,1975,Augsburg-Stadt,520070c8-2c03-443d-b272-ce7df5125a09,#N/A
+Grüne,Philip,Krämer,1992,Hessen,1969456f-14f0-494a-b717-4e4afdb8a255,#N/A
+Grüne,Anna,Lührmann,1983,Hessen,76feabde-4c58-4f7b-8aaf-022a344fefe3,#N/A
+Grüne,Bettina,Hoffmann,1960,Hessen,a98bde93-8671-44ab-8152-150baaa6113b,#N/A
+Grüne,Kordula,Schulz-Asche,1956,Hessen,e4f5ea99-fe28-4db9-a05c-e2477398d87f,#N/A
+Grüne,Wolfgang,Strengmann-Kuhn,1964,Hessen,379d95d3-5438-4d65-9819-29fcbfa539dc,#N/A
+Grüne,Boris,Mijatović,1974,Hessen,7b5efad3-d0db-4186-acfa-dac1e89acb6e,#N/A
+FDP,Volker,Redder,1959,Bremen,207cb321-01c9-47a1-84b6-5f24b9ab4520,#N/A
+FDP,Peter,Heidt,1965,Hessen,a94b7c24-b2a1-4a1d-a544-9b72f38f16a8,#N/A
+FDP,Katja,Adler,1974,Hessen,eb668241-da49-464a-aa2d-fff95478424a,#N/A
+FDP,Till,Mansmann,1968,Hessen,003c335a-9c7f-4181-bd2e-52105080024d,#N/A
+FDP,Bettina,Stark-Watzinger,1968,Hessen,9d346996-648f-48cb-9f07-e77d69a0d409,#N/A
+AfD,Jan,Schmidt,1991,Sachsen-Anhalt,4b09ead2-1e5f-42db-8fb2-07179b6771e6,#N/A
+AfD,Mike,Moncsek,1964,Chemnitzer Umland – Erzgebirgskreis II,aa338c0a-b113-497b-9521-5d962d8e3429,#N/A
+AfD,Kay-Uwe,Ziegler,1963,Anhalt,4d7b9b4f-3fa7-4c66-b2c2-3ff45deb8dbd,#N/A
+AfD,Gottfried,Curio,1960,Berlin,aed09c4b-7aad-4912-830d-5df28595c628,#N/A
+AfD,Beatrix,von Storch,1971,Berlin,ccb4c6e1-de08-4fe5-b389-7d8f543ac261,#N/A
+Linke,Ali,Al-Dailami,1981,Hessen,7b8da4aa-a3e7-4c52-a721-31e034eef578,#N/A
+Linke,Thomas,Lutze,1969,Saarland,e579ae39-870a-4746-ada9-cc0833524889,#N/A
+SPD,Anna,Kassautzki,1993,Vorpommern-Rügen – Vorpommern-Greifswald I,6ed4fc36-1a89-41b6-9014-392b3649231b,#N/A
+SPD,Ingo,Schäfer,1965,Solingen – Remscheid – Wuppertal II,89d5f81a-c718-42b1-be86-40f3ecbdfa50,#N/A
+SPD,Angelika,Glöckner,1962,Pirmasens,26401544-654f-42ce-9f3c-8e07f7e0e111,#N/A
+SPD,Wolfgang-Hubertus,Heil,1972,Gifhorn – Peine,84c0e3a2-86bc-4792-88e1-67d40aac5b63,#N/A
+SPD,Helge,Lindh,1976,Wuppertal I,0ea4000e-ade7-4a61-9e37-4e7aa96d8094,#N/A
+SPD,Kristian,Klinck,1979,Plön – Neumünster,a3dedd33-ef5b-4f7e-8bdb-abc1b5737792,#N/A
+SPD,Joe,Weingarten,1962,Kreuznach,caacd7b6-316a-4ed4-a878-9651690a22e5,#N/A
+SPD,Isabel,Cademartori Dujisin,1988,Mannheim,a599fb47-1a78-449d-b48c-3c9ba779a0f2,#N/A
+SPD,Jens,Zimmermann,1981,Odenwald,7f4c948b-e1c7-4a82-bdab-0f0404cce6d1,#N/A
+SPD,Tanja,Machalet,1974,Montabaur,b949b45a-f7c5-44c3-9a47-4071df951e28,#N/A
+CDU,Yvonne,Magwas,1979,Vogtlandkreis,1a9f2302-e587-4d7e-a053-4d0e6874e981,#N/A
+CSU,Andrea,Lindholz,1970,Aschaffenburg,19809ccb-97c1-457b-a1e7-c1b24243dc9e,#N/A
+CDU,Diana,Stöcker,1970,Lörrach – Müllheim,b5b5711a-930e-45fc-8465-21aa76a0d4a9,#N/A
+CDU,Martin,Plum,1982,Viersen,285b0d4a-c5fc-4406-bc8a-1732031604f4,#N/A
+CSU,Stephan,Mayer,1973,Altötting,c4a67281-064f-4edc-b754-dbce4d41fdcd,#N/A
+CSU,Alexander,Hoffmann,1975,Main-Spessart,5adc4b38-fbb7-43e9-b691-ad37458befd3,#N/A
+CDU,Markus,Reichel,1968,Dresden I,d59cf1bd-0911-41e5-997c-e81e2a51bf0f,#N/A
+CDU,Markus,Grübel,1959,Esslingen,fe04661b-da41-42d7-8dbb-81e0a8c15ce5,#N/A
+CDU,Sabine,Weiss,1958,Nordrhein-Westfalen,0e0006f7-6d3f-4b46-af3e-50318bfeac0a,#N/A
+CDU,Armin,Laschet,1961,Nordrhein-Westfalen,d8098754-62d0-4488-95cc-7122632d2915,#N/A
+Grüne,Robert,Habeck,1969,Flensburg – Schleswig,68defa84-e3da-49aa-a834-89287d4195af,#N/A
+Grüne,Katrin,Uhlig,1982,Bonn,f72a5f3e-f221-4a7f-beab-d1eda04093eb,#N/A
+Grüne,Chantal,Kopf,1995,Freiburg,f094bc9b-aa58-4f4b-a6d9-47d2d2de83b6,#N/A
+Grüne,Irene,Mihalic,1976,Nordrhein-Westfalen,a7effa5b-60a3-466a-808d-dacf360ffa53,#N/A
+Grüne,Felix,Banaszak,1989,Nordrhein-Westfalen,f30f10cf-b1df-44b5-92dd-48c9f695c450,#N/A
+Grüne,Kai,Gehring,1977,Nordrhein-Westfalen,b5ac1e46-4ad0-46a1-84b4-4941c6435abf,#N/A
+FDP,Thorsten,Lieb,1973,Hessen,ce303584-534e-45ac-acbc-acca6ed958f0,#N/A
+FDP,Jürgen,Lenders,1966,Hessen,6aec7868-8eed-4dde-85d1-4a4981069c52,#N/A
+FDP,Alexander,Müller,1969,Hessen,e6576d63-2297-4473-9d73-b7073c7b41f4,#N/A
+FDP,Oliver,Luksic,1979,Saarland,b7bf95a0-4347-4d55-b1e8-fecfe3f34b84,#N/A
+FDP,Bernd,Reuther,1971,Nordrhein-Westfalen,9f7b64c0-dea6-4873-a62f-0e7ae6cad33f,#N/A
+AfD,Götz,Frömming,1968,Berlin,4dd4174a-8256-4cf1-b9ce-c4370931e92e,#N/A
+AfD,Jan,Nolte,1988,Hessen,7f9905a4-3480-407b-8c87-0c207f18b417,#N/A
+AfD,Albrecht,Glaser,1942,Hessen,b4b5b638-7d9a-43b8-a6d9-f30083022302,#N/A
+AfD,Uwe,Schulz,1961,Hessen,9e5b07d3-7d19-42cd-a73c-9b7ce84e0b67,#N/A
+Linke,Christian,Leye,1981,Nordrhein-Westfalen,4398898d-3d5a-47a9-bab7-9b22489311af,#N/A
+Linke,Andrej,Hunko,1963,Nordrhein-Westfalen,02759a43-f8ea-4640-b29d-1757826f4ee5,#N/A
+SPD,Andreas,Philippi,1965,Göttingen,22fce2be-c87a-4de9-ac27-3dc87d1ba16f,#N/A
+SPD,Hannes,Walter,1984,Elbe-Elster – Oberspreewald-Lausitz II,92a2fbfb-ac05-4c2e-a1db-4bc13f220020,#N/A
+SPD,Christos,Pantazis,1975,Braunschweig,1c2ffce4-7ce0-4e28-a01e-891471a5b7df,#N/A
+SPD,Timo,Schisanowski,1981,Hagen – Ennepe-Ruhr-Kreis I,b3230b41-7056-400e-8bfd-6a5d277b6c26,#N/A
+SPD,Kevin,Kühnert,1989,Berlin-Tempelhof-Schöneberg,00fce9d2-da42-45be-9c6c-d559d7dfb6ef,#N/A
+SPD,Michelle-Jasmin,Müntefering,1980,Herne – Bochum II,ddf9ee71-1a1a-4391-9c11-967cdbfd665d,#N/A
+SPD,Sarah,Ryglewski,1983,Bremen I,b4bbcad8-e707-4822-9cac-9912d57db104,#N/A
+SPD,Michael,Roth,1970,Werra-Meißner – Hersfeld-Rotenburg,0d8d7b54-32d0-4480-a808-ee6e99dfea2f,#N/A
+SPD,Sebastian,Hartmann,1977,Nordrhein-Westfalen,eef9e29c-4a5e-4b4c-ace3-1b01e77fa9a7,#N/A
+SPD,Svenja,Schulze,1968,Nordrhein-Westfalen,267b81fd-8e73-43ea-b021-c52627cf523d,#N/A
+CDU,Michael,Breilmann,1983,Nordrhein-Westfalen,560be775-4dee-4475-bb71-86dda991e326,#N/A
+CDU,Astrid,Timmermann-Fechter,1963,Nordrhein-Westfalen,a23afc4b-7ffd-4b43-8291-be78a2c64cfd,#N/A
+CDU,Hubert,Hüppe,1956,Nordrhein-Westfalen,678bf974-95d2-4549-9203-42a1da35d8b8,#N/A
+CDU,Jürgen,Hardt,1963,Nordrhein-Westfalen,09741160-6435-4da4-9847-99ec716f7527,#N/A
+CDU,Oliver,Vogt,1977,Nordrhein-Westfalen,ff0aa538-526d-4de5-98b1-3422b8fe11a7,#N/A
+CDU,Stefan,Nacke,1976,Nordrhein-Westfalen,5a294b08-c07f-4daf-990f-5e90fd51e1b7,#N/A
+CDU,Serap,Güler,1980,Nordrhein-Westfalen,225d7ae4-7abe-45a5-9e3c-908d7e796206,#N/A
+CDU,Catarina,dos Santos Firnhaber,1994,Nordrhein-Westfalen,198f61e4-b556-433e-9b51-cfb79a80b2d7,#N/A
+CDU,Kerstin,Vieregge,1976,Nordrhein-Westfalen,40467ede-2b85-4586-a4f4-2b0422edf05d,#N/A
+Grüne,Sabine,Grützmacher,1986,Nordrhein-Westfalen,434f2337-b02f-4362-87d8-fec203251660,#N/A
+Grüne,Ursula,Schauws,1966,Nordrhein-Westfalen,59fa94ae-5737-435a-a11a-477d6ae0c0a6,#N/A
+Grüne,Robin,Wagener,1980,Nordrhein-Westfalen,44fc1234-25d3-49ad-b81a-ad28e0796df8,#N/A
+Grüne,Nyke,Slawik,1994,Nordrhein-Westfalen,4a9bf145-dc04-419f-a244-c3b794b55757,#N/A
+Grüne,Max,Lucks,1997,Nordrhein-Westfalen,04d3d272-4089-44a6-91fc-5e884180dac1,#N/A
+FDP,Markus,Herbrand,1971,Nordrhein-Westfalen,2b1ce64f-cf2a-466a-93e7-6412d6f05b32,#N/A
+FDP,Olaf,in der Beek,1967,Nordrhein-Westfalen,2410d0a1-db0e-4f57-8ab3-704cc57ce9cd,#N/A
+FDP,Marie-Agnes,Strack-Zimmermann,1958,Nordrhein-Westfalen,549885e3-300b-4946-be8d-e42b26945bae,#N/A
+FDP,Christian,Sauter,1980,Nordrhein-Westfalen,626fba43-14dd-4958-9724-8fad937ad71c,#N/A
+AfD,Joana,Cotar,1973,Hessen,4a68987e-0ff4-4068-af9c-ab2f02168886,#N/A
+AfD,Mariana,Harder-Kühnel,1974,Hessen,3f1aec9c-e9fe-4962-889e-d26068861be0,#N/A
+AfD,Carolin,Bachmann,1988,Mittelsachsen,4b248615-9072-4f1f-bfe4-fd1ae903b9c7,#N/A
+AfD,Christian,Wirth,1963,Saarland,a0aa6eb8-bc44-46a4-9e2b-b2873ce416bf,#N/A
+Linke,Sahra,Wagenknecht,1969,Nordrhein-Westfalen,6893ff59-3f3e-4abb-b1b2-9a2226ddcec5,#N/A
+Linke,Matthias,Birkwald,1961,Nordrhein-Westfalen,60524e1a-2441-4dee-93e1-7eeaec3ac7d4,#N/A
+SPD,Wolfgang,Hellmich,1958,Nordrhein-Westfalen,2d15f210-e258-4ca0-88eb-b866082c4448,#N/A
+SPD,Bettina,Lugk,1982,Nordrhein-Westfalen,eff381d4-61d6-4603-bdaf-0475ecb945e5,#N/A
+SPD,Luiza,Licina-Bode,1972,Nordrhein-Westfalen,734cd484-943a-4c3d-ab4f-e7d7e27cc839,#N/A
+SPD,Zanda,Martens,1984,Nordrhein-Westfalen,973a23c1-52b7-42c0-86ee-17b89e3adf17,#N/A
+SPD,Bernhard,Daldrup,1956,Nordrhein-Westfalen,566abe6e-9680-441f-9cab-4ef5944b9f49,#N/A
+SPD,Gülistan,Yüksel,1962,Nordrhein-Westfalen,d38fe824-0021-44ca-9b87-56c06b593c0a,#N/A
+SPD,Ye-One,Rhie,1987,Nordrhein-Westfalen,ca0c8dd4-584d-4d62-8f69-4df4f68fcef7,#N/A
+SPD,Udo,Schiefner,1959,Nordrhein-Westfalen,37cc4e70-0bbf-4f21-9dd2-e40b459d74a3,#N/A
+SPD,Sarah,Lahrkamp,1981,Nordrhein-Westfalen,b8134dcb-f8d3-448b-aaf6-1f25c9ded758,#N/A
+CDU,Kerstin,Radomski,1974,Nordrhein-Westfalen,bc18f57b-bdaa-4c84-b62a-5798d635fbda,#N/A
+CSU,Erich,Irlstorfer,1970,Freising,6b5117af-c060-4712-b646-68fd3ae8a9a2,#N/A
+CDU,Manfred,Grund,1955,Eichsfeld – Nordhausen – Kyffhäuserkreis,90e5d1b6-3b70-49bc-ac9a-085b7a237774,#N/A
+CDU,Anja,Karliczek,1971,Steinfurt III,0d247cef-f5ab-4041-a776-ba07d32f5fcc,#N/A
+CDU,Lars,Rohwer,1972,Dresden II – Bautzen II,1d4c27bb-58a5-4709-b710-c656c2e85a7d,#N/A
+CDU,Henning,Rehbaum,1973,Warendorf,1ae44318-20b1-4163-83e6-c9adb48ad9a4,#N/A
+CDU,Kai,Whittaker,1985,Rastatt,c5aff15d-2562-4808-aa14-253bda0b5e98,#N/A
+CDU,Detlef,Seif,1962,Euskirchen – Rhein-Erft-Kreis II,1982214c-f685-457f-bbe7-a6c5b3c64343,#N/A
+CDU,Maximilian,Mörseburg,1992,Stuttgart II,a01f7fca-3c73-43ed-9f1f-cf861c121f79,#N/A
+Grüne,Maik,Außendorf,1971,Nordrhein-Westfalen,78ed6596-0919-4094-8d23-55aa545e16de,#N/A
+Grüne,Laura,Kraft,1990,Nordrhein-Westfalen,b7c57159-ced5-404a-ab3a-3a43fa7e36be,#N/A
+Grüne,Kathrin,Henneberger,1987,Nordrhein-Westfalen,17ad1f20-c298-48f2-95d8-94683252a068,#N/A
+Grüne,Sara,Nanni,1987,Nordrhein-Westfalen,cebba482-4da9-478d-a33d-0cfd849d3540,#N/A
+Grüne,Lamya,Kaddor,1978,Nordrhein-Westfalen,c4bb199e-fb41-4296-ab5b-55c97610297d,#N/A
+FDP,Marco,Buschmann,1977,Nordrhein-Westfalen,354b133a-43a7-41bb-b8a1-55a80c8d53da,#N/A
+FDP,Nicole,Westig,1967,Nordrhein-Westfalen,d08ad45a-09ef-4791-a30e-57858be1550e,#N/A
+FDP,Christian,Lindner,1979,Nordrhein-Westfalen,ae59e1c1-dbd8-42c5-b15e-03fe37e24f3d,#N/A
+FDP,Manfred,Todtenhausen,1950,Nordrhein-Westfalen,a61a8573-8d0e-4192-bca0-b803c23c57b6,#N/A
+AfD,Roger,Beckamp,1975,Nordrhein-Westfalen,0736e18e-e086-48c8-8af6-a3e0f4bc351b,#N/A
+AfD,Fabian,Jacobi,1973,Nordrhein-Westfalen,e2eb1d3a-6824-4af1-9d07-59a82b1287ec,#N/A
+AfD,Jörg,Schneider,1964,Nordrhein-Westfalen,b167ac39-38c2-435e-aedb-5cac0342515b,#N/A
+Linke,Sevim,Dağdelen,1975,Nordrhein-Westfalen,af62b14d-f4b1-44eb-b404-b470ffacb997,#N/A
+Linke,Kathrin,Vogler,1963,Nordrhein-Westfalen,04675a82-b592-4c97-869f-d721a87f89fb,#N/A
+SPD,Jessica,Rosenthal,1992,Nordrhein-Westfalen,6430a8d2-55be-4093-8d8d-4a116e9a6a92,#N/A
+SPD,Kerstin,Griese,1966,Nordrhein-Westfalen,2b438315-5b9b-4532-aca0-ec674d681fef,#N/A
+SPD,Nadine,Heselhaus,1978,Nordrhein-Westfalen,526391a8-0b3a-4602-970a-fd278004eced,#N/A
+SPD,Dietmar,Nietan,1964,Nordrhein-Westfalen,17ae043d-fb72-4baf-b1d4-0a6b98acfd0e,#N/A
+SPD,Jürgen,Coße,1969,Nordrhein-Westfalen,5c90a9af-ac4c-4983-9148-5d1c05377826,#N/A
+SPD,Dirk,Wiese,1983,Nordrhein-Westfalen,e2bc01b1-001a-4319-9cc1-a869e1cb2edd,#N/A
+SPD,Dagmar,Andres,1969,Nordrhein-Westfalen,5962e491-2915-45f7-b69a-771faa203843,#N/A
+SPD,Nezahat,Baradari,1965,Nordrhein-Westfalen,3d6d1c01-5994-44f4-8ee6-1bbacbd498c4,#N/A
+CDU,Ansgar,Heveling,1972,Krefeld I – Neuss II,a1a2ed59-b6c0-4d99-8400-c4f6af25a96a,#N/A
+CDU,Björn,Simon,1981,Offenbach,a991a305-06b0-4717-b012-709863c92924,#N/A
+CDU,Volkmar,Klein,1960,Siegen-Wittgenstein,85e208d4-98dc-4a9f-b9a9-4fbcecfe4936,#N/A
+CDU,Roderich,Kiesewetter,1963,Aalen – Heidenheim,6920d09e-de3d-4a66-94af-ab44389b2ffc,#N/A
+CSU,Mechthilde,Wittmann,1967,Oberallgäu,1549bbd7-b7cc-4b49-89e4-f10638d28717,#N/A
+CSU,Ulrich,Lange,1969,Donau-Ries,fd973698-9227-498c-b0ff-ba40eca6eb97,#N/A
+CDU,Axel,Müller,1963,Ravensburg,ccb0987d-4d08-4080-833c-11bcde9a507a,#N/A
+CDU,Johannes,Steiniger,1987,Neustadt – Speyer,7fd7df90-cbba-48d4-8dc4-6fdfc1d2d4ce,#N/A
+Grüne,Markus,Kurth,1966,Nordrhein-Westfalen,177522c6-1a0e-4e94-a376-53153ccfff19,#N/A
+Grüne,Michael,Sacher,1964,Nordrhein-Westfalen,705ff23d-08f7-4fb2-8342-380d91336cfa,#N/A
+Grüne,Britta,Haßelmann,1961,Nordrhein-Westfalen,e00d887a-8c16-456c-ae8e-2ed74350648d,#N/A
+Grüne,Lukas,Benner,1996,Nordrhein-Westfalen,32422ec0-ab97-4903-ad9d-affa64c81cca,#N/A
+Grüne,Jan-Niclas,Gesenhues,1990,Nordrhein-Westfalen,99b69d30-2323-43e3-a4c0-5a7ae2eb59ae,#N/A
+FDP,Jens,Teutrine,1993,Nordrhein-Westfalen,202df363-7bdf-4222-8579-3042e1a1a559,#N/A
+FDP,Karlheinz,Busen,1951,Nordrhein-Westfalen,9490ff34-f6c6-435b-8406-00e3416d7710,#N/A
+FDP,Otto,Fricke,1965,Nordrhein-Westfalen,6f3d1639-fce7-40d4-baef-1c6deaae316c,#N/A
+AfD,Kay,Gottschalk,1965,Nordrhein-Westfalen,93bc4a1f-4c37-4e85-b495-7b5f48bec99c,#N/A
+AfD,Jochen,Haug,1973,Nordrhein-Westfalen,f4d9d8fd-ac38-4f0f-9b1e-f40c6ed604ac,#N/A
+AfD,Harald,Weyel,1959,Nordrhein-Westfalen,a9f30460-10ab-456b-8420-c331846c0756,#N/A
+AfD,Eugen,Schmidt,1975,Nordrhein-Westfalen,2efa713f-2a06-444d-95ba-9e0616403110,#N/A
+Linke,Gregor,Gysi,1948,Berlin-Treptow-Köpenick,941a7ba7-ffdd-4637-b1a5-014fba8af7fc,#N/A
+SPD,Felix,Döring,1991,Gießen,8e265616-e66b-41a0-8e31-10a370ffb0f4,#N/A
+SPD,Metin,Hakverdi,1969,Hamburg-Bergedorf – Harburg,40f1f151-0cfd-4d1c-a654-524f010ce7fa,#N/A
+SPD,Ariane,Fäscher,1968,Oberhavel – Havelland II,b5d0257b-5de6-4717-832d-bd52cc92ffbe,#N/A
+SPD,Lars,Klingbeil,1978,Rotenburg I – Heidekreis,be142b95-a0e1-44c4-9341-331175c19137,#N/A
+SPD,Frank,Junge,1967,Ludwigslust-Parchim II – Nordwestmecklenburg II – Landkreis Rostock I,8de55af3-794c-41ba-b86f-2826584cc97c,#N/A
+SPD,Johannes,Schraps,1983,Hameln-Pyrmont – Holzminden,a676b7ca-f475-4837-aa88-a4152d6a3e9b,#N/A
+SPD,Rebecca,Schamber,1975,Hannover-Land I,aadd7d20-ef76-4a63-8dc8-62eeb21114cc,#N/A
+CSU,Andreas,Scheuer,1974,Passau,21ebdc51-8e80-407a-b535-af3638d8fcec,#N/A
+CDU,Matthias,Hauer,1977,Essen III,671150a2-d8df-4b0c-8c95-3f8ea7c13c7f,#N/A
+CDU,Hermann-Josef,Tebroke,1964,Rheinisch-Bergischer Kreis,612a821d-5179-4151-be3b-6f5a4697d38b,#N/A
+CSU,Martina,Englhardt-Kopf,1981,Schwandorf,835364f7-f0f1-4f0a-b850-b3c07c4828d4,#N/A
+CDU,Felix,Schreiner,1986,Waldshut,110e839d-d383-4a63-809e-25fb7c148886,#N/A
+CDU,Heike,Brehmer,1962,Harz,423e9771-c901-4f1d-81dd-ab5804dd1281,#N/A
+CSU,Max,Straubinger,1954,Rottal-Inn,dfe3ddba-9805-41b8-975c-b7a8fa16d6dc,#N/A
+Grüne,Katharina,Dröge,1984,Nordrhein-Westfalen,30d3b913-3913-42d1-a499-e0f318d1937d,#N/A
+Grüne,Anne,Spallek,1968,Nordrhein-Westfalen,2ae7660c-9c9c-4f5b-bb31-5edf03ca3977,#N/A
+Grüne,Janosch,Dahmen,1981,Nordrhein-Westfalen,33a3a61d-0d41-466b-987a-b94eb31fc3f9,#N/A
+Grüne,Ophelia,Nick,1973,Nordrhein-Westfalen,00dbf747-add1-4e6f-bf5f-91afab53f879,#N/A
+Grüne,Schahina,Gambir,1991,Nordrhein-Westfalen,6b88cd2d-a566-47f1-b9a2-d1b4b06b68da,#N/A
+FDP,Katrin,Helling-Plahr,1986,Nordrhein-Westfalen,3f1dc709-61b2-498c-b441-2c8310201362,#N/A
+FDP,Carl-Julius,Cronenberg,1962,Nordrhein-Westfalen,6b301c83-2cd8-4088-90d6-de2596b9d2f8,#N/A
+FDP,Johannes,Vogel,1982,Nordrhein-Westfalen,4e61a852-7dff-4993-9e43-10ccc90ed91a,#N/A
+AfD,Michael,Espendiller,1989,Nordrhein-Westfalen,a1e64961-b7d8-4e24-8dc4-4c772b70e073,#N/A
+AfD,Stefan,Keuter,1972,Nordrhein-Westfalen,960a622c-e3f5-49ab-984c-0da3fd88b318,#N/A
+AfD,Hans-Rüdiger,Lucassen,1951,Nordrhein-Westfalen,1511b7f0-6fdf-44eb-be5a-fc530e28b2b7,#N/A
+Linke,Ralph,Lenkert,1967,Thüringen,ee02d4de-c62e-43e9-9cfb-c2e7fa7a5ab9,#N/A
+SPD,Sönke,Rix,1975,Rendsburg-Eckernförde,7b269aff-cf9f-4a74-883f-a49dcf16eae3,#N/A
+SPD,Oliver,Kaczmarek,1970,Unna I,7713bbe0-b996-4f04-b932-ab0276da4171,#N/A
+SPD,Hakan,Demir,1984,Berlin-Neukölln,731fe179-4bb0-4c06-8e90-03734eac36e4,#N/A
+SPD,Verena,Hubertz,1987,Trier,c3077f17-4965-4f33-99c2-51376402fc42,#N/A
+SPD,Dunja,Kreiser,1971,Salzgitter – Wolfenbüttel,6d40cc2b-fc2a-457a-884e-b3a98722892a,#N/A
+SPD,Jens,Stein,1970,Kiel,cb894d6d-2b5a-4355-814e-07aca6bf65dc,#N/A
+SPD,Tina,Rudolph,1991,Thüringen,d15f98e6-8f91-45d5-b648-6a2a09a8a819,#N/A
+CDU,Antje,Tillmann,1964,Thüringen,e96546f7-d288-4fdc-9d73-9ed008c371fb,#N/A
+CDU,Christian,Hirte,1976,Thüringen,e38c8deb-656b-4661-8a90-8e33308f06f7,#N/A
+CDU,Astrid,Damerow,1958,Nordfriesland – Dithmarschen Nord,b0d79d45-346a-481e-a277-831637d629a8,#N/A
+CSU,Michael,Frieser,1964,Nürnberg-Süd,f4858d20-5846-408f-a55a-bbdbdf09a360,#N/A
+CDU,Klaus-Peter,Willsch,1961,Rheingau-Taunus – Limburg,67f46cd6-2931-461a-b2bb-ee87bb3e03cd,#N/A
+CDU,Steffen,Bilger,1979,Ludwigsburg,35cda3e5-bc26-4ba5-9aac-867d3645a444,#N/A
+Grüne,Anja,Liebert,1969,Nordrhein-Westfalen,d01eb626-c667-4290-8b9f-16a0569c7f34,#N/A
+Grüne,Jamila,Schäfer,1993,München-Süd,04b21413-ff50-4b7c-848d-e7a17aec0e64,#N/A
+Grüne,Hanna,Steinmüller,1993,Berlin-Mitte,c5ac1cf3-53bb-4c97-9db7-691f819901e7,#N/A
+FDP,Frank,Schäffler,1968,Nordrhein-Westfalen,2a8d2a32-496f-4032-a89f-656faebdaccb,#N/A
+FDP,Bijan,Djir-Sarai,1976,Nordrhein-Westfalen,e7b9111f-2cae-42cb-851c-573518f1d9e2,#N/A
+FDP,Alexander,Graf Lambsdorff,1966,Nordrhein-Westfalen,625477bf-7501-4c0a-b3e6-071cede60f2a,#N/A
+AfD,Martin,Renner,1954,Nordrhein-Westfalen,05f575c8-57c6-4a77-abdf-abf7858ccdb3,#N/A
+AfD,Matthias,Helferich,1988,Nordrhein-Westfalen,f3cb366d-4374-4e1b-aff5-2c0d04dd9912,#N/A
+AfD,Jürgen,Pohl,1964,Thüringen,ea2d5d6b-3a60-45ee-83ae-5600de081c45,#N/A
+Linke,Susanne,Hennig-Wellsow,1977,Thüringen,71ba5975-367d-462d-8185-b4b60a969d91,#N/A
+SPD,Elisabeth,Kaiser,1987,Thüringen,d55206e9-c6c1-4bdc-9d33-9a0ef1602dc0,#N/A
+SPD,Dennis,Rohde,1986,Oldenburg – Ammerland,793a29ce-55f5-4dee-ad30-b46560d863fa,#N/A
+SPD,Edgar,Franke,1960,Schwalm-Eder,231a3bb6-2e14-467a-b802-1a24e0dcafc8,#N/A
+SPD,Markus,Töns,1964,Gelsenkirchen,2c1343f5-15d8-4638-8ba4-af363923c3be,#N/A
+SPD,Sabine,Poschmann,1968,Dortmund II,b81d6f97-add7-42c2-91e5-0c697d67d589,#N/A
+SPD,Sanae,Abdi,1986,Köln I,77d127d8-0a61-4b29-a18a-fc40a9dc07b8,#N/A
+CDU,Norbert,Röttgen,1965,Rhein-Sieg-Kreis II,39b299fe-bd6c-4988-a3bd-b51e5cf954aa,#N/A
+CSU,Florian,Oßner,1980,Landshut,d1e6357e-ea26-4fa2-886d-e266511aab45,#N/A
+CSU,Stephan,Stracke,1974,Ostallgäu,b5d99861-e33c-4676-a243-cc1e5942d927,#N/A
+CDU,Henning,Otte,1968,Celle – Uelzen,89d9d8f2-a974-40aa-bb2e-bf6d755599fa,#N/A
+CDU,Michael,Hennrich,1965,Nürtingen,88f6ba04-0130-462f-954a-fe779a2c1e5b,#N/A
+Grüne,Katrin,Göring-Eckardt,1966,Thüringen,1b1417d9-3108-45bc-9489-884c8cf25374,#N/A
+Grüne,Stefan,Gelbhaar,1976,Berlin-Pankow,3cdcb9e3-3095-417f-ae1f-94c720b11dc8,#N/A
+Grüne,Zoe,Mayer,1995,Karlsruhe-Stadt,b0bb1435-af11-49de-a41c-720149d5262f,#N/A
+FDP,Reinhard,Houben,1960,Nordrhein-Westfalen,60798029-e782-4d03-a6f7-a1587ffcff82,#N/A
+FDP,Reginald,Hanke,1956,Thüringen,1f527ef2-072b-461e-ad43-0a073ebaf227,#N/A
+FDP,Gerald,Ullrich,1962,Thüringen,72970a62-8828-4d0f-921a-48a5867ce33f,#N/A
+AfD,Steffen,Janich,1971,Sächsische Schweiz-Osterzgebirge,64b63ba2-c569-4de5-ab08-ca0348368198,#N/A
+AfD,Stephan,Brandner,1966,Gera – Greiz – Altenburger Land,fd40728f-7365-4992-bf10-cd4fa45dd7ff,#N/A
+Linke,Martina,Renner,1967,Thüringen,bd18c39c-dd15-4356-a5e1-f4bfe1489f45,#N/A

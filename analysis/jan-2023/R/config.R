@@ -1,0 +1,1 @@
+needs(tidyverse, stringr, clipr, googlesheets4, electoral, jsonlite)

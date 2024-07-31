@@ -1,0 +1,737 @@
+Partei,Nachname,Vornamen,Geburtsjahr,Typ,Wahlkreis,Survivor,ID
+SPD,Abdi,Sanae,1986,Wahlkreis,Köln I,TRUE,AbdiS1986
+FDP,Abel,Valentin Christian,1991,Liste,Baden-Württemberg,TRUE,AbelV1991
+CDU,Abraham,Knut Friedrich Alexander,1966,Liste,Brandenburg,FALSE,AbrahamK1966
+FDP,Adler,Katja,1974,Liste,Hessen,TRUE,AdlerK1974
+GRÜNE,Aeffner,Stephanie,1976,Liste,Baden-Württemberg,FALSE,AeffnerS1976
+SPD,Ahmetovic,Adis,1993,Wahlkreis,Stadt Hannover I,TRUE,AhmetovicA1993
+DIE LINKE,Akbulut,Gökay,1982,Liste,Baden-Württemberg,TRUE,AkbulutG1982
+DIE LINKE,Al-Dailami,Ali Abass Yahya,1981,Liste,Hessen,TRUE,Al-DailamiA1981
+FDP,Al-Halak,Muhanad,1989,Liste,Bayern,FALSE,Al-HalakM1989
+SPD,Alabali-Radovan,Reem,1990,Wahlkreis,Schwerin – Ludwigslust-Parchim I – Nordwestmecklenburg I,TRUE,Alabali-RadovanR1990
+CDU,Albani,Stephan Theodor Johannes,1968,Liste,Niedersachsen,FALSE,AlbaniS1968
+FDP,Alt,Renata,1965,Liste,Baden-Württemberg,TRUE,AltR1965
+CDU,Altenkamp,Norbert Maria,1972,Wahlkreis,Main-Taunus,TRUE,AltenkampN1972
+CDU,Altmaier,Peter,1958,Liste,Saarland,TRUE,AltmaierP1958
+CDU,Amthor,Philipp,1992,Liste,Mecklenburg-Vorpommern,TRUE,AmthorP1992
+GRÜNE,Amtsberg,Luise,1984,Liste,Schleswig-Holstein,TRUE,AmtsbergL1984
+SPD,Andres,Dagmar,1969,Liste,Nordrhein-Westfalen,FALSE,AndresD1969
+SPD,Annen,Niels,1973,Liste,Hamburg,FALSE,AnnenN1973
+SPD,Arlt,Johannes,1984,Wahlkreis,Mecklenburgische Seenplatte II – Landkreis Rostock III,TRUE,ArltJ1984
+FDP,Aschenberg-Dugnus,Christine Irene,1959,Liste,Schleswig-Holstein,TRUE,Aschenberg-DugnusC1959
+GRÜNE,Audretsch,Andreas,1984,Liste,Berlin,FALSE,AudretschA1984
+CSU,Auernhammer,Artur,1963,Wahlkreis,Ansbach,TRUE,AuernhammerA1963
+CSU,Aumer,Peter,1976,Wahlkreis,Regensburg,TRUE,AumerP1976
+GRÜNE,Außendorf,Maik,1971,Liste,Nordrhein-Westfalen,TRUE,AußendorfM1971
+GRÜNE,Bacherle,Tobias Björn,1994,Liste,Baden-Württemberg,FALSE,BacherleT1994
+AfD,Bachmann,Carolin,1988,Wahlkreis,Mittelsachsen,TRUE,BachmannC1988
+GRÜNE,Badum,Lisa Hildegard,1983,Liste,Bayern,TRUE,BadumL1983
+SPD,Baehrens,Heike Charlotte,1955,Liste,Baden-Württemberg,TRUE,BaehrensH1955
+GRÜNE,Baerbock,Annalena Charlotte Alma,1980,Liste,Brandenburg,TRUE,BaerbockA1980
+SPD,Bahr,Ulrike Renate Martina,1964,Liste,Bayern,TRUE,BahrU1964
+SPD,Baldy,Daniel,1994,Wahlkreis,Mainz,TRUE,BaldyD1994
+GRÜNE,Banaszak,Felix,1989,Liste,Nordrhein-Westfalen,TRUE,BanaszakF1989
+SPD,Baradari,Nezahat,1965,Liste,Nordrhein-Westfalen,FALSE,BaradariN1965
+CDU,Bareiß,Thomas,1975,Wahlkreis,Zollernalb – Sigmaringen,TRUE,BareißT1975
+SPD,Bartol,Sören,1974,Wahlkreis,Marburg,TRUE,BartolS1974
+DIE LINKE,Bartsch,Dietmar Gerhard,1958,Liste,Mecklenburg-Vorpommern,TRUE,BartschD1958
+SPD,Bas,Bärbel,1968,Wahlkreis,Duisburg I,TRUE,BasB1968
+FDP,Bauer,Nicole Anna Elisabeth,1987,Liste,Bayern,TRUE,BauerN1987
+AfD,Baum,Christina,1956,Liste,Baden-Württemberg,TRUE,BaumC1956
+AfD,Baumann,Bernd,1958,Liste,Hamburg,TRUE,BaumannB1958
+GRÜNE,Bayram,Canan,1966,Wahlkreis,Berlin-Friedrichshain-Kreuzberg – Prenzlauer Berg Ost,TRUE,BayramC1966
+GRÜNE,Beck,Katharina Barbara Maria,1982,Liste,Hamburg,TRUE,BeckK1982
+AfD,Beckamp,Roger Friedrich Nikolaus,1975,Liste,Nordrhein-Westfalen,TRUE,BeckampR1975
+SPD,Becker,Holger,1964,Wahlkreis,Jena – Sömmerda – Weimarer Land I,TRUE,BeckerH1964
+FDP,Beeck,Jens,1969,Liste,Niedersachsen,TRUE,BeeckJ1969
+FDP,Beek,Olaf Karl Wilhelm,1967,Liste,Nordrhein-Westfalen,FALSE,BeekO1967
+GRÜNE,Benner,Lukas,1996,Liste,Nordrhein-Westfalen,FALSE,BennerL1996
+SPD,Berghahn,Jürgen,1960,Wahlkreis,Lippe I,TRUE,BerghahnJ1960
+CDU,Berghegger,André,1972,Wahlkreis,Osnabrück-Land,TRUE,BergheggerA1972
+SPD,Bergt,Bengt Axel,1982,Wahlkreis,Segeberg – Stormarn-Mitte,TRUE,BergtB1982
+AfD,Bernhard,Marc Albert,1972,Liste,Baden-Württemberg,TRUE,BernhardM1972
+CDU,Beyer,Peter,1970,Wahlkreis,Mettmann II,TRUE,BeyerP1970
+CDU,Biadacz,Marc Josef,1979,Wahlkreis,Böblingen,FALSE,BiadaczM1979
+CDU,Bilger,Steffen Rudi,1979,Wahlkreis,Ludwigsburg,FALSE,BilgerS1979
+DIE LINKE,Birkwald,Matthias Walter,1961,Liste,Nordrhein-Westfalen,TRUE,BirkwaldM1961
+SPD,Blankenburg,Jakob,1997,Wahlkreis,Lüchow-Dannenberg – Lüneburg,FALSE,BlankenburgJ1997
+AfD,Bleck,Andreas,1988,Liste,Rheinland-Pfalz,TRUE,BleckA1988
+AfD,Bochmann,René,1969,Wahlkreis,Nordsachsen,TRUE,BochmannR1969
+FDP,Bodtke,Ingo,1965,Liste,Sachsen-Anhalt,TRUE,BodtkeI1965
+AfD,Boehringer,Peter Christian Pascal,1969,Liste,Bayern,TRUE,BoehringerP1969
+FDP,Boginski,Friedhelm Günter,1955,Liste,Brandenburg,TRUE,BoginskiF1955
+AfD,Bollmann,Gereon,1953,Liste,Schleswig-Holstein,TRUE,BollmannG1953
+CDU,Borchardt,Simone,1967,Liste,Mecklenburg-Vorpommern,FALSE,BorchardtS1967
+CDU,Brand,Michael Karl,1973,Wahlkreis,Fulda,TRUE,BrandM1973
+FDP,Brandenburg,Jens,1986,Liste,Baden-Württemberg,TRUE,BrandenburgJ1986
+FDP,Brandenburg,Mario,1983,Liste,Rheinland-Pfalz,TRUE,BrandenburgM1983
+AfD,Brandes,Dirk,1974,Liste,Niedersachsen,FALSE,BrandesD1974
+CSU,Brandl,Reinhard,1977,Wahlkreis,Ingolstadt,TRUE,BrandlR1977
+AfD,Brandner,Stephan Günther,1966,Wahlkreis,Gera – Greiz – Altenburger Land,TRUE,BrandnerS1966
+GRÜNE,Brantner,Franziska Katharina,1979,Wahlkreis,Heidelberg,TRUE,BrantnerF1979
+CDU,Braun,Helge Reinhold,1972,Liste,Hessen,TRUE,BraunH1972
+AfD,Braun,Jürgen Friedrich,1961,Liste,Baden-Württemberg,FALSE,BraunJ1961
+CDU,Breher,Silvia Maria,1973,Wahlkreis,Cloppenburg – Vechta,TRUE,BreherS1973
+CSU,Brehm,Sebastian,1971,Wahlkreis,Nürnberg-Nord,FALSE,BrehmS1971
+CDU,Brehmer,Heike Martina,1962,Wahlkreis,Harz,TRUE,BrehmerH1962
+CDU,Breilmann,Michael,1983,Liste,Nordrhein-Westfalen,FALSE,BreilmannM1983
+SPD,Breymaier,Leni,1960,Liste,Baden-Württemberg,TRUE,BreymaierL1960
+CDU,Brinkhaus,Ralph,1968,Wahlkreis,Gütersloh I,TRUE,BrinkhausR1968
+CDU,Brodesser,Carsten,1967,Wahlkreis,Oberbergischer Kreis,TRUE,BrodesserC1967
+GRÜNE,Brugger,Agnes Monika,1985,Liste,Baden-Württemberg,TRUE,BruggerA1985
+CDU,Bröhr,Marlon,1974,Wahlkreis,Mosel/Rhein-Hunsrück,TRUE,BröhrM1974
+GRÜNE,Bsirske,Frank,1952,Liste,Niedersachsen,TRUE,BsirskeF1952
+FDP,Bubendorfer-Licht,Sandra,1969,Liste,Bayern,TRUE,Bubendorfer-LichtS1969
+SPD,Budde,Katrin,1965,Liste,Sachsen-Anhalt,FALSE,BuddeK1965
+CDU,Bury,Yannick,1990,Wahlkreis,Emmendingen – Lahr,FALSE,BuryY1990
+FDP,Buschmann,Marco,1977,Liste,Nordrhein-Westfalen,TRUE,BuschmannM1977
+FDP,Busen,Karlheinz,1951,Liste,Nordrhein-Westfalen,TRUE,BusenK1951
+AfD,Bystron,Petr,1972,Liste,Bayern,TRUE,BystronP1972
+CSU,Bär,Dorothee Gisela Renate Maria,1978,Wahlkreis,Bad Kissingen,TRUE,BärD1978
+GRÜNE,Bär,Karl,1985,Liste,Bayern,TRUE,BärK1985
+AfD,Bühl,Marcus,1977,Wahlkreis,Gotha – Ilm-Kreis,TRUE,BühlM1977
+SPD,Cademartori Dujisin,Isabel Andrea,1988,Wahlkreis,Mannheim,TRUE,Cademartori DujisinI1988
+SPD,Castellucci,Lars,1974,Liste,Baden-Württemberg,TRUE,CastellucciL1974
+GRÜNE,Christmann,Anna Maria,1983,Liste,Baden-Württemberg,TRUE,ChristmannA1983
+AfD,Chrupalla,Tino,1975,Wahlkreis,Görlitz,TRUE,ChrupallaT1975
+CDU,Connemann,Gitta,1964,Wahlkreis,Unterems,TRUE,ConnemannG1964
+AfD,Cotar,Joana Eleonora,1973,Liste,Hessen,TRUE,CotarJ1973
+SPD,Coße,Jürgen,1969,Liste,Nordrhein-Westfalen,FALSE,CoßeJ1969
+FDP,Cronenberg,Carl-Julius,1962,Liste,Nordrhein-Westfalen,TRUE,CronenbergC1962
+AfD,Curio,Gottfried,1960,Liste,Berlin,TRUE,CurioG1960
+CDU,Czaja,Mario,1975,Wahlkreis,Berlin-Marzahn-Hellersdorf,TRUE,CzajaM1975
+DIE LINKE,Dagdelen,Sevim,1975,Liste,Nordrhein-Westfalen,TRUE,DagdelenS1975
+GRÜNE,Dahmen,Janosch,1981,Liste,Nordrhein-Westfalen,FALSE,DahmenJ1981
+SPD,Daldrup,Bernhard,1956,Liste,Nordrhein-Westfalen,TRUE,DaldrupB1956
+CDU,Damerow,Astrid,1958,Wahlkreis,Nordfriesland – Dithmarschen Nord,TRUE,DamerowA1958
+GRÜNE,Deligöz,Ekin,1971,Liste,Bayern,TRUE,DeligözE1971
+SPD,Demir,Hakan,1984,Wahlkreis,Berlin-Neukölln,TRUE,DemirH1984
+GRÜNE,Detzer,Sandra,1980,Liste,Baden-Württemberg,TRUE,DetzerS1980
+SPD,Diaby,Karamba,1961,Wahlkreis,Halle,TRUE,DiabyK1961
+SPD,Diedenhofen,Martin,1995,Liste,Rheinland-Pfalz,FALSE,DiedenhofenM1995
+SPD,Dieren,Jan Ulrich,1991,Wahlkreis,Krefeld II – Wesel II,TRUE,DierenJ1991
+AfD,Dietz,Thomas,1967,Wahlkreis,Erzgebirgskreis I,TRUE,DietzT1967
+SPD,Dilcher,Esther,1965,Wahlkreis,Waldeck,TRUE,DilcherE1965
+SPD,Dittmar,Sabine,1964,Liste,Bayern,TRUE,DittmarS1964
+FDP,Djir-Sarai,Bijan,1976,Liste,Nordrhein-Westfalen,TRUE,Djir-SaraiB1976
+CSU,Dobrindt,Alexander,1970,Wahlkreis,Weilheim,TRUE,DobrindtA1970
+DIE LINKE,Domscheit-Berg,Anke Margarete,1968,Liste,Brandenburg,TRUE,Domscheit-BergA1968
+CDU,Donth,Michael,1967,Wahlkreis,Reutlingen,TRUE,DonthM1967
+SPD,Droßmann,Falko,1973,Wahlkreis,Hamburg-Mitte,TRUE,DroßmannF1973
+GRÜNE,Dröge,Katharina,1984,Liste,Nordrhein-Westfalen,TRUE,DrögeK1984
+CSU,Durz,Hansjörg,1971,Wahlkreis,Augsburg-Land,TRUE,DurzH1971
+SPD,Döring,Felix Maximilian,1991,Wahlkreis,Gießen,TRUE,DöringF1991
+GRÜNE,Düring,Deborah Saskia,1994,Liste,Hessen,FALSE,DüringD1994
+FDP,Dürr,Christian,1977,Liste,Niedersachsen,TRUE,DürrC1977
+GRÜNE,Ebner,Harald,1964,Liste,Baden-Württemberg,TRUE,EbnerH1964
+SPD,Echeverria,Inaki Axel,1980,Wahlkreis,Ennepe-Ruhr-Kreis II,TRUE,EcheverriaI1980
+GRÜNE,Eckert,Leon,1995,Liste,Bayern,FALSE,EckertL1995
+CSU,Edelhäußer,Ralph,1973,Wahlkreis,Roth,TRUE,EdelhäußerR1973
+AfD,Ehrhorn,Thomas Ludwig Walter,1959,Liste,Niedersachsen,TRUE,EhrhornT1959
+SPD,Eichwede,Sonja Katharina,1987,Wahlkreis,Brandenburg an der Havel – Potsdam-Mittelmark I – Havelland III – Teltow-Fläming I,TRUE,EichwedeS1987
+GRÜNE,Emmerich,Marcel,1991,Liste,Baden-Württemberg,FALSE,EmmerichM1991
+CSU,Engelhard,Alexander,1972,Wahlkreis,Neu-Ulm,TRUE,EngelhardA1972
+SPD,Engelhardt,Heike,1961,Liste,Baden-Württemberg,FALSE,EngelhardtH1961
+CSU,Englhardt-Kopf,Martina,1981,Wahlkreis,Schwandorf,FALSE,Englhardt-KopfM1981
+CSU,Erndl,Thomas Maximilian,1974,Wahlkreis,Deggendorf,TRUE,ErndlT1974
+DIE LINKE,Ernst,Klaus Friedrich,1954,Liste,Bayern,TRUE,ErnstK1954
+SPD,Esdar,Wiebke,1984,Wahlkreis,Bielefeld – Gütersloh II,TRUE,EsdarW1984
+SPD,Esken,Saskia Christina,1961,Liste,Baden-Württemberg,TRUE,EskenS1961
+AfD,Espendiller,Michael,1989,Liste,Nordrhein-Westfalen,TRUE,EspendillerM1989
+FDP,Faber,Marcus,1984,Liste,Sachsen-Anhalt,TRUE,FaberM1984
+SPD,Fahimi,Yasmin,1967,Wahlkreis,Stadt Hannover II,TRUE,FahimiY1967
+AfD,Farle,Robert,1950,Wahlkreis,Mansfeld,TRUE,FarleR1950
+SPD,Fechner,Johannes,1972,Liste,Baden-Württemberg,TRUE,FechnerJ1972
+CDU,Feiler,Uwe Wolfgang Werner,1965,Liste,Brandenburg,TRUE,FeilerU1965
+AfD,Felser,Peter,1969,Liste,Bayern,FALSE,FelserP1969
+CDU,Ferlemann,Enak Matthias,1963,Liste,Niedersachsen,TRUE,FerlemannE1963
+DIE LINKE,Ferschl,Susanne,1973,Liste,Bayern,TRUE,FerschlS1973
+GRÜNE,Fester,Emilia Johanna,1998,Liste,Hamburg,FALSE,FesterE1998
+SPD,Fiedler,Sebastian,1973,Wahlkreis,Mülheim – Essen I,TRUE,FiedlerS1973
+SPD,Franke,Edgar Konrad Hartmut,1960,Wahlkreis,Schwalm-Eder,TRUE,FrankeE1960
+CDU,Frei,Thorsten,1973,Wahlkreis,Schwarzwald-Baar,TRUE,FreiT1973
+FDP,Fricke,Otto,1965,Liste,Nordrhein-Westfalen,TRUE,FrickeO1965
+AfD,Friedhoff,Dietmar,1966,Liste,Niedersachsen,TRUE,FriedhoffD1966
+CSU,Friedrich,Hans-Peter,1957,Wahlkreis,Hof,TRUE,FriedrichH1957
+CSU,Frieser,Michael,1964,Wahlkreis,Nürnberg-Süd,FALSE,FrieserM1964
+AfD,Frohnmaier,Markus-Cornel,1991,Liste,Baden-Württemberg,TRUE,FrohnmaierM1991
+AfD,Frömming,Götz,1968,Liste,Berlin,FALSE,FrömmingG1968
+SPD,Funke,Fabian,1997,Liste,Sachsen,FALSE,FunkeF1997
+FDP,Funke genannt Kaiser,Maximilian Ludwig,1993,Liste,Bayern,TRUE,Funke genannt KaiserM1993
+CDU,Färber,Hermann,1963,Wahlkreis,Göppingen,TRUE,FärberH1963
+SPD,Fäscher,Ariane,1968,Wahlkreis,Oberhavel – Havelland II,FALSE,FäscherA1968
+FDP,Föst,Daniel Wolfgang,1976,Liste,Bayern,TRUE,FöstD1976
+GRÜNE,Gambir,Schahina,1991,Liste,Nordrhein-Westfalen,FALSE,GambirS1991
+GRÜNE,Ganserer,Markus (Tessa),1977,Liste,Bayern,TRUE,GansererM1977
+GRÜNE,Gastel,Matthias,1970,Liste,Baden-Württemberg,TRUE,GastelM1970
+AfD,Gauland,Eberhardt Alexander,1941,Liste,Brandenburg,TRUE,GaulandE1941
+SPD,Gava,Manuel,1991,Wahlkreis,Stadt Osnabrück,TRUE,GavaM1991
+FDP,Gaßner-Herz,Martin Thomas,1985,Liste,Baden-Württemberg,FALSE,Gaßner-HerzM1985
+CDU,Gebhart,Thomas,1971,Liste,Rheinland-Pfalz,FALSE,GebhartT1971
+GRÜNE,Gehring,Kai,1977,Liste,Nordrhein-Westfalen,TRUE,GehringK1977
+CSU,Geissler,Jonas Alexander Tecumseh,1984,Wahlkreis,Coburg,TRUE,GeisslerJ1984
+GRÜNE,Gelbhaar,Stefan,1976,Wahlkreis,Berlin-Pankow,TRUE,GelbhaarS1976
+SPD,Gerdes,Michael,1960,Wahlkreis,Bottrop – Recklinghausen III,TRUE,GerdesM1960
+FDP,Gerschau,Knut,1961,Liste,Niedersachsen,TRUE,GerschauK1961
+SPD,Gerster,Martin,1971,Liste,Baden-Württemberg,TRUE,GersterM1971
+GRÜNE,Gesenhues,Jan-Niclas,1990,Liste,Nordrhein-Westfalen,TRUE,GesenhuesJ1990
+AfD,Glaser,Albrecht Heinz Erhard,1942,Liste,Hessen,FALSE,GlaserA1942
+SPD,Glöckner,Angelika,1962,Wahlkreis,Pirmasens,TRUE,GlöcknerA1962
+AfD,Gnauck,Hannes,1991,Liste,Brandenburg,FALSE,GnauckH1991
+DIE LINKE,Gohlke,Nicole Stephanie,1975,Liste,Bayern,TRUE,GohlkeN1975
+AfD,Gottschalk,Kay,1965,Liste,Nordrhein-Westfalen,TRUE,GottschalkK1965
+FDP,Graf Lambsdorff,Alexander,1966,Liste,Nordrhein-Westfalen,TRUE,Graf LambsdorffA1966
+CDU,Gramling,Fabian Benedikt Meinrad,1987,Wahlkreis,Neckar-Zaber,TRUE,GramlingF1987
+GRÜNE,Grau,Armin Jürgen,1959,Liste,Rheinland-Pfalz,TRUE,GrauA1959
+SPD,Gremmels,Timon,1976,Wahlkreis,Kassel,TRUE,GremmelsT1976
+SPD,Griese,Kerstin,1966,Liste,Nordrhein-Westfalen,TRUE,GrieseK1966
+CDU,Grosse-Brömer,Michael,1960,Liste,Niedersachsen,TRUE,Grosse-BrömerM1960
+CDU,Grund,Manfred,1955,Wahlkreis,Eichsfeld – Nordhausen – Kyffhäuserkreis,TRUE,GrundM1955
+GRÜNE,Grundl,Erhard,1963,Liste,Bayern,TRUE,GrundlE1963
+CDU,Grundmann,Oliver Klaus,1971,Wahlkreis,Stade I – Rotenburg II,TRUE,GrundmannO1971
+CDU,Gräßle,Ingeborg Gabriele,1961,Wahlkreis,Backnang – Schwäbisch Gmünd,TRUE,GräßleI1961
+CDU,Gröhe,Gottfried Hermann,1961,Wahlkreis,Neuss I,TRUE,GröheG1961
+SPD,Grötsch,Ulrich Peter,1975,Liste,Bayern,TRUE,GrötschU1975
+CDU,Grübel,Markus,1959,Wahlkreis,Esslingen,TRUE,GrübelM1959
+CDU,Grütters,Monika,1962,Wahlkreis,Berlin-Reinickendorf,TRUE,GrüttersM1962
+GRÜNE,Grützmacher,Sabine,1986,Liste,Nordrhein-Westfalen,FALSE,GrützmacherS1986
+CDU,Gutting,Olav Steffen,1970,Wahlkreis,Bruchsal – Schwetzingen,FALSE,GuttingO1970
+DIE LINKE,Gysi,Gregor,1948,Wahlkreis,Berlin-Treptow-Köpenick,TRUE,GysiG1948
+CDU,Gädechens,Ingo Adolf August,1960,Liste,Schleswig-Holstein,TRUE,GädechensI1960
+GRÜNE,Göring-Eckardt,Katrin,1966,Liste,Thüringen,TRUE,Göring-EckardtK1966
+DIE LINKE,Görke,Christian,1962,Liste,Brandenburg,TRUE,GörkeC1962
+CDU,Güler,Serap,1980,Liste,Nordrhein-Westfalen,FALSE,GülerS1980
+CDU,Güntzler,Fritz,1966,Liste,Niedersachsen,FALSE,GüntzlerF1966
+DIE LINKE,Gürpinar,Ates Nils,1984,Liste,Bayern,FALSE,GürpinarA1984
+CDU,Haase,Christian,1966,Wahlkreis,Höxter – Güterloh III – Lippe II,TRUE,HaaseC1966
+GRÜNE,Habeck,Robert,1969,Wahlkreis,Flensburg – Schleswig,TRUE,HabeckR1969
+FDP,Hacker,Thomas,1967,Liste,Bayern,FALSE,HackerT1967
+SPD,Hagedorn,Bettina,1955,Wahlkreis,Ostholstein – Stormarn-Nord,TRUE,HagedornB1955
+SPD,Hagl-Kehl,Rita Andrea,1970,Liste,Bayern,TRUE,Hagl-KehlR1970
+DIE LINKE,Hahn,André,1963,Liste,Sachsen,FALSE,HahnA1963
+CSU,Hahn,Florian Peter,1974,Wahlkreis,München-Land,TRUE,HahnF1974
+SPD,Hakverdi,Metin,1969,Wahlkreis,Hamburg-Bergedorf – Harburg,TRUE,HakverdiM1969
+FDP,Hanke,Reginald Karl Heinz,1956,Liste,Thüringen,TRUE,HankeR1956
+AfD,Harder-Kühnel,Mariana Iris,1974,Liste,Hessen,TRUE,Harder-KühnelM1974
+CDU,Hardt,Jürgen,1963,Liste,Nordrhein-Westfalen,FALSE,HardtJ1963
+FDP,Hartewig,Philipp,1994,Liste,Sachsen,TRUE,HartewigP1994
+SPD,Hartmann,Sebastian,1977,Liste,Nordrhein-Westfalen,TRUE,HartmannS1977
+FDP,Harzer,Ulrike,1968,Liste,Sachsen,TRUE,HarzerU1968
+CDU,Hauer,Matthias,1977,Wahlkreis,Essen III,TRUE,HauerM1977
+AfD,Haug,Jochen,1973,Liste,Nordrhein-Westfalen,FALSE,HaugJ1973
+GRÜNE,Haßelmann,Britta Maria,1961,Liste,Nordrhein-Westfalen,TRUE,HaßelmannB1961
+CDU,Heck,Stefan,1982,Liste,Hessen,FALSE,HeckS1982
+SPD,Heidenblut,Dirk,1961,Wahlkreis,Essen II,TRUE,HeidenblutD1961
+FDP,Heidt,Peter,1965,Liste,Hessen,FALSE,HeidtP1965
+CDU,Heil,Mechthild,1961,Wahlkreis,Ahrweiler,TRUE,HeilM1961
+SPD,Heil,Wolfgang-Hubertus,1972,Wahlkreis,Gifhorn – Peine,TRUE,HeilW1972
+SPD,Heiligenstadt,Frauke,1966,Wahlkreis,Goslar – Northeim – Osterode,TRUE,HeiligenstadtF1966
+CDU,Heilmann,Thomas,1964,Wahlkreis,Berlin-Steglitz-Zehlendorf,TRUE,HeilmannT1964
+SPD,Heinrich,Gabriela,1963,Liste,Bayern,TRUE,HeinrichG1963
+GRÜNE,Heitmann,Linda,1982,Wahlkreis,Hamburg-Altona,TRUE,HeitmannL1982
+AfD,Helferich,Matthias,1988,Liste,Nordrhein-Westfalen,TRUE,HelferichM1988
+CDU,Helfrich,Mark,1978,Wahlkreis,Steinburg – Dithmarschen Süd,TRUE,HelfrichM1978
+FDP,Helling-Plahr,Katrin,1986,Liste,Nordrhein-Westfalen,TRUE,Helling-PlahrK1986
+SPD,Hellmich,Wolfgang,1958,Liste,Nordrhein-Westfalen,FALSE,HellmichW1958
+GRÜNE,Henneberger,Kathrin,1987,Liste,Nordrhein-Westfalen,FALSE,HennebergerK1987
+SPD,Hennig,Anke,1964,Liste,Niedersachsen,FALSE,HennigA1964
+DIE LINKE,Hennig-Wellsow,Susanne Marianne,1977,Liste,Thüringen,TRUE,Hennig-WellsowS1977
+CDU,Hennrich,Michael,1965,Wahlkreis,Nürtingen,FALSE,HennrichM1965
+CDU,Henrichmann,Marc,1976,Wahlkreis,Coesfeld – Steinfurt II,TRUE,HenrichmannM1976
+FDP,Herbrand,Markus,1971,Liste,Nordrhein-Westfalen,TRUE,HerbrandM1971
+FDP,Herbst,Torsten,1973,Liste,Sachsen,TRUE,HerbstT1973
+GRÜNE,Herrmann,Bernhard,1966,Liste,Sachsen,TRUE,HerrmannB1966
+SPD,Heselhaus,Nadine,1978,Liste,Nordrhein-Westfalen,TRUE,HeselhausN1978
+AfD,Hess,Martin Alexander,1971,Liste,Baden-Württemberg,TRUE,HessM1971
+FDP,Hessel,Katja,1972,Liste,Bayern,TRUE,HesselK1972
+CDU,Heveling,Ansgar Guido Karl Johannes,1972,Wahlkreis,Krefeld I – Neuss II,TRUE,HevelingA1972
+CSU,Hierl,Susanne,1973,Wahlkreis,Amberg,TRUE,HierlS1973
+AfD,Hilse,Karsten,1964,Wahlkreis,Bautzen I,TRUE,HilseK1964
+CDU,Hirte,Christian,1976,Liste,Thüringen,TRUE,HirteC1976
+SPD,Hitschler,Thomas,1982,Wahlkreis,Südpfalz,TRUE,HitschlerT1982
+FDP,Hocker,Gero Clemens,1975,Liste,Niedersachsen,TRUE,HockerG1975
+CSU,Hoffmann,Alexander,1975,Wahlkreis,Main-Spessart,TRUE,HoffmannA1975
+GRÜNE,Hoffmann,Bettina Martha Lieselotte,1960,Liste,Hessen,TRUE,HoffmannB1960
+FDP,Hoffmann,Christoph,1957,Liste,Baden-Württemberg,TRUE,HoffmannC1957
+GRÜNE,Hofreiter,Anton Gerhard,1970,Liste,Bayern,TRUE,HofreiterA1970
+AfD,Holm,Leif-Erik,1970,Liste,Mecklenburg-Vorpommern,TRUE,HolmL1970
+CDU,Hoppenstedt,Hendrik,1972,Liste,Niedersachsen,TRUE,HoppenstedtH1972
+CDU,Hoppermann,Franziska Christina Brigitte,1982,Liste,Hamburg,TRUE,HoppermannF1982
+SPD,Hostert,Jasmina,1982,Liste,Baden-Württemberg,TRUE,HostertJ1982
+FDP,Houben,Reinhard Arnold,1960,Liste,Nordrhein-Westfalen,TRUE,HoubenR1960
+AfD,Huber,Johannes Josef,1987,Liste,Bayern,TRUE,HuberJ1987
+SPD,Hubertz,Verena Ute,1987,Wahlkreis,Trier,TRUE,HubertzV1987
+DIE LINKE,Hunko,Andrej Konstantin,1963,Liste,Nordrhein-Westfalen,TRUE,HunkoA1963
+AfD,Huy,Rose Gerrit,1953,Liste,Bayern,FALSE,HuyR1953
+AfD,Höchst,Nicole,1970,Liste,Rheinland-Pfalz,TRUE,HöchstN1970
+FDP,Höferlin,Manuel,1973,Liste,Rheinland-Pfalz,FALSE,HöferlinM1973
+GRÜNE,Hönel,Bruno,1996,Liste,Schleswig-Holstein,FALSE,HönelB1996
+SPD,Hümpfer,Markus Klaus,1992,Liste,Bayern,FALSE,HümpferM1992
+CDU,Hüppe,Hubert Wilhelm,1956,Liste,Nordrhein-Westfalen,FALSE,HüppeH1956
+CSU,Irlstorfer,Erich,1970,Wahlkreis,Freising,TRUE,IrlstorferE1970
+AfD,Jacobi,Fabian,1973,Liste,Nordrhein-Westfalen,TRUE,JacobiF1973
+GRÜNE,Janecek,Dieter Gerald,1976,Liste,Bayern,TRUE,JanecekD1976
+AfD,Janich,Steffen,1971,Wahlkreis,Sächsische Schweiz-Osterzgebirge,TRUE,JanichS1971
+CDU,Janssen,Anne,1982,Liste,Niedersachsen,TRUE,JanssenA1982
+CDU,Jarzombek,Thomas,1973,Wahlkreis,Düsseldorf I,TRUE,JarzombekT1973
+FDP,Jensen-Bornhöft,Gyde,1989,Liste,Schleswig-Holstein,TRUE,Jensen-BornhöftG1989
+AfD,Jongen,Marc Stephan,1968,Liste,Baden-Württemberg,TRUE,JongenM1968
+CDU,Jung,Andreas,1975,Wahlkreis,Konstanz,TRUE,JungA1975
+FDP,Jung,Christian,1977,Liste,Baden-Württemberg,TRUE,JungC1977
+CDU,Jung,Ingmar Ludwig,1978,Wahlkreis,Wiesbaden,TRUE,JungI1978
+SPD,Junge,Frank Michael,1967,Wahlkreis,Ludwigslust-Parchim II – Nordwestmecklenburg II – Landkreis Rostock I,TRUE,JungeF1967
+SPD,Juratovic,Josip,1959,Liste,Baden-Württemberg,FALSE,JuratovicJ1959
+FDP,Jurisch,Ann-Veruschka,1972,Liste,Baden-Württemberg,FALSE,JurischA1972
+SPD,Kaczmarek,Oliver,1970,Wahlkreis,Unna I,TRUE,KaczmarekO1970
+GRÜNE,Kaddor,Lamya,1978,Liste,Nordrhein-Westfalen,TRUE,KaddorL1978
+SPD,Kaiser,Elisabeth,1987,Liste,Thüringen,FALSE,KaiserE1987
+GRÜNE,Kappert-Gonther,Kirsten,1966,Liste,Bremen,TRUE,Kappert-GontherK1966
+SPD,Karaahmetoǧlu,Macit,1968,Liste,Baden-Württemberg,TRUE,KaraahmetoǧluM1968
+CDU,Karliczek,Anja Maria-Antonia,1971,Wahlkreis,Steinfurt III,TRUE,KarliczekA1971
+SPD,Kasper,Carlos,1994,Liste,Sachsen,TRUE,KasperC1994
+SPD,Kassautzki,Anna Katharina,1993,Wahlkreis,Vorpommern-Rügen – Vorpommern-Greifswald I,FALSE,KassautzkiA1993
+SPD,Katzmarek,Gabriele,1960,Liste,Baden-Württemberg,TRUE,KatzmarekG1960
+AfD,Kaufmann,Malte,1976,Liste,Baden-Württemberg,TRUE,KaufmannM1976
+AfD,Kaufmann,Michael Heinz,1964,Wahlkreis,Saalfeld-Rudolstadt – Saale-Holzland-Kreis – Saale-Orla-Kreis,TRUE,KaufmannM1964
+SPD,Keller,Rainer Johannes,1965,Wahlkreis,Wesel I,TRUE,KellerR1965
+GRÜNE,Kellner,Michael,1977,Liste,Brandenburg,TRUE,KellnerM1977
+CDU,Kemmer,Ronja Helene,1989,Wahlkreis,Ulm,TRUE,KemmerR1989
+SPD,Kersten,Franziska,1968,Wahlkreis,Börde – Jerichower Land,TRUE,KerstenF1968
+GRÜNE,Keul,Katja,1969,Liste,Niedersachsen,TRUE,KeulK1969
+AfD,Keuter,Stefan,1972,Liste,Nordrhein-Westfalen,FALSE,KeuterS1972
+GRÜNE,Khan,Misbah,1989,Liste,Rheinland-Pfalz,FALSE,KhanM1989
+CDU,Kiesewetter,Roderich,1963,Wahlkreis,Aalen – Heidenheim,TRUE,KiesewetterR1963
+CSU,Kießling,Michael,1973,Wahlkreis,Starnberg – Landsberg am Lech,TRUE,KießlingM1973
+GRÜNE,Kindler,Sven-Christian,1985,Liste,Niedersachsen,TRUE,KindlerS1985
+CDU,Kippels,Georg,1959,Wahlkreis,Rhein-Erft-Kreis I,TRUE,KippelsG1959
+DIE LINKE,Kipping,Katja,1978,Liste,Sachsen,TRUE,KippingK1978
+SPD,Kiziltepe,Cansel,1975,Liste,Berlin,TRUE,KiziltepeC1975
+SPD,Kleebank,Helmut,1964,Wahlkreis,Berlin-Spandau – Charlottenburg Nord,TRUE,KleebankH1964
+FDP,Klein,Karsten,1977,Liste,Bayern,TRUE,KleinK1977
+CDU,Klein,Ottilie Paola,1984,Liste,Berlin,FALSE,KleinO1984
+CDU,Klein,Volkmar,1960,Wahlkreis,Siegen-Wittgenstein,TRUE,KleinV1960
+GRÜNE,Klein-Schmeink,Maria Anna,1958,Wahlkreis,Münster,TRUE,Klein-SchmeinkM1958
+AfD,Kleinwächter,Norbert,1986,Liste,Brandenburg,TRUE,KleinwächterN1986
+SPD,Klinck,Kristian,1979,Wahlkreis,Plön – Neumünster,TRUE,KlinckK1979
+SPD,Klingbeil,Lars,1978,Wahlkreis,Rotenburg I – Heidekreis,TRUE,KlingbeilL1978
+SPD,Klose,Annika Gisela,1992,Liste,Berlin,FALSE,KloseA1992
+FDP,Kluckert,Daniela Kathrin,1980,Liste,Berlin,TRUE,KluckertD1980
+CDU,Klöckner,Julia,1972,Liste,Rheinland-Pfalz,TRUE,KlöcknerJ1972
+SPD,Klüssendorf,Tim,1991,Wahlkreis,Lübeck,TRUE,KlüssendorfT1991
+CDU,Knoerig,Axel,1967,Wahlkreis,Diepholz – Nienburg I,TRUE,KnoerigA1967
+FDP,Kober,Pascal Felix Ernst,1971,Liste,Baden-Württemberg,TRUE,KoberP1971
+CDU,Koeppen,Jens,1962,Liste,Brandenburg,TRUE,KoeppenJ1962
+SPD,Kofler,Bärbel,1967,Liste,Bayern,TRUE,KoflerB1967
+AfD,Komning,Enrico,1968,Liste,Mecklenburg-Vorpommern,TRUE,KomningE1968
+FDP,Konrad,Carina,1982,Liste,Rheinland-Pfalz,TRUE,KonradC1982
+CDU,Koob,Markus Benjamin,1977,Wahlkreis,Hochtaunus,TRUE,KoobM1977
+GRÜNE,Kopf,Chantal Johanna Siglinde,1995,Wahlkreis,Freiburg,TRUE,KopfC1995
+DIE LINKE,Korte,Jan,1977,Liste,Sachsen-Anhalt,TRUE,KorteJ1977
+AfD,Kotré,Steffen,1971,Liste,Brandenburg,TRUE,KotréS1971
+SPD,Koß,Simona,1961,Wahlkreis,Märkisch-Oderland – Barnim II,FALSE,KoßS1961
+GRÜNE,Kraft,Laura Manuela,1990,Liste,Nordrhein-Westfalen,FALSE,KraftL1990
+AfD,Kraft,Rainer Detlef,1974,Liste,Bayern,TRUE,KraftR1974
+SPD,Kramme,Anette,1967,Liste,Bayern,TRUE,KrammeA1967
+CDU,Kramp-Karrenbauer,Annegret,1962,Liste,Saarland,TRUE,Kramp-KarrenbauerA1962
+SPD,Kreiser,Dunja Eleonore Angelika,1971,Wahlkreis,Salzgitter – Wolfenbüttel,TRUE,KreiserD1971
+CDU,Krichbaum,Gunther,1964,Wahlkreis,Pforzheim,FALSE,KrichbaumG1964
+CDU,Krings,Günter,1969,Wahlkreis,Mönchengladbach,TRUE,KringsG1969
+GRÜNE,Krischer,Oliver,1969,Wahlkreis,Aachen I,TRUE,KrischerO1969
+FDP,Kruse,Michael,1983,Liste,Hamburg,TRUE,KruseM1983
+GRÜNE,Krämer,Philip,1992,Liste,Hessen,TRUE,KrämerP1992
+SPD,Kröber,Martin,1992,Wahlkreis,Magdeburg,TRUE,KröberM1992
+CDU,Kuban,Tilman Moritz,1987,Liste,Niedersachsen,TRUE,KubanT1987
+FDP,Kubicki,Wolfgang,1952,Liste,Schleswig-Holstein,TRUE,KubickiW1952
+FDP,Kuhle,Konstantin Elias,1989,Liste,Niedersachsen,TRUE,KuhleK1989
+GRÜNE,Kurth,Markus,1966,Liste,Nordrhein-Westfalen,FALSE,KurthM1966
+FDP,Köhler,Lukas Otto,1986,Liste,Bayern,TRUE,KöhlerL1986
+CDU,König,Anne,1984,Wahlkreis,Borken II,TRUE,KönigA1984
+AfD,König,Jörn Harald,1967,Liste,Niedersachsen,TRUE,KönigJ1967
+CDU,Körber,Carsten,1979,Liste,Sachsen,FALSE,KörberC1979
+GRÜNE,Kühn,Christian,1979,Liste,Baden-Württemberg,TRUE,KühnC1979
+SPD,Kühnert,Kevin,1989,Wahlkreis,Berlin-Tempelhof-Schöneberg,TRUE,KühnertK1989
+GRÜNE,Künast,Renate Elly,1955,Liste,Berlin,TRUE,KünastR1955
+SPD,Lahrkamp,Sarah,1981,Liste,Nordrhein-Westfalen,FALSE,LahrkampS1981
+GRÜNE,Lang,Ricarda,1994,Liste,Baden-Württemberg,TRUE,LangR1994
+CSU,Lange,Ulrich,1969,Wahlkreis,Donau-Ries,TRUE,LangeU1969
+SPD,Larem,Andreas,1964,Wahlkreis,Darmstadt,FALSE,LaremA1964
+CDU,Laschet,Armin,1961,Liste,Nordrhein-Westfalen,TRUE,LaschetA1961
+DIE LINKE,Latendorf,Ina,1971,Liste,Mecklenburg-Vorpommern,FALSE,LatendorfI1971
+CSU,Launert,Silke,1976,Wahlkreis,Bayreuth,TRUE,LaunertS1976
+SPD,Lauterbach,Karl Wilhelm,1963,Wahlkreis,Leverkusen – Köln IV,TRUE,LauterbachK1963
+DIE LINKE,Lay,Caren Nicole,1972,Liste,Sachsen,FALSE,LayC1972
+FDP,Lechte,Ulrich,1977,Liste,Bayern,TRUE,LechteU1977
+CDU,Lehmann,Jens,1967,Wahlkreis,Leipzig I,TRUE,LehmannJ1967
+GRÜNE,Lehmann,Sven,1979,Wahlkreis,Köln II,TRUE,LehmannS1979
+SPD,Lehmann,Sylvia,1954,Wahlkreis,Dahme-Spreewald – Teltow-Fläming III – Oberspreewald-Lausitz I,FALSE,LehmannS1954
+CSU,Lehrieder,Paul Alois,1959,Wahlkreis,Würzburg,TRUE,LehriederP1959
+CDU,Leikert,Katja Isabel,1975,Liste,Hessen,FALSE,LeikertK1975
+SPD,Leiser,Kevin,1993,Liste,Baden-Württemberg,FALSE,LeiserK1993
+GRÜNE,Lemke,Steffi,1968,Liste,Sachsen-Anhalt,TRUE,LemkeS1968
+FDP,Lenders,Jürgen,1966,Liste,Hessen,TRUE,LendersJ1966
+AfD,Lenk,Barbara,1982,Wahlkreis,Meißen,TRUE,LenkB1982
+DIE LINKE,Lenkert,Ralph,1967,Liste,Thüringen,TRUE,LenkertR1967
+CSU,Lenz,Andreas,1981,Wahlkreis,Erding – Ebersberg,TRUE,LenzA1981
+DIE LINKE,Leye,Christian,1981,Liste,Nordrhein-Westfalen,FALSE,LeyeC1981
+SPD,Licina-Bode,Luiza,1972,Liste,Nordrhein-Westfalen,FALSE,Licina-BodeL1972
+FDP,Lieb,Thorsten Willibald,1973,Liste,Hessen,TRUE,LiebT1973
+GRÜNE,Liebert,Anja,1969,Liste,Nordrhein-Westfalen,FALSE,LiebertA1969
+SPD,Limbacher,Esra-Leon Ruben,1989,Wahlkreis,Homburg,TRUE,LimbacherE1989
+GRÜNE,Limburg,Helge Stefan,1982,Liste,Niedersachsen,TRUE,LimburgH1982
+FDP,Lindemann,Lars,1971,Liste,Berlin,FALSE,LindemannL1971
+SPD,Lindh,Helge Frederik,1976,Wahlkreis,Wuppertal I,TRUE,LindhH1976
+CSU,Lindholz,Andrea,1970,Wahlkreis,Aschaffenburg,TRUE,LindholzA1970
+FDP,Lindner,Christian Wolfgang,1979,Liste,Nordrhein-Westfalen,TRUE,LindnerC1979
+GRÜNE,Lindner,Tobias,1982,Liste,Rheinland-Pfalz,TRUE,LindnerT1982
+FDP,Link,Michael Georg,1963,Liste,Baden-Württemberg,TRUE,LinkM1963
+CDU,Linnemann,Carsten Christoffer,1977,Wahlkreis,Paderborn,TRUE,LinnemannC1977
+CDU,Lips,Patricia,1963,Liste,Hessen,TRUE,LipsP1963
+GRÜNE,Loop,Denise,1994,Liste,Schleswig-Holstein,FALSE,LoopD1994
+CSU,Loos,Bernhard Siegfried,1955,Wahlkreis,München-Nord,FALSE,LoosB1955
+AfD,Lucassen,Hans-Rüdiger,1951,Liste,Nordrhein-Westfalen,TRUE,LucassenH1951
+GRÜNE,Lucks,Max,1997,Liste,Nordrhein-Westfalen,TRUE,LucksM1997
+CDU,Luczak,Jan-Marco,1975,Liste,Berlin,FALSE,LuczakJ1975
+CSU,Ludwig,Daniela,1975,Wahlkreis,Rosenheim,TRUE,LudwigD1975
+SPD,Lugk,Bettina,1982,Liste,Nordrhein-Westfalen,FALSE,LugkB1982
+FDP,Luksic,Oliver,1979,Liste,Saarland,TRUE,LuksicO1979
+DIE LINKE,Lutze,Thomas,1969,Liste,Saarland,TRUE,LutzeT1969
+DIE LINKE,Lötzsch,Gesine,1961,Wahlkreis,Berlin-Lichtenberg,TRUE,LötzschG1961
+GRÜNE,Lührmann,Anna Kristina,1983,Liste,Hessen,TRUE,LührmannA1983
+FDP,Lütke,Kristine,1982,Liste,Bayern,FALSE,LütkeK1982
+SPD,Maas,Heiko Josef,1966,Wahlkreis,Saarlouis,TRUE,MaasH1966
+SPD,Machalet,Tanja,1974,Wahlkreis,Montabaur,TRUE,MachaletT1974
+CDU,Mack,Klaus,1973,Wahlkreis,Calw,TRUE,MackK1973
+SPD,Mackensen-Geis,Isabel Larissa,1986,Liste,Rheinland-Pfalz,FALSE,Mackensen-GeisI1986
+CDU,Magwas,Yvonne,1979,Wahlkreis,Vogtlandkreis,TRUE,MagwasY1979
+SPD,Malottki,Erik,1986,Wahlkreis,Mecklenburgische Seenplatte I – Vorpommern-Greifswald II,FALSE,MalottkiE1986
+SPD,Mann,Holger,1979,Liste,Sachsen,TRUE,MannH1979
+FDP,Mansmann,Till Berthold,1968,Liste,Hessen,TRUE,MansmannT1968
+SPD,Mansoori,Kaweh,1988,Liste,Hessen,FALSE,MansooriK1988
+SPD,Martens,Zanda,1984,Liste,Nordrhein-Westfalen,FALSE,MartensZ1984
+SPD,Martin,Dorothee Katja Julia,1978,Wahlkreis,Hamburg-Nord,TRUE,MartinD1978
+SPD,Marvi,Parsa,1982,Liste,Baden-Württemberg,TRUE,MarviP1982
+SPD,Mascheck,Franziska,1979,Liste,Sachsen,FALSE,MascheckF1979
+SPD,Mast,Katja Wilma,1971,Liste,Baden-Württemberg,TRUE,MastK1971
+CDU,Mattfeldt,Andreas,1969,Wahlkreis,Osterholz – Verden,TRUE,MattfeldtA1969
+CSU,Mayer,Stephan,1973,Wahlkreis,Altötting,TRUE,MayerS1973
+GRÜNE,Mayer,Zoe,1995,Wahlkreis,Karlsruhe-Stadt,TRUE,MayerZ1995
+CDU,Mayer-Lay,Volker,1981,Wahlkreis,Bodensee,TRUE,Mayer-LayV1981
+SPD,Mehltretter,Andreas,1991,Liste,Bayern,TRUE,MehltretterA1991
+SPD,Mehmet Ali,Takis,1991,Liste,Baden-Württemberg,FALSE,Mehmet AliT1991
+DIE LINKE,Meiser,Pascal,1975,Liste,Berlin,FALSE,MeiserP1975
+CDU,Meister,Michael Günther,1961,Wahlkreis,Bergstraße,TRUE,MeisterM1961
+GRÜNE,Menge,Patrizia Susanne,1960,Liste,Niedersachsen,FALSE,MengeP1960
+FDP,Merten,Anikó,1982,Liste,Niedersachsen,FALSE,MertenA1982
+CDU,Merz,Joachim-Friedrich Martin Josef,1955,Wahlkreis,Hochsauerlandkreis,TRUE,MerzJ1955
+SPD,Mesarosch,Robin,1991,Liste,Baden-Württemberg,TRUE,MesaroschR1991
+CDU,Metzler,Jan,1981,Wahlkreis,Worms,TRUE,MetzlerJ1981
+FDP,Meyer,Christoph Werner,1975,Liste,Berlin,TRUE,MeyerC1975
+AfD,Miazga,Corinna,1983,Liste,Bayern,TRUE,MiazgaC1983
+GRÜNE,Michaelsen,Swantje Henrike,1979,Liste,Niedersachsen,FALSE,MichaelsenS1979
+SPD,Michel,Susanne Kathrin,1963,Liste,Sachsen,TRUE,MichelS1963
+CDU,Middelberg,Mathias Wolfgang Antonius,1964,Liste,Niedersachsen,TRUE,MiddelbergM1964
+SPD,Miersch,Matthias,1968,Wahlkreis,Hannover-Land II,TRUE,MierschM1968
+SPD,Mieves,Matthias David,1985,Wahlkreis,Kaiserslautern,TRUE,MievesM1985
+GRÜNE,Mihalic,Irene,1976,Liste,Nordrhein-Westfalen,TRUE,MihalicI1976
+GRÜNE,Mijatović,Boris,1974,Liste,Hessen,FALSE,MijatovićB1974
+SPD,Mittag,Susanne,1958,Wahlkreis,Delmenhorst – Wesermarsch – Oldenburg-Land,TRUE,MittagS1958
+DIE LINKE,Mohamed Ali,Amira,1980,Liste,Niedersachsen,TRUE,Mohamed AliA1980
+SPD,Mohrs,Falko,1984,Wahlkreis,Helmstedt – Wolfsburg,TRUE,MohrsF1984
+SPD,Moll,Claudia,1968,Wahlkreis,Aachen II,TRUE,MollC1968
+AfD,Moncsek,Mike,1964,Wahlkreis,Chemnitzer Umland – Erzgebirgskreis II,TRUE,MoncsekM1964
+CDU,Monstadt,Dietrich,1957,Liste,Mecklenburg-Vorpommern,TRUE,MonstadtD1957
+AfD,Moosdorf,Matthias,1965,Wahlkreis,Zwickau,TRUE,MoosdorfM1965
+FDP,Mordhorst,Maximilian,1996,Liste,Schleswig-Holstein,FALSE,MordhorstM1996
+DIE LINKE,Möhring,Cornelia,1960,Liste,Schleswig-Holstein,TRUE,MöhringC1960
+SPD,Möller,Siemtje Victoria Regine Ilse Santjer,1983,Wahlkreis,Friesland – Wilhelmshaven – Wittmund,TRUE,MöllerS1983
+CDU,Mörseburg,Maximilian Rick,1992,Wahlkreis,Stuttgart II,FALSE,MörseburgM1992
+FDP,Müller,Alexander,1969,Liste,Hessen,TRUE,MüllerA1969
+CDU,Müller,Axel Karl,1963,Wahlkreis,Ravensburg,TRUE,MüllerA1963
+SPD,Müller,Bettina,1959,Wahlkreis,Main-Kinzig – Wetterau II – Schotten,TRUE,MüllerB1959
+CDU,Müller,Carsten,1970,Liste,Niedersachsen,FALSE,MüllerC1970
+GRÜNE,Müller,Claudia Heike,1981,Liste,Mecklenburg-Vorpommern,TRUE,MüllerC1981
+SPD,Müller,Detlef,1964,Wahlkreis,Chemnitz,TRUE,MüllerD1964
+CDU,Müller,Florian Matthias,1987,Wahlkreis,Olpe – Märkischer Kreis I,TRUE,MüllerF1987
+SPD,Müller,Rainer Michael,1964,Wahlkreis,Berlin-Charlottenburg-Wilmersdorf,TRUE,MüllerR1964
+GRÜNE,Müller,Sascha,1970,Liste,Bayern,TRUE,MüllerS1970
+CDU,Müller,Sepp,1989,Wahlkreis,Dessau – Wittenberg,TRUE,MüllerS1989
+CSU,Müller,Stefan,1975,Wahlkreis,Erlangen,TRUE,MüllerS1975
+GRÜNE,Müller-Gemmeke,Beate,1960,Liste,Baden-Württemberg,TRUE,Müller-GemmekeB1960
+FDP,Müller-Rosentritt,Frank,1982,Liste,Sachsen,TRUE,Müller-RosentrittF1982
+SPD,Müntefering,Michelle-Jasmin Gabriele,1980,Wahlkreis,Herne – Bochum II,TRUE,MünteferingM1980
+AfD,Münzenmaier,Sebastian,1989,Liste,Rheinland-Pfalz,TRUE,MünzenmaierS1989
+SPD,Mützenich,Rolf Heinrich,1959,Wahlkreis,Köln III,TRUE,MützenichR1959
+CDU,Nacke,Stefan,1976,Liste,Nordrhein-Westfalen,FALSE,NackeS1976
+GRÜNE,Nanni,Sara,1987,Liste,Nordrhein-Westfalen,TRUE,NanniS1987
+SPD,Nasr,Rasha,1992,Liste,Sachsen,TRUE,NasrR1992
+DIE LINKE,Nastić,Zaklin Jadwiga,1980,Liste,Hamburg,TRUE,NastićZ1980
+AfD,Naujok,Edgar,1960,Wahlkreis,Leipzig-Land,FALSE,NaujokE1960
+GRÜNE,Nestle,Ingrid Johanna,1977,Liste,Schleswig-Holstein,TRUE,NestleI1977
+GRÜNE,Nick,Ophelia Johanna,1973,Liste,Nordrhein-Westfalen,TRUE,NickO1973
+SPD,Nickholz,Brian,1989,Wahlkreis,Recklinghausen II,TRUE,NickholzB1989
+CDU,Nicolaisen,Petra,1965,Liste,Schleswig-Holstein,TRUE,NicolaisenP1965
+SPD,Nietan,Dietmar Heinrich,1964,Liste,Nordrhein-Westfalen,FALSE,NietanD1964
+AfD,Nolte,Jan Ralf,1988,Liste,Hessen,TRUE,NolteJ1988
+GRÜNE,Notz,Konstantin,1971,Liste,Schleswig-Holstein,TRUE,NotzK1971
+GRÜNE,Nouripour,Omid,1975,Wahlkreis,Frankfurt am Main II,TRUE,NouripourO1975
+SPD,Nürnberger,Jörg Mathias,1967,Liste,Bayern,TRUE,NürnbergerJ1967
+SPD,Oehl,Jan Lennard,1993,Wahlkreis,Hanau,TRUE,OehlJ1993
+CDU,Oellers,Wilfried,1975,Wahlkreis,Heinsberg,TRUE,OellersW1975
+CDU,Oppelt,Moritz Paul Georg,1989,Wahlkreis,Rhein-Neckar,FALSE,OppeltM1989
+SPD,Ortleb,Josephine Loulou,1986,Wahlkreis,Saarbrücken,TRUE,OrtlebJ1986
+CDU,Oster,Josef,1971,Wahlkreis,Koblenz,TRUE,OsterJ1971
+CDU,Otte,Henning Rudolf Helmut,1968,Wahlkreis,Celle – Uelzen,TRUE,OtteH1968
+GRÜNE,Otte,Karoline,1996,Liste,Niedersachsen,TRUE,OtteK1996
+AfD,Otten,Gerold Joachim,1955,Liste,Bayern,TRUE,OttenG1955
+CSU,Oßner,Florian,1980,Wahlkreis,Landshut,TRUE,OßnerF1980
+GRÜNE,Pahlke,Julian Nils Christoph,1991,Liste,Niedersachsen,FALSE,PahlkeJ1991
+SPD,Pantazis,Christos,1975,Wahlkreis,Braunschweig,TRUE,PantazisC1975
+SPD,Papenbrock,Wiebke,1979,Wahlkreis,Prignitz – Ostprignitz-Ruppin – Havelland I,TRUE,PapenbrockW1979
+SPD,Papendieck,Mathias,1982,Wahlkreis,Frankfurt (Oder) – Oder-Spree,TRUE,PapendieckM1982
+DIE LINKE,Pau,Petra Angelika,1963,Liste,Berlin,TRUE,PauP1963
+GRÜNE,Paus,Elisabeth Maria,1968,Liste,Berlin,TRUE,PausE1968
+SPD,Pawlik,Natalie,1992,Wahlkreis,Wetterau I,TRUE,PawlikN1992
+SPD,Peick,Jens,1981,Wahlkreis,Dortmund I,TRUE,PeickJ1981
+DIE LINKE,Pellmann,Sören,1977,Wahlkreis,Leipzig II,TRUE,PellmannS1977
+DIE LINKE,Perli,Victor Angelo,1982,Liste,Niedersachsen,TRUE,PerliV1982
+AfD,Peterka,Tobias Matthias,1982,Liste,Bayern,TRUE,PeterkaT1982
+SPD,Petry,Christian,1965,Wahlkreis,St. Wendel,FALSE,PetryC1965
+SPD,Philippi,Andreas Milan Gerhard,1965,Wahlkreis,Göttingen,TRUE,PhilippiA1965
+GRÜNE,Piechotta,Paula Louise,1986,Liste,Sachsen,TRUE,PiechottaP1986
+CSU,Pilsinger,Stephan Nikolaus,1987,Wahlkreis,München-West/Mitte,FALSE,PilsingerS1987
+SPD,Plobner,Jan Heinz Stefan,1992,Liste,Bayern,FALSE,PlobnerJ1992
+CDU,Ploß,Christoph Johannes,1985,Liste,Hamburg,TRUE,PloßC1985
+CDU,Plum,Martin,1982,Wahlkreis,Viersen,TRUE,PlumM1982
+AfD,Pohl,Jürgen Hans,1964,Liste,Thüringen,FALSE,PohlJ1964
+GRÜNE,Polat,Filiz,1978,Liste,Niedersachsen,TRUE,PolatF1978
+SPD,Poschmann,Sabine,1968,Wahlkreis,Dortmund II,TRUE,PoschmannS1968
+SPD,Post,Achim Jürgen,1959,Wahlkreis,Minden-Lübbecke I,TRUE,PostA1959
+AfD,Protschka,Stephan,1977,Liste,Bayern,TRUE,ProtschkaS1977
+CDU,Rachel,Thomas Walther,1962,Wahlkreis,Düren,TRUE,RachelT1962
+CDU,Radomski,Kerstin Christiane,1974,Liste,Nordrhein-Westfalen,FALSE,RadomskiK1974
+CSU,Radwan,Alexander Gamal,1964,Wahlkreis,Bad Tölz-Wolfratshausen – Miesbach,TRUE,RadwanA1964
+CSU,Rainer,Alois Georg Josef,1965,Wahlkreis,Straubing,TRUE,RainerA1965
+CSU,Ramsauer,Peter,1954,Wahlkreis,Traunstein,TRUE,RamsauerP1954
+FDP,Redder,Volker,1959,Liste,Bremen,FALSE,RedderV1959
+CDU,Rehbaum,Henning,1973,Wahlkreis,Warendorf,TRUE,RehbaumH1973
+AfD,Reichardt,Martin,1969,Liste,Sachsen-Anhalt,TRUE,ReichardtM1969
+CDU,Reichel,Markus,1968,Wahlkreis,Dresden I,TRUE,ReichelM1968
+DIE LINKE,Reichinnek,Heidi,1988,Liste,Niedersachsen,FALSE,ReichinnekH1988
+GRÜNE,Reinalter,Anja Margit,1970,Liste,Baden-Württemberg,FALSE,ReinalterA1970
+FDP,Reinhold,Hagen,1978,Liste,Mecklenburg-Vorpommern,TRUE,ReinholdH1978
+AfD,Renner,Martin Erwin,1954,Liste,Nordrhein-Westfalen,TRUE,RennerM1954
+DIE LINKE,Renner,Martina Erika,1967,Liste,Thüringen,FALSE,RennerM1967
+FDP,Reuther,Bernd,1971,Liste,Nordrhein-Westfalen,TRUE,ReutherB1971
+SPD,Rhie,Ye-One,1987,Liste,Nordrhein-Westfalen,FALSE,RhieY1987
+CDU,Rief,Josef,1960,Wahlkreis,Biberach,TRUE,RiefJ1960
+DIE LINKE,Riexinger,Bernd Karl,1955,Liste,Baden-Württemberg,TRUE,RiexingerB1955
+SPD,Rimkus,Andreas,1962,Wahlkreis,Düsseldorf II,TRUE,RimkusA1962
+AfD,Rinck,Frank Martin Klaus,1986,Liste,Niedersachsen,TRUE,RinckF1986
+SPD,Rix,Sönke,1975,Wahlkreis,Rendsburg-Eckernförde,TRUE,RixS1975
+SPD,Rohde,Dennis,1986,Wahlkreis,Oldenburg – Ammerland,TRUE,RohdeD1986
+CDU,Rohwer,Lars,1972,Wahlkreis,Dresden II – Bautzen II,TRUE,RohwerL1972
+SPD,Roloff,Sebastian Jörg,1983,Liste,Bayern,TRUE,RoloffS1983
+SPD,Rosemann,Martin,1976,Liste,Baden-Württemberg,TRUE,RosemannM1976
+SPD,Rosenthal,Jessica,1992,Liste,Nordrhein-Westfalen,FALSE,RosenthalJ1992
+GRÜNE,Roth,Claudia Benedikta,1955,Liste,Bayern,TRUE,RothC1955
+SPD,Roth,Michael,1970,Wahlkreis,Werra-Meißner – Hersfeld-Rotenburg,TRUE,RothM1970
+GRÜNE,Rottmann,Manuela,1972,Liste,Bayern,TRUE,RottmannM1972
+CDU,Rouenhoff,Stefan,1978,Wahlkreis,Kleve,TRUE,RouenhoffS1978
+SPD,Rudolph,Thorsten,1974,Liste,Rheinland-Pfalz,FALSE,RudolphT1974
+SPD,Rudolph,Tina,1991,Liste,Thüringen,FALSE,RudolphT1991
+CSU,Rupprecht,Albert Robert,1968,Wahlkreis,Weiden,TRUE,RupprechtA1968
+SPD,Ryglewski,Sarah Janina,1983,Wahlkreis,Bremen I,FALSE,RyglewskiS1983
+CDU,Röttgen,Norbert Alois,1965,Wahlkreis,Rhein-Sieg-Kreis II,TRUE,RöttgenN1965
+CDU,Röwekamp,Thomas,1966,Liste,Bremen,TRUE,RöwekampT1966
+GRÜNE,Rößner,Tabea,1966,Liste,Rheinland-Pfalz,TRUE,RößnerT1966
+CDU,Rüddel,Erwin Josef,1955,Wahlkreis,Neuwied,TRUE,RüddelE1955
+GRÜNE,Rüffer,Corinna Martina,1975,Liste,Rheinland-Pfalz,TRUE,RüfferC1975
+SPD,Rützel,Bernd Ferdinand,1968,Liste,Bayern,TRUE,RützelB1968
+SPD,Saathoff,Johann,1967,Wahlkreis,Aurich – Emden,TRUE,SaathoffJ1967
+GRÜNE,Saleh,Kassem Taher,1993,Liste,Sachsen,FALSE,SalehK1993
+CDU,Santos Firnhaber,Catarina,1994,Liste,Nordrhein-Westfalen,FALSE,Santos FirnhaberC1994
+FDP,Sattelberger,Thomas Michael,1949,Liste,Bayern,TRUE,SattelbergerT1949
+FDP,Sauter,Christian,1980,Liste,Nordrhein-Westfalen,TRUE,SauterC1980
+SPD,Schamber,Rebecca,1975,Wahlkreis,Hannover-Land I,TRUE,SchamberR1975
+AfD,Schattner,Bernd Hans,1968,Liste,Rheinland-Pfalz,FALSE,SchattnerB1968
+GRÜNE,Schauws,Ursula,1966,Liste,Nordrhein-Westfalen,TRUE,SchauwsU1966
+SPD,Scheer,Nina,1971,Wahlkreis,Herzogtum Lauenburg – Stormarn-Süd,TRUE,ScheerN1971
+CDU,Schenderlein,Christiane,1981,Liste,Sachsen,TRUE,SchenderleinC1981
+CSU,Scheuer,Andreas Franz,1974,Wahlkreis,Passau,FALSE,ScheuerA1974
+SPD,Schieder,Marianne,1962,Liste,Bayern,TRUE,SchiederM1962
+SPD,Schiefner,Udo,1959,Liste,Nordrhein-Westfalen,TRUE,SchiefnerU1959
+AfD,Schielke-Ziesing,Ulrike,1969,Liste,Mecklenburg-Vorpommern,FALSE,Schielke-ZiesingU1969
+SPD,Schierenbeck,Peggy,1970,Liste,Niedersachsen,FALSE,SchierenbeckP1970
+CDU,Schimke,Jana,1979,Liste,Brandenburg,TRUE,SchimkeJ1979
+SPD,Schisanowski,Timo,1981,Wahlkreis,Hagen – Ennepe-Ruhr-Kreis I,TRUE,SchisanowskiT1981
+SPD,Schmid,Christoph Florian,1976,Liste,Bayern,TRUE,SchmidC1976
+SPD,Schmid,Nils Hermann,1973,Liste,Baden-Württemberg,TRUE,SchmidN1973
+SPD,Schmidt,Dagmar,1973,Wahlkreis,Lahn-Dill,TRUE,SchmidtD1973
+AfD,Schmidt,Eugen,1975,Liste,Nordrhein-Westfalen,TRUE,SchmidtE1975
+AfD,Schmidt,Jan Wenzel,1991,Liste,Sachsen-Anhalt,FALSE,SchmidtJ1991
+GRÜNE,Schmidt,Stefan,1981,Liste,Bayern,TRUE,SchmidtS1981
+SPD,Schmidt,Uwe,1966,Wahlkreis,Bremen II – Bremerhaven,TRUE,SchmidtU1966
+SPD,Schneider,Carsten,1976,Wahlkreis,Erfurt – Weimar – Weimarer Land II,TRUE,SchneiderC1976
+SPD,Schneider,Daniel Dominik,1976,Wahlkreis,Cuxhaven – Stade II,TRUE,SchneiderD1976
+AfD,Schneider,Jörg,1964,Liste,Nordrhein-Westfalen,TRUE,SchneiderJ1964
+CDU,Schnieder,Patrick,1968,Wahlkreis,Bitburg,TRUE,SchniederP1968
+SPD,Scholz,Olaf,1958,Wahlkreis,Potsdam – Potsdam-Mittelmark II – Teltow-Fläming II,TRUE,ScholzO1958
+SPD,Schraps,Johannes,1983,Wahlkreis,Hameln-Pyrmont – Holzminden,TRUE,SchrapsJ1983
+SPD,Schreider,Christian Willi Heribert,1971,Wahlkreis,Ludwigshafen/Frankenthal,TRUE,SchreiderC1971
+CDU,Schreiner,Felix,1986,Wahlkreis,Waldshut,TRUE,SchreinerF1986
+SPD,Schrodi,Michael Georg,1977,Liste,Bayern,TRUE,SchrodiM1977
+GRÜNE,Schröder,Christina-Johanne,1983,Liste,Niedersachsen,TRUE,SchröderC1983
+FDP,Schröder,Ria Irmtraut Claudia,1992,Liste,Hamburg,TRUE,SchröderR1992
+FDP,Schulz,Anja,1985,Liste,Niedersachsen,TRUE,SchulzA1985
+AfD,Schulz,Uwe,1961,Liste,Hessen,TRUE,SchulzU1961
+GRÜNE,Schulz-Asche,Kordula Anna Paula,1956,Liste,Hessen,TRUE,Schulz-AscheK1956
+SPD,Schulze,Svenja,1968,Liste,Nordrhein-Westfalen,TRUE,SchulzeS1968
+SPD,Schwabe,Frank,1970,Wahlkreis,Recklinghausen I,TRUE,SchwabeF1970
+SPD,Schwartze,Stefan,1974,Wahlkreis,Herford – Minden-Lübbecke II,TRUE,SchwartzeS1974
+SPD,Schwarz,Andreas,1965,Liste,Bayern,TRUE,SchwarzA1965
+CDU,Schwarz,Armin,1968,Liste,Hessen,FALSE,SchwarzA1968
+SPD,Schwarzelühr-Sutter,Rita Berta,1962,Liste,Baden-Württemberg,TRUE,Schwarzelühr-SutterR1962
+SPD,Schäfer,Axel Helmut,1952,Wahlkreis,Bochum I,TRUE,SchäferA1952
+SPD,Schäfer,Ingo,1965,Wahlkreis,Solingen – Remscheid – Wuppertal II,TRUE,SchäferI1965
+GRÜNE,Schäfer,Jamila Anna,1993,Wahlkreis,München-Süd,TRUE,SchäferJ1993
+GRÜNE,Schäfer,Sebastian,1979,Liste,Baden-Württemberg,FALSE,SchäferS1979
+FDP,Schäffler,Frank Uwe,1968,Liste,Nordrhein-Westfalen,TRUE,SchäfflerF1968
+SPD,Schätzl,Johannes,1993,Liste,Bayern,TRUE,SchätzlJ1993
+CDU,Schäuble,Wolfgang,1942,Wahlkreis,Offenburg,TRUE,SchäubleW1942
+GRÜNE,Schönberger,Marlene Edeltraud,1990,Liste,Bayern,FALSE,SchönbergerM1990
+FDP,Seestern-Pauly,Matthias,1984,Liste,Niedersachsen,TRUE,Seestern-PaulyM1984
+SSW,Seidler,Stefan,1979,Liste,Schleswig-Holstein,TRUE,SeidlerS1979
+CDU,Seif,Detlef,1962,Wahlkreis,Euskirchen – Rhein-Erft-Kreis II,TRUE,SeifD1962
+FDP,Seiter,Stephan,1963,Liste,Baden-Württemberg,TRUE,SeiterS1963
+AfD,Seitz,Thomas Michael Konrad,1967,Liste,Baden-Württemberg,FALSE,SeitzT1967
+SPD,Seitzl,Lina,1989,Liste,Baden-Württemberg,TRUE,SeitzlL1989
+GRÜNE,Sekmen,Melis,1993,Liste,Baden-Württemberg,FALSE,SekmenM1993
+FDP,Semet,Rainer,1957,Liste,Baden-Württemberg,FALSE,SemetR1957
+AfD,Sichert,Martin Johannes,1980,Liste,Bayern,TRUE,SichertM1980
+CSU,Silberhorn,Thomas,1968,Wahlkreis,Bamberg,TRUE,SilberhornT1968
+CDU,Simon,Björn Manuel,1981,Wahlkreis,Offenbach,TRUE,SimonB1981
+DIE LINKE,Sitte,Petra,1960,Liste,Sachsen-Anhalt,TRUE,SitteP1960
+FDP,Skudelny,Judith Sandra,1975,Liste,Baden-Württemberg,TRUE,SkudelnyJ1975
+GRÜNE,Slawik,Nyke,1994,Liste,Nordrhein-Westfalen,TRUE,SlawikN1994
+CDU,Sorge,Tino,1975,Liste,Sachsen-Anhalt,FALSE,SorgeT1975
+CDU,Spahn,Jens Georg,1980,Wahlkreis,Steinfurt I – Borken I,TRUE,SpahnJ1980
+GRÜNE,Spallek,Anne Monika,1968,Liste,Nordrhein-Westfalen,FALSE,SpallekA1968
+AfD,Spaniel,Dirk,1971,Liste,Baden-Württemberg,TRUE,SpanielD1971
+GRÜNE,Spellerberg,Merle,1996,Liste,Sachsen,TRUE,SpellerbergM1996
+AfD,Springer,René,1979,Liste,Brandenburg,TRUE,SpringerR1979
+SPD,Stadler,Svenja,1976,Wahlkreis,Harburg,TRUE,StadlerS1976
+CSU,Staffler,Katrin,1981,Wahlkreis,Fürstenfeldbruck,TRUE,StafflerK1981
+GRÜNE,Stahr,Nina,1982,Liste,Berlin,FALSE,StahrN1982
+SPD,Stamm-Fibich,Martina Margarete,1965,Liste,Bayern,TRUE,Stamm-FibichM1965
+FDP,Stark-Watzinger,Bettina,1968,Liste,Hessen,TRUE,Stark-WatzingerB1968
+GRÜNE,Steffen,Till Benjamin,1973,Wahlkreis,Hamburg-Eimsbüttel,TRUE,SteffenT1973
+CSU,Stefinger,Wolfgang Dieter,1985,Wahlkreis,München-Ost,FALSE,StefingerW1985
+CDU,Stegemann,Albert,1976,Wahlkreis,Mittelems,TRUE,StegemannA1976
+SPD,Stegner,Ralf,1959,Wahlkreis,Pinneberg,TRUE,StegnerR1959
+SPD,Stein,Jens Mathias,1970,Wahlkreis,Kiel,FALSE,SteinJ1970
+CDU,Steiniger,Johannes Eberhard,1987,Wahlkreis,Neustadt – Speyer,TRUE,SteinigerJ1987
+GRÜNE,Steinmüller,Hanna,1993,Wahlkreis,Berlin-Mitte,TRUE,SteinmüllerH1993
+CDU,Stetten,Christian Alexander,1970,Wahlkreis,Schwäbisch Hall – Hohenlohe,TRUE,StettenC1970
+SPD,Sthamer,Nadja,1990,Liste,Sachsen,TRUE,SthamerN1990
+CDU,Stier,Dieter,1964,Wahlkreis,Burgenland – Saalekreis,TRUE,StierD1964
+FDP,Stockmeier,Konrad Johann Lorenz,1977,Liste,Baden-Württemberg,FALSE,StockmeierK1977
+AfD,Storch,Beatrix,1971,Liste,Berlin,TRUE,StorchB1971
+CDU,Storjohann,Gero,1958,Liste,Schleswig-Holstein,FALSE,StorjohannG1958
+FDP,Strack-Zimmermann,Marie-Agnes,1958,Liste,Nordrhein-Westfalen,TRUE,Strack-ZimmermannM1958
+CSU,Stracke,Stephan,1974,Wahlkreis,Ostallgäu,TRUE,StrackeS1974
+FDP,Strasser,Benjamin,1987,Liste,Baden-Württemberg,TRUE,StrasserB1987
+CSU,Straubinger,Max,1954,Wahlkreis,Rottal-Inn,FALSE,StraubingerM1954
+GRÜNE,Strengmann-Kuhn,Wolfgang,1964,Liste,Hessen,TRUE,Strengmann-KuhnW1964
+CDU,Stumpp,Christina Daniela,1987,Wahlkreis,Waiblingen,FALSE,StumppC1987
+AfD,Stöber,Klaus,1961,Wahlkreis,Eisenach – Wartburgkreis – Unstrut-Hainich-Kreis,TRUE,StöberK1961
+CDU,Stöcker,Diana Iris,1970,Wahlkreis,Lörrach – Müllheim,FALSE,StöckerD1970
+SPD,Stüwe,Ruppert Fritz Johannes,1978,Liste,Berlin,FALSE,StüweR1978
+DIE LINKE,Tatti,Jessica Nadine,1981,Liste,Baden-Württemberg,TRUE,TattiJ1981
+SPD,Tausend,Claudia Rosina,1964,Liste,Bayern,TRUE,TausendC1964
+CDU,Tebroke,Hermann-Josef Johann,1964,Wahlkreis,Rheinisch-Bergischer Kreis,TRUE,TebrokeH1964
+GRÜNE,Tesfaiesus,Awet,1974,Liste,Hessen,FALSE,TesfaiesusA1974
+FDP,Teuteberg,Linda,1981,Liste,Brandenburg,TRUE,TeutebergL1981
+FDP,Teutrine,Jens,1993,Liste,Nordrhein-Westfalen,FALSE,TeutrineJ1993
+FDP,Theurer,Michael Alexander,1967,Liste,Baden-Württemberg,TRUE,TheurerM1967
+SPD,Thews,Michael Eckardt,1964,Wahlkreis,Hamm – Unna II,TRUE,ThewsM1964
+CDU,Thies,Hans-Jürgen,1955,Wahlkreis,Soest,TRUE,ThiesH1955
+FDP,Thomae,Stephan,1968,Liste,Bayern,TRUE,ThomaeS1968
+CDU,Throm,Alexander Richard,1968,Wahlkreis,Heilbronn,FALSE,ThromA1968
+CDU,Tillmann,Antje,1964,Liste,Thüringen,TRUE,TillmannA1964
+CDU,Timmermann-Fechter,Astrid,1963,Liste,Nordrhein-Westfalen,FALSE,Timmermann-FechterA1963
+FDP,Tippelt,Nico,1967,Liste,Sachsen,FALSE,TippeltN1967
+FDP,Todtenhausen,Manfred,1950,Liste,Nordrhein-Westfalen,FALSE,TodtenhausenM1950
+FDP,Toncar,Florian,1979,Liste,Baden-Württemberg,TRUE,ToncarF1979
+GRÜNE,Trittin,Jürgen,1954,Liste,Niedersachsen,TRUE,TrittinJ1954
+SPD,Troff-Schaffarzyk,Anja,1969,Liste,Niedersachsen,FALSE,Troff-SchaffarzykA1969
+SPD,Träger,Carsten Dietmar,1973,Liste,Bayern,TRUE,TrägerC1973
+SPD,Töns,Markus,1964,Wahlkreis,Gelsenkirchen,TRUE,TönsM1964
+SPD,Türk-Nachbaur,Derya,1973,Liste,Baden-Württemberg,FALSE,Türk-NachbaurD1973
+GRÜNE,Uhlig,Katrin Babette,1982,Wahlkreis,Bonn,TRUE,UhligK1982
+FDP,Ullmann,Andrew John,1963,Liste,Bayern,TRUE,UllmannA1963
+SPD,Ullrich,Frank,1958,Wahlkreis,Suhl – Schmalkalden-Meiningen – Hildburghausen – Sonneberg,TRUE,UllrichF1958
+FDP,Ullrich,Gerald,1962,Liste,Thüringen,TRUE,UllrichG1962
+CSU,Ullrich,Volker Michael,1975,Wahlkreis,Augsburg-Stadt,FALSE,UllrichV1975
+DIE LINKE,Ulrich,Alexander,1971,Liste,Rheinland-Pfalz,TRUE,UlrichA1971
+GRÜNE,Verlinden,Julia Maria Kornelia,1979,Liste,Niedersachsen,TRUE,VerlindenJ1979
+CDU,Vieregge,Kerstin,1976,Liste,Nordrhein-Westfalen,FALSE,ViereggeK1976
+FDP,Vogel,Johannes,1982,Liste,Nordrhein-Westfalen,TRUE,VogelJ1982
+DIE LINKE,Vogler,Kathrin,1963,Liste,Nordrhein-Westfalen,TRUE,VoglerK1963
+CDU,Vogt,Oliver,1977,Liste,Nordrhein-Westfalen,FALSE,VogtO1977
+CDU,Vries,Christoph Bernhard,1974,Liste,Hamburg,FALSE,VriesC1974
+SPD,Völlers,Marja-Liisa,1984,Wahlkreis,Nienburg II – Schaumburg,TRUE,VöllersM1984
+SPD,Vöpel,Dirk,1971,Wahlkreis,Oberhausen – Wesel III,TRUE,VöpelD1971
+CDU,Wadephul,Johann David,1963,Liste,Schleswig-Holstein,TRUE,WadephulJ1963
+GRÜNE,Wagener,Niklas,1998,Liste,Bayern,TRUE,WagenerN1998
+GRÜNE,Wagener,Robin Till Nils Johannes,1980,Liste,Nordrhein-Westfalen,TRUE,WagenerR1980
+DIE LINKE,Wagenknecht,Sahra,1969,Liste,Nordrhein-Westfalen,TRUE,WagenknechtS1969
+SPD,Wagner,Carolin,1982,Liste,Bayern,FALSE,WagnerC1982
+GRÜNE,Wagner,Johannes,1991,Liste,Bayern,FALSE,WagnerJ1991
+SPD,Wallstein,Maja Scarlett,1986,Wahlkreis,Cottbus – Spree-Neiße,TRUE,WallsteinM1986
+SPD,Walter,Hannes Artur Gerhard,1984,Wahlkreis,Elbe-Elster – Oberspreewald-Lausitz II,FALSE,WalterH1984
+GRÜNE,Walter-Rosenheimer,Beate,1964,Liste,Bayern,FALSE,Walter-RosenheimerB1964
+CDU,Wanderwitz,Marco,1975,Liste,Sachsen,TRUE,WanderwitzM1975
+CDU,Warken,Nina Ingrid,1979,Wahlkreis,Odenwald – Tauber,TRUE,WarkenN1979
+FDP,Weeser,Sandra,1969,Liste,Rheinland-Pfalz,TRUE,WeeserS1969
+SPD,Wegge,Carmen,1989,Liste,Bayern,FALSE,WeggeC1989
+SPD,Wegling,Melanie,1990,Wahlkreis,Groß-Gerau,TRUE,WeglingM1990
+AfD,Weidel,Alice Elisabeth,1979,Liste,Baden-Württemberg,TRUE,WeidelA1979
+SPD,Weingarten,Joe,1962,Wahlkreis,Kreuznach,TRUE,WeingartenJ1962
+CSU,Weisgerber,Anja,1976,Wahlkreis,Schweinfurt,TRUE,WeisgerberA1976
+GRÜNE,Weishaupt,Saskia Lea Raquel,1993,Liste,Bayern,TRUE,WeishauptS1993
+CDU,Weiss,Maria-Lena,1981,Wahlkreis,Rottweil – Tuttlingen,TRUE,WeissM1981
+CDU,Weiss,Sabine Katharina,1958,Liste,Nordrhein-Westfalen,FALSE,WeissS1958
+GRÜNE,Wenzel,Peer Stefan,1962,Liste,Niedersachsen,TRUE,WenzelP1962
+SPD,Werner,Lena,1994,Liste,Rheinland-Pfalz,FALSE,WernerL1994
+FDP,Westig,Nicole,1967,Liste,Nordrhein-Westfalen,TRUE,WestigN1967
+SPD,Westphal,Bernd Helmut,1960,Wahlkreis,Hildesheim,TRUE,WestphalB1960
+AfD,Weyel,Harald,1959,Liste,Nordrhein-Westfalen,TRUE,WeyelH1959
+CDU,Whittaker,Kai Thorsten,1985,Wahlkreis,Rastatt,TRUE,WhittakerK1985
+CDU,Widmann-Mauz,Annette,1966,Wahlkreis,Tübingen,FALSE,Widmann-MauzA1966
+AfD,Wiehle,Wolfgang,1964,Liste,Bayern,TRUE,WiehleW1964
+CDU,Wiener,Klaus,1962,Wahlkreis,Mettmann I,TRUE,WienerK1962
+SPD,Wiese,Dirk,1983,Liste,Nordrhein-Westfalen,TRUE,WieseD1983
+CDU,Willsch,Klaus-Peter,1961,Wahlkreis,Rheingau-Taunus – Limburg,TRUE,WillschK1961
+CDU,Winkelmeier-Becker,Elisabeth,1962,Wahlkreis,Rhein-Sieg-Kreis I,TRUE,Winkelmeier-BeckerE1962
+CSU,Winkler,Tobias,1978,Wahlkreis,Fürth,FALSE,WinklerT1978
+GRÜNE,Winklmann,Tina,1980,Liste,Bayern,FALSE,WinklmannT1980
+AfD,Wirth,Christian Friedrich,1963,Liste,Saarland,TRUE,WirthC1963
+FDP,Wissing,Volker,1970,Liste,Rheinland-Pfalz,TRUE,WissingV1970
+AfD,Witt,Uwe,1959,Liste,Schleswig-Holstein,TRUE,WittU1959
+CSU,Wittmann,Mechthilde,1967,Wahlkreis,Oberallgäu,FALSE,WittmannM1967
+DIE LINKE,Wißler,Janine Natalie,1981,Liste,Hessen,TRUE,WißlerJ1981
+SPD,Wollmann,Herbert,1951,Wahlkreis,Altmark,TRUE,WollmannH1951
+CDU,Wulf,Mareike Lotte,1979,Liste,Niedersachsen,FALSE,WulfM1979
+AfD,Wundrak,Franz Josef Joachim,1955,Liste,Niedersachsen,TRUE,WundrakF1955
+SPD,Yüksel,Gülistan,1962,Liste,Nordrhein-Westfalen,FALSE,YükselG1962
+CSU,Zeulner,Emmi,1987,Wahlkreis,Kulmbach,TRUE,ZeulnerE1987
+AfD,Ziegler,Kay-Uwe,1963,Wahlkreis,Anhalt,TRUE,ZieglerK1963
+CDU,Ziemiak,Paul,1985,Wahlkreis,Märkischer Kreis II,TRUE,ZiemiakP1985
+SPD,Zierke,Stefan,1970,Wahlkreis,Uckermark – Barnim I,TRUE,ZierkeS1970
+SPD,Zimmermann,Jens,1981,Wahlkreis,Odenwald,TRUE,ZimmermannJ1981
+CDU,Zippelius,Nicolas Benjamin,1987,Wahlkreis,Karlsruhe-Land,TRUE,ZippeliusN1987
+SPD,Zorn,Armand,1988,Wahlkreis,Frankfurt am Main I,TRUE,ZornA1988
+SPD,Zschau,Katrin,1976,Wahlkreis,Rostock – Landkreis Rostock II,TRUE,ZschauK1976
+GRÜNE,Özdemir,Cem,1965,Wahlkreis,Stuttgart I,TRUE,ÖzdemirC1965
+SPD,Özdemir,Mahmut,1987,Wahlkreis,Duisburg II,TRUE,ÖzdemirM1987
+SPD,Özoğuz,Saliha Aydan,1967,Wahlkreis,Hamburg-Wandsbek,TRUE,ÖzoğuzS1967
